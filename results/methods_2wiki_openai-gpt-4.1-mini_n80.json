@@ -1,0 +1,56 @@
+{
+  "dataset": "2wiki",
+  "generator": "openai:gpt-4.1-mini",
+  "n": 80,
+  "methods": {
+    "full": {
+      "acc": 0.613,
+      "f1": 0.619,
+      "tokens": 612.0,
+      "probe_calls": 0.0,
+      "gold_recall": 1.0
+    },
+    "random_k": {
+      "acc": 0.287,
+      "f1": 0.313,
+      "tokens": 232.9,
+      "probe_calls": 0.0,
+      "gold_recall": 0.338
+    },
+    "topk_relevance": {
+      "acc": 0.487,
+      "f1": 0.495,
+      "tokens": 252.3,
+      "probe_calls": 0.0,
+      "gold_recall": 0.75
+    },
+    "amortized_causal": {
+      "acc": 0.4,
+      "f1": 0.419,
+      "tokens": 109.4,
+      "probe_calls": 0.0,
+      "gold_recall": 0.441
+    },
+    "contextcite": {
+      "acc": 0.613,
+      "f1": 0.611,
+      "tokens": 264.1,
+      "probe_calls": 17.0,
+      "gold_recall": 0.688
+    },
+    "cfa_prune": {
+      "acc": 0.588,
+      "f1": 0.584,
+      "tokens": 178.2,
+      "probe_calls": 11.0,
+      "gold_recall": 0.572
+    },
+    "oracle_gold": {
+      "acc": 0.725,
+      "f1": 0.712,
+      "tokens": 216.6,
+      "probe_calls": 0.0,
+      "gold_recall": 1.0
+    }
+  }
+}

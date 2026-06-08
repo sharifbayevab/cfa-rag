@@ -1,0 +1,56 @@
+{
+  "dataset": "hotpotqa",
+  "generator": "ollama:gemma3:4b",
+  "n": 50,
+  "methods": {
+    "full": {
+      "acc": 0.46,
+      "f1": 0.527,
+      "tokens": 848.7,
+      "probe_calls": 0.0,
+      "gold_recall": 1.0
+    },
+    "random_k": {
+      "acc": 0.24,
+      "f1": 0.275,
+      "tokens": 337.4,
+      "probe_calls": 0.0,
+      "gold_recall": 0.43
+    },
+    "topk_relevance": {
+      "acc": 0.34,
+      "f1": 0.367,
+      "tokens": 301.1,
+      "probe_calls": 0.0,
+      "gold_recall": 0.69
+    },
+    "amortized_causal": {
+      "acc": 0.44,
+      "f1": 0.51,
+      "tokens": 69.5,
+      "probe_calls": 0.0,
+      "gold_recall": 0.49
+    },
+    "contextcite": {
+      "acc": 0.5,
+      "f1": 0.601,
+      "tokens": 328.6,
+      "probe_calls": 17.0,
+      "gold_recall": 0.63
+    },
+    "cfa_prune": {
+      "acc": 0.5,
+      "f1": 0.558,
+      "tokens": 161.0,
+      "probe_calls": 11.0,
+      "gold_recall": 0.57
+    },
+    "oracle_gold": {
+      "acc": 0.58,
+      "f1": 0.685,
+      "tokens": 137.6,
+      "probe_calls": 0.0,
+      "gold_recall": 1.0
+    }
+  }
+}

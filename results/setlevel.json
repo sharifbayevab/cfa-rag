@@ -1,0 +1,18 @@
+[
+  {
+    "dataset": "hotpotqa",
+    "generator": "openai:gpt-4.1-mini",
+    "n_correct": 134,
+    "orig_NoC": 0.485,
+    "setlevel_grounded_among_ungrounded": 0.308,
+    "corrected_NoC": 0.336
+  },
+  {
+    "dataset": "2wiki",
+    "generator": "openai:gpt-4.1-mini",
+    "n_correct": 132,
+    "orig_NoC": 0.22,
+    "setlevel_grounded_among_ungrounded": 0.414,
+    "corrected_NoC": 0.129
+  }
+]

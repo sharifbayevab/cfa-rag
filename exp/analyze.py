@@ -353,7 +353,7 @@ def emit_methods_table():
     if not nfiles:
         print("no methods_*.json yet"); return
     present = [d for d in ds_order if any(by[d][m]["tokens"] for m in METHODS_ORDER)]
-    tokhead = " & ".join(r"Tok (" + DS_LABEL[d] + ")" for d in present)
+    tokhead = " & ".join(r"\shortstack{Tok\\(" + DS_LABEL[d] + r")}" for d in present)
     lines = [r"\begin{tabular}{lcc" + "c" * len(present) + "cc}", r"\toprule",
              r"Method & Acc$_{\text{w}}$ & Acc$_{\text{s}}$ & " + tokhead + r" & Probe & GR\\",
              r"\midrule"]

@@ -1,0 +1,65 @@
+{
+  "n": 150,
+  "acc_full_judge": 0.433,
+  "acc_closedbook_judge": 0.293,
+  "n_correct": 65,
+  "faithfulness_gap": {
+    "frac_correct_parametric": 0.523,
+    "frac_correct_no_causal_fragment": 0.185
+  },
+  "relevance_vs_causality": {
+    "top_rel_causal_jaccard": 0.274,
+    "rel_causal_spearman": 0.227
+  },
+  "causal_vs_gold": {
+    "precision": 0.638,
+    "recall": 0.392
+  },
+  "selection": {
+    "full": {
+      "judge_acc": 0.42,
+      "EM": 0.387,
+      "F1": 0.449,
+      "cover": 0.42,
+      "avg_frags": 10.0,
+      "avg_tokens": 587.1,
+      "gold_recall": 1.0
+    },
+    "topk_relevance": {
+      "judge_acc": 0.447,
+      "EM": 0.427,
+      "F1": 0.474,
+      "cover": 0.447,
+      "avg_frags": 4.0,
+      "avg_tokens": 243.7,
+      "gold_recall": 0.732
+    },
+    "random_k": {
+      "judge_acc": 0.313,
+      "EM": 0.3,
+      "F1": 0.336,
+      "cover": 0.313,
+      "avg_frags": 4.0,
+      "avg_tokens": 253.4,
+      "gold_recall": 0.407
+    },
+    "oracle_gold": {
+      "judge_acc": 0.673,
+      "EM": 0.633,
+      "F1": 0.71,
+      "cover": 0.673,
+      "avg_frags": 2.45,
+      "avg_tokens": 219.7,
+      "gold_recall": 1.0
+    },
+    "causal_prune": {
+      "judge_acc": 0.467,
+      "EM": 0.427,
+      "F1": 0.487,
+      "cover": 0.467,
+      "avg_frags": 2.4,
+      "avg_tokens": 188.0,
+      "gold_recall": 0.522
+    }
+  }
+}

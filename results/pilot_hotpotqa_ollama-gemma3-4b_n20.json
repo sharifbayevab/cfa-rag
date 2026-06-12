@@ -1,0 +1,12 @@
+{
+  "n": 20,
+  "EM": 0.35,
+  "F1": 0.456,
+  "cover": 0.4,
+  "closedbook_cover": 0.15,
+  "n_correct": 8,
+  "frac_correct_parametric": 0.25,
+  "frac_correct_no_causal_frag": 0.0,
+  "causal_vs_gold_precision": 0.743,
+  "causal_vs_gold_recall": 0.625
+}

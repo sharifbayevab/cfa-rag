@@ -31,14 +31,30 @@ RESULTS.mkdir(exist_ok=True)
 STRATEGIES = ["full", "topk_relevance", "random_k", "oracle_gold", "causal_prune"]
 
 
-def run_cell(dataset, generator_spec, n, seed, k, use_judge, use_semantic, samples=None):
+def run_cell(dataset, generator_spec, n, seed, k, use_judge, use_semantic, samples=None,
+             checkpoint_path=None):
     gen = make_generator(generator_spec)
     if samples is None:
         samples = load_samples(dataset, n=n, seed=seed)
     rng = np.random.default_rng(seed)
-    rows = []
-    t0 = time.time()
+    rows, done = [], set()
+    cp = Path(checkpoint_path) if checkpoint_path else None
+    if cp and cp.exists():                       # resume: skip already-done samples
+        for line in cp.read_text().splitlines():
+            if not line.strip():
+                continue
+            try:
+                r = json.loads(line)
+            except json.JSONDecodeError:
+                continue                          # drop a truncated trailing line from a crash
+            rows.append(r); done.add(r.get("qid"))
+        if rows:
+            print(f"  resume: {len(rows)}/{len(samples)} samples already done; continuing", flush=True)
+    fh = open(cp, "a", encoding="utf-8") if cp else None
+    t0 = time.time(); processed = 0
     for ci, s in enumerate(samples):
+        if s.get("qid") in done:
+            continue
         s["_rel"] = relevance_scores(s["question"], s["fragments"])
         sa = attribute_sample(gen, s, use_semantic=use_semantic)
 
@@ -63,7 +79,7 @@ def run_cell(dataset, generator_spec, n, seed, k, use_judge, use_semantic, sampl
                           if use_judge else r["cover"])
             sel[strat] = r
 
-        rows.append({
+        row = {
             "qid": sa.qid, "question": s["question"], "golds": s["golds"],
             "ans_full": sa.ans_full, "ans_cb": sa.ans_closedbook,
             "judge_full": jfull, "judge_cb": jcb,
@@ -75,11 +91,17 @@ def run_cell(dataset, generator_spec, n, seed, k, use_judge, use_semantic, sampl
             "rel_causal_spearman": (float(spearmanr(s["_rel"], causal_scores).correlation)
                                     if len(causal_scores) > 2 else None),
             "selection": sel,
-        })
-        if (ci + 1) % 10 == 0:
-            print(f"  {ci+1}/{len(samples)} ({(time.time()-t0)/(ci+1):.1f}s/sample)", flush=True)
+        }
+        rows.append(row)
+        if fh:                                   # checkpoint every sample (crash-safe)
+            fh.write(json.dumps(row, ensure_ascii=False) + "\n"); fh.flush()
+        processed += 1
+        if processed % 10 == 0:
+            print(f"  {len(rows)}/{len(samples)} ({(time.time()-t0)/processed:.1f}s/sample)", flush=True)
             if use_judge:
                 flush_cache()
+    if fh:
+        fh.close()
     if use_judge:
         flush_cache()
     return rows
@@ -156,12 +178,14 @@ def main():
     args = ap.parse_args()
 
     print(f"RUN: {args.dataset} | {args.generator} | n={args.n} | judge={not args.no_judge}", flush=True)
-    rows = run_cell(args.dataset, args.generator, args.n, args.seed, args.k,
-                    use_judge=not args.no_judge, use_semantic=not args.no_semantic)
-    summ = summarize(rows)
     tag = (args.tag + "_") if args.tag else ""
     stem = f"{tag}{args.dataset}_{args.generator.replace(':','-')}_n{args.n}"
-    (RESULTS / f"raw_{stem}.jsonl").write_text(
+    raw_path = RESULTS / f"raw_{stem}.jsonl"
+    rows = run_cell(args.dataset, args.generator, args.n, args.seed, args.k,
+                    use_judge=not args.no_judge, use_semantic=not args.no_semantic,
+                    checkpoint_path=raw_path)
+    summ = summarize(rows)
+    raw_path.write_text(                          # canonical rewrite (ordered, deduped)
         "\n".join(json.dumps(r, ensure_ascii=False) for r in rows), encoding="utf-8")
     (RESULTS / f"summary_{stem}.json").write_text(json.dumps(summ, indent=2), encoding="utf-8")
     print("\n=== SUMMARY ===")

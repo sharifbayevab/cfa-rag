@@ -1,0 +1,11 @@
+{
+  "n": 8,
+  "EM": 0.375,
+  "F1": 0.494,
+  "closedbook_EM": 0.25,
+  "n_correct": 3,
+  "frac_correct_parametric": 0.333,
+  "frac_correct_no_causal_frag": 0.0,
+  "causal_vs_gold_precision": 0.833,
+  "causal_vs_gold_recall": 0.5
+}

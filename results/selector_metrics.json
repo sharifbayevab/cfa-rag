@@ -1,6 +1,6 @@
 {
-  "auc_gb": 0.6818373137889664,
-  "ap_gb": 0.37032754692825465,
+  "auc_gb": 0.6818362825109305,
+  "ap_gb": 0.37031480443632614,
   "auc_lr": 0.6351235785028202,
   "ap_lr": 0.309904537207028,
   "auc_rel_only": 0.559,
@@ -8,7 +8,7 @@
   "base_rate": 0.198,
   "generalize_by_dataset": {
     "2wiki": 0.589,
-    "hotpotqa": 0.606,
+    "hotpotqa": 0.605,
     "musique": 0.583
   },
   "generalize_by_generator": {
@@ -21,8 +21,8 @@
   "feature_importance": {
     "ce_rank": 0.389,
     "length": 0.115,
-    "ce": 0.102,
-    "redundancy": 0.094,
+    "ce": 0.101,
+    "redundancy": 0.095,
     "mean_sim": 0.092,
     "lex_overlap": 0.086,
     "rel": 0.064,

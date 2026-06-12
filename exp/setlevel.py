@@ -87,7 +87,7 @@ def main():
         f"\\newcommand{{\\slCorrNoC}}{{{cm:.2f}}}",
         f"\\newcommand{{\\slArtifact}}{{{art*100:.0f}}}",
     ]
-    for o in [Path(__file__).resolve().parent.parent/"article3"]:
+    for o in [Path(__file__).resolve().parent.parent/"article2", Path(__file__).resolve().parent.parent/"article3"]:
         (o/"setlevelmacros.tex").write_text("\n".join(macros)+"\n")
     print("orig_NoC=%.3f corrected_NoC=%.3f artifact_frac=%.3f" % (om, cm, art))
 

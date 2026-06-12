@@ -121,7 +121,7 @@ def main():
         f"\\newcommand{{\\ciCFAclustered}}{{{cm:+.3f} (95\\% CI {clo:+.3f} to {chi:+.3f})}}",
         f"\\newcommand{{\\ciNq}}{{{len(rows)}}}",
     ]
-    for o in [ROOT / "article3"]:
+    for o in [ROOT / "article2", ROOT / "article3"]:
         (o / "statmacros.tex").write_text("\n".join(macros) + "\n", encoding="utf-8")
     print("wrote statmacros.tex")
 

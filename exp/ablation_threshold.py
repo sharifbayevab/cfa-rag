@@ -22,8 +22,9 @@ OUT = Path(__file__).resolve().parent.parent / "article3"
 def load_rows(pattern="raw_*.jsonl"):
     rows = []
     for p in glob.glob(str(RES / pattern)):
-        if "test_" in Path(p).name:
-            continue
+        nm = Path(p).name
+        if "test_" in nm or nm.startswith("raw_oc_"):
+            continue                              # main distractor-pool grid only (15 cells)
         for line in Path(p).read_text().splitlines():
             if line.strip():
                 rows.append(json.loads(line))

@@ -1,32 +1,32 @@
 {
-  "auc_gb": 0.6818362825109305,
-  "ap_gb": 0.37031480443632614,
-  "auc_lr": 0.6351235785028202,
-  "ap_lr": 0.309904537207028,
-  "auc_rel_only": 0.559,
-  "auc_ce_only": 0.551,
-  "base_rate": 0.198,
+  "auc_gb": 0.673552920834543,
+  "ap_gb": 0.37823792261122924,
+  "auc_lr": 0.6322351409939071,
+  "ap_lr": 0.3183111237442374,
+  "auc_rel_only": 0.573,
+  "auc_ce_only": 0.562,
+  "base_rate": 0.204,
   "generalize_by_dataset": {
-    "2wiki": 0.589,
-    "hotpotqa": 0.605,
-    "musique": 0.583
+    "2wiki": 0.622,
+    "hotpotqa": 0.604,
+    "musique": 0.571
   },
   "generalize_by_generator": {
-    "ollama-gemma3-12b": 0.659,
-    "ollama-gemma3-4b": 0.728,
-    "openai-gpt-4.1": 0.708,
-    "openai-gpt-4.1-mini": 0.68,
-    "openai-gpt-4.1-nano": 0.643
+    "ollama-gemma3-12b": 0.684,
+    "ollama-gemma3-4b": 0.666,
+    "openai-gpt-4.1": 0.686,
+    "openai-gpt-4.1-mini": 0.69,
+    "openai-gpt-4.1-nano": 0.651
   },
   "feature_importance": {
-    "ce_rank": 0.389,
-    "length": 0.115,
-    "ce": 0.101,
-    "redundancy": 0.095,
-    "mean_sim": 0.092,
-    "lex_overlap": 0.086,
-    "rel": 0.064,
-    "rel_rank": 0.03,
-    "position": 0.028
+    "ce_rank": 0.4,
+    "length": 0.132,
+    "redundancy": 0.092,
+    "ce": 0.086,
+    "rel": 0.083,
+    "mean_sim": 0.069,
+    "lex_overlap": 0.064,
+    "rel_rank": 0.05,
+    "position": 0.024
   }
 }

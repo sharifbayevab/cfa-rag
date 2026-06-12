@@ -77,7 +77,7 @@ def main():
 
     # ---- Panel 4: outputs ----
     box(ax, 84, 33, 15, 9, "Faithfulness\ndiagnostics\n(%NoC, parametric)", fc="#eef7ee", fs=8, bold=True)
-    box(ax, 84, 20, 15, 9, "Causal pruning\nkeep $\\{c_2\\}$\n≈acc, 4.3× fewer\ntokens", fc="#e9f1f9", ec=GOLD, fs=8, bold=True, tc=GOLD)
+    box(ax, 84, 20, 15, 9, "Causal pruning\nkeep $\\{c_2\\}$\n≈acc, 4.1× fewer\ntokens", fc="#e9f1f9", ec=GOLD, fs=8, bold=True, tc=GOLD)
     arrow(ax, 82, 24, 84, 37, color=INK, lw=1.2)
     arrow(ax, 82, 22, 84, 24.5, color=GOLD, lw=1.2)
 

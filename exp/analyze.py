@@ -365,6 +365,49 @@ def emit_methods_table():
     print(f"emitted tab_methods.tex (article2+article3) from {nfiles} method cells")
 
 
+def methods_perdataset():
+    """Per-dataset view of the methods comparison: pool weak+strong cells within
+    each dataset. Used to show the cost conclusion (Tok/Probe) holds on every
+    dataset, not just on the pooled average."""
+    ds_order = ["hotpotqa", "2wiki", "musique"]
+    by = {d: {m: {"tokens": [], "probe": [], "gr": [], "acc": []} for m in METHODS_ORDER}
+          for d in ds_order}
+    for p in glob.glob(str(RES / "methods_*.json")):
+        d = json.loads(Path(p).read_text())
+        ds = d["dataset"]
+        if ds not in by:
+            continue
+        for m, v in d["methods"].items():
+            if m in by[ds]:
+                by[ds][m]["tokens"].append(v["tokens"]); by[ds][m]["probe"].append(v["probe_calls"])
+                by[ds][m]["gr"].append(v["gold_recall"]); by[ds][m]["acc"].append(v["acc"])
+    return by, ds_order
+
+
+def emit_methods_perdataset_table():
+    """tab_methods_perdataset.tex: context Tokens per dataset + shared Probe,
+    showing the token-cost ordering is stable across HotpotQA / 2Wiki / MuSiQue."""
+    by, ds_order = methods_perdataset()
+    present = [d for d in ds_order if any(by[d][m]["tokens"] for m in METHODS_ORDER)]
+    if not present:
+        print("no methods_*.json for per-dataset table"); return
+    head = " & ".join([r"Tok (" + DS_LABEL[d] + ")" for d in present])
+    lines = [r"\begin{tabular}{l" + "c" * len(present) + "c}", r"\toprule",
+             r"Method & " + head + r" & Probe\\", r"\midrule"]
+    for m in METHODS_ORDER:
+        if not any(by[d][m]["tokens"] for d in present):
+            continue
+        toks = " & ".join(f"{np.mean(by[d][m]['tokens']):.0f}" if by[d][m]["tokens"] else "--"
+                          for d in present)
+        probe_vals = [v for d in present for v in by[d][m]["probe"]]
+        pr = f"{np.mean(probe_vals):.0f}" if probe_vals else "--"
+        lines.append(f"{METHODS_NAMES[m]} & {toks} & {pr}\\\\")
+    lines += [r"\bottomrule", r"\end{tabular}"]
+    tex = "\n".join(lines)
+    (ROOT / "article3" / "tab_methods_perdataset.tex").write_text(tex, encoding="utf-8")
+    print(f"emitted tab_methods_perdataset.tex ({len(present)} datasets)")
+
+
 def fig_feature_importance():
     f = RES / "selector_metrics.json"
     if not f.exists():
@@ -404,6 +447,7 @@ def fig_perdataset(cells):
 
 def main():
     emit_methods_table()
+    emit_methods_perdataset_table()
     cells = load_cells()
     print(f"loaded {len(cells)} cells:", [(c['dataset'], c['gen'], c['n']) for c in cells])
     if not cells:

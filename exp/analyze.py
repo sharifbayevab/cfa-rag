@@ -341,14 +341,21 @@ def methods_aggregate():
 
 
 def emit_methods_table():
-    """Aggregate methods_*.json into tab_methods.tex (accuracy vs cost).
-    Uses methods_aggregate() so the table and the Pareto figure are identical."""
+    """Aggregate methods_*.json into a single tab_methods.tex (accuracy + cost),
+    with the Tok column broken out per dataset (HotpotQA / 2Wiki / MuSiQue) so the
+    headline comparison and the per-dataset token robustness live in one table.
+    Acc/Probe/GR are pooled across cells; the pooled Tok the Pareto figure plots
+    is the mean of the per-dataset Tok columns. Uses methods_aggregate() so the
+    table and the Pareto figure stay consistent."""
     outs = [ROOT / "article2", ROOT / "article3"]
     agg, nfiles = methods_aggregate()
+    by, ds_order = methods_perdataset()
     if not nfiles:
         print("no methods_*.json yet"); return
-    lines = [r"\begin{tabular}{lccccc}", r"\toprule",
-             r"Method & Acc$_{\text{w}}$ & Acc$_{\text{s}}$ & Tok & Probe & GR\\",
+    present = [d for d in ds_order if any(by[d][m]["tokens"] for m in METHODS_ORDER)]
+    tokhead = " & ".join(r"Tok (" + DS_LABEL[d] + ")" for d in present)
+    lines = [r"\begin{tabular}{lcc" + "c" * len(present) + "cc}", r"\toprule",
+             r"Method & Acc$_{\text{w}}$ & Acc$_{\text{s}}$ & " + tokhead + r" & Probe & GR\\",
              r"\midrule"]
     for m in METHODS_ORDER:
         a = agg[m]
@@ -356,13 +363,15 @@ def emit_methods_table():
             continue
         aw = f"{np.mean(a['acc_weak']):.2f}" if a["acc_weak"] else "--"
         as_ = f"{np.mean(a['acc_strong']):.2f}" if a["acc_strong"] else "--"
-        lines.append(f"{METHODS_NAMES[m]} & {aw} & {as_} & {np.mean(a['tokens']):.0f} & "
+        toks = " & ".join(f"{np.mean(by[d][m]['tokens']):.0f}" if by[d][m]["tokens"] else "--"
+                          for d in present)
+        lines.append(f"{METHODS_NAMES[m]} & {aw} & {as_} & {toks} & "
                      f"{np.mean(a['probe']):.0f} & {np.mean(a['gr']):.2f}\\\\")
     lines += [r"\bottomrule", r"\end{tabular}"]
     tex = "\n".join(lines)
     for o in outs:
         (o / "tab_methods.tex").write_text(tex, encoding="utf-8")
-    print(f"emitted tab_methods.tex (article2+article3) from {nfiles} method cells")
+    print(f"emitted merged tab_methods.tex (acc + per-dataset Tok) from {nfiles} method cells")
 
 
 def methods_perdataset():
@@ -447,7 +456,6 @@ def fig_perdataset(cells):
 
 def main():
     emit_methods_table()
-    emit_methods_perdataset_table()
     cells = load_cells()
     print(f"loaded {len(cells)} cells:", [(c['dataset'], c['gen'], c['n']) for c in cells])
     if not cells:

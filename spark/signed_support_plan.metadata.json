@@ -1,0 +1,146 @@
+{
+  "status": "exploratory; held-out reader labels and gold labels are evaluation-only",
+  "n_questions": 450,
+  "n_question_passages": 5995,
+  "teachers": [
+    "openai-gpt-4.1-nano",
+    "openai-gpt-4o-mini",
+    "openai-gpt-4.1-mini",
+    "openai-gpt-4.1",
+    "gemini-gemini-3.5-flash-lite"
+  ],
+  "target_reader_evaluation_only": "ollama-qwen3-4b-instruct",
+  "label": "deletion supporting AND length-matched replacement supporting",
+  "outer_folds": 5,
+  "inner_folds": 4,
+  "inner_objective": "mean per-question teacher-consensus NDCG@4 over questions with positive support",
+  "candidate_models": [
+    "gbr_d2",
+    "gbr_d3",
+    "hist_7",
+    "extra_5"
+  ],
+  "candidate_utility_weights": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "features": [
+    "rel",
+    "rel_rank",
+    "ce",
+    "ce_rank",
+    "lex_overlap",
+    "length",
+    "position",
+    "redundancy",
+    "mean_sim"
+  ],
+  "fold_choices": [
+    {
+      "fold": 0,
+      "model": "extra_5",
+      "utility_weight": 0.75,
+      "inner_teacher_ndcg_at_4": 0.622552771584922,
+      "train_questions": 360,
+      "test_questions": 90
+    },
+    {
+      "fold": 1,
+      "model": "extra_5",
+      "utility_weight": 0.75,
+      "inner_teacher_ndcg_at_4": 0.63262266676687,
+      "train_questions": 360,
+      "test_questions": 90
+    },
+    {
+      "fold": 2,
+      "model": "hist_7",
+      "utility_weight": 0.5,
+      "inner_teacher_ndcg_at_4": 0.6315232011756531,
+      "train_questions": 360,
+      "test_questions": 90
+    },
+    {
+      "fold": 3,
+      "model": "extra_5",
+      "utility_weight": 0.75,
+      "inner_teacher_ndcg_at_4": 0.6269667973102016,
+      "train_questions": 360,
+      "test_questions": 90
+    },
+    {
+      "fold": 4,
+      "model": "extra_5",
+      "utility_weight": 0.75,
+      "inner_teacher_ndcg_at_4": 0.6289217642144848,
+      "train_questions": 360,
+      "test_questions": 90
+    }
+  ],
+  "evaluation": {
+    "cross_encoder": {
+      "auc": 0.7070001022639016,
+      "ap": 0.11531728505631146,
+      "ndcg_at_4": 0.6654041727125851,
+      "support_recall_at_4": 0.7504506802721088,
+      "gold_recall_at_4": 0.7501851851851853,
+      "all_gold_at_4": 0.5,
+      "selected_length_feature_at_4": 1.0503666400909424
+    },
+    "signed_support": {
+      "auc": 0.7488940988200956,
+      "ap": 0.15149317211760602,
+      "ndcg_at_4": 0.6813399107621235,
+      "support_recall_at_4": 0.7780017006802721,
+      "gold_recall_at_4": 0.7812962962962964,
+      "all_gold_at_4": 0.5422222222222223,
+      "selected_length_feature_at_4": 1.1586110591888428
+    },
+    "signed_support_ce": {
+      "auc": 0.7438634749273787,
+      "ap": 0.13344851025906077,
+      "ndcg_at_4": 0.676405494193251,
+      "support_recall_at_4": 0.7720493197278911,
+      "gold_recall_at_4": 0.7787037037037038,
+      "all_gold_at_4": 0.54,
+      "selected_length_feature_at_4": 1.1465110778808594
+    },
+    "signed_support_ce_vs_cross_encoder_bootstrap": {
+      "support_recall_at_4_difference": 0.021598639455782314,
+      "support_recall_at_4_ci95": [
+        -0.02513316288484074,
+        0.0713490704500978
+      ],
+      "gold_recall_at_4_difference": 0.02851851851851852,
+      "gold_recall_at_4_ci95": [
+        0.012402777777777776,
+        0.04481481481481481
+      ]
+    }
+  },
+  "base_plan_sha256": "c608eaf586c9bfe4a2b3afea02def97e2204207b2d4bfc8d5b19471ae60f7616",
+  "input_sha256": {
+    "cfa-research/results/signed_hotpotqa_openai-gpt-4.1-nano_n150_r0.jsonl": "5d2c5780e87356fd1a4e09bc35f57b3351b3f0f47f4213f560966b6bbfb0991f",
+    "cfa-research/results/signed_2wiki_openai-gpt-4.1-nano_n150_r0.jsonl": "cdb2e5e89ca5eb5cb9051d424d207a8a60542550f1554b517fb8ae66cb52e150",
+    "cfa-research/results/signed_musique_openai-gpt-4.1-nano_n150_r0.jsonl": "d076c0d48771f0cf92c4732b9fc3f12ed3b385e8d308f2f296e463da71ec32a1",
+    "cfa-research/results/signed_hotpotqa_openai-gpt-4o-mini_n150_r0.jsonl": "81402d2ba12330ae70725d16f0f5e6701b1f3fc7115409637e8dee1f048e22c0",
+    "cfa-research/results/signed_2wiki_openai-gpt-4o-mini_n150_r0.jsonl": "ed141edde5ffeda5ab9cf8ae62e771c82100f985b6f6650532d9068cfcf58551",
+    "cfa-research/results/signed_musique_openai-gpt-4o-mini_n150_r0.jsonl": "3dd089b2420bd2f3eb472ecc12f89824fee7980e0faed6fa53202c579da8a9e0",
+    "cfa-research/results/signed_hotpotqa_openai-gpt-4.1-mini_n150_r0.jsonl": "76d40834a56bb1bd25e374c5d3004f48d99461925a01a81cbd9eed20ce58cd61",
+    "cfa-research/results/signed_2wiki_openai-gpt-4.1-mini_n150_r0.jsonl": "4802a47f49e9b335d1ac9b7d3b5359cc9c88ba50434c911984959c9f8c82e59e",
+    "cfa-research/results/signed_musique_openai-gpt-4.1-mini_n150_r0.jsonl": "3252c4d64d1279d00471add7a84d547c79967dd3fa43c8f0f8a54d33b8a8bad4",
+    "cfa-research/results/signed_hotpotqa_openai-gpt-4.1_n150_r0.jsonl": "a3f241a9b7e9ac0d6a49af9cca10db255401f3dcbd9bf8f873b66ab4c187c27a",
+    "cfa-research/results/signed_2wiki_openai-gpt-4.1_n150_r0.jsonl": "5b9364453c0711a57289e281ed1116b7c6b038fb3369e304033bc647b266f0a1",
+    "cfa-research/results/signed_musique_openai-gpt-4.1_n150_r0.jsonl": "68aee9118cf003be8b6e2f8ca072cbd84a849d231a41058feff17d4ef16af3ee",
+    "cfa-research/results/signed_hotpotqa_gemini-gemini-3.5-flash-lite_n150_r0.jsonl": "64050b1e13a6351e370f3aad2a4755ff818a13907921783922e631da974bb6f7",
+    "cfa-research/results/signed_2wiki_gemini-gemini-3.5-flash-lite_n150_r0.jsonl": "a0061ddb79bc0ebe18aa6f40f057d19de0818c75f84017b1d9a832685d15a157",
+    "cfa-research/results/signed_musique_gemini-gemini-3.5-flash-lite_n150_r0.jsonl": "b33d3fc972881759f2f1a07c79d5ea56176e869e93c795da647d752b8009e1bb",
+    "cfa-research/results/signed_hotpotqa_ollama-qwen3-4b-instruct_n150_r0.jsonl": "b129e612d8fe3989444140759ac282e92cbeafd398790befca6ee45b21131cec",
+    "cfa-research/results/signed_2wiki_ollama-qwen3-4b-instruct_n150_r0.jsonl": "908e43a8c80da68ca68bae2b3e809f1bcbd8e2dbeada3c8043e77d49b073ccdf",
+    "cfa-research/results/signed_musique_ollama-qwen3-4b-instruct_n150_r0.jsonl": "6c543b4618ffda6ddc000e930f3b970012fbd56d5faba7761460b51e97bd6639"
+  },
+  "output_sha256": "f9193901ab96435fe90649f3767a720db2d6e0bec173fa918fce8e9c10d81783"
+}

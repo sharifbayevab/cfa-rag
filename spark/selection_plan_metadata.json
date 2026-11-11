@@ -1,0 +1,15 @@
+{
+  "n_questions": 450,
+  "datasets": {
+    "2wiki": 150,
+    "hotpotqa": 150,
+    "musique": 150
+  },
+  "folds": 5,
+  "random_state": 0,
+  "threshold": 0.5,
+  "fallback": "highest predicted probability",
+  "equal_budget_definition": "each baseline retains budget_k passages, equal to oof_all9",
+  "fixed_budget_sensitivity": "all selectors additionally retain min(4, pool_size) passages",
+  "sha256": "82c0d380c17b501d6e6863d786141ccbc2d57be137ca0aad64b337f4cf7f2e75"
+}

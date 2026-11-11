@@ -1,0 +1,169 @@
+{
+  "n": 3,
+  "methods": {
+    "full": {
+      "cover": 0.0,
+      "em": 0.0,
+      "f1": 0.0,
+      "n_selected": 10.0,
+      "context_words": 895.3333333333334,
+      "gold_recall": 1.0,
+      "probe_calls": 0.0
+    },
+    "oof_all9": {
+      "cover": 0.0,
+      "em": 0.0,
+      "f1": 0.0,
+      "n_selected": 1.0,
+      "context_words": 141.33333333333334,
+      "gold_recall": 0.5,
+      "probe_calls": 0.0,
+      "cover_delta_vs_full": 0.0,
+      "cover_delta_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "dense_equal_k": {
+      "cover": 0.0,
+      "em": 0.0,
+      "f1": 0.0,
+      "n_selected": 1.0,
+      "context_words": 68.66666666666667,
+      "gold_recall": 0.3333333333333333,
+      "probe_calls": 0.0,
+      "cover_delta_vs_full": 0.0,
+      "cover_delta_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "cross_encoder_equal_k": {
+      "cover": 0.0,
+      "em": 0.0,
+      "f1": 0.0,
+      "n_selected": 1.0,
+      "context_words": 141.33333333333334,
+      "gold_recall": 0.5,
+      "probe_calls": 0.0,
+      "cover_delta_vs_full": 0.0,
+      "cover_delta_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "ce_rank_length_equal_k": {
+      "cover": 0.0,
+      "em": 0.0,
+      "f1": 0.0,
+      "n_selected": 1.0,
+      "context_words": 141.33333333333334,
+      "gold_recall": 0.5,
+      "probe_calls": 0.0,
+      "cover_delta_vs_full": 0.0,
+      "cover_delta_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "oof_all9_top4": {
+      "cover": 0.3333333333333333,
+      "em": 0.3333333333333333,
+      "f1": 0.3333333333333333,
+      "n_selected": 4.0,
+      "context_words": 408.0,
+      "gold_recall": 0.8333333333333334,
+      "probe_calls": 0.0,
+      "cover_delta_vs_full": 0.3333333333333333,
+      "cover_delta_ci95": [
+        0.0,
+        1.0
+      ]
+    },
+    "dense_top4": {
+      "cover": 0.3333333333333333,
+      "em": 0.3333333333333333,
+      "f1": 0.3333333333333333,
+      "n_selected": 4.0,
+      "context_words": 360.6666666666667,
+      "gold_recall": 0.8333333333333334,
+      "probe_calls": 0.0,
+      "cover_delta_vs_full": 0.3333333333333333,
+      "cover_delta_ci95": [
+        0.0,
+        1.0
+      ]
+    },
+    "cross_encoder_top4": {
+      "cover": 0.3333333333333333,
+      "em": 0.3333333333333333,
+      "f1": 0.3333333333333333,
+      "n_selected": 4.0,
+      "context_words": 389.6666666666667,
+      "gold_recall": 0.8333333333333334,
+      "probe_calls": 0.0,
+      "cover_delta_vs_full": 0.3333333333333333,
+      "cover_delta_ci95": [
+        0.0,
+        1.0
+      ]
+    },
+    "ce_rank_length_top4": {
+      "cover": 0.3333333333333333,
+      "em": 0.3333333333333333,
+      "f1": 0.3333333333333333,
+      "n_selected": 4.0,
+      "context_words": 488.0,
+      "gold_recall": 0.8333333333333334,
+      "probe_calls": 0.0,
+      "cover_delta_vs_full": 0.3333333333333333,
+      "cover_delta_ci95": [
+        0.0,
+        1.0
+      ]
+    },
+    "contextcite_equal_k": {
+      "cover": 0.0,
+      "em": 0.0,
+      "f1": 0.0,
+      "n_selected": 1.0,
+      "context_words": 155.0,
+      "gold_recall": 0.16666666666666666,
+      "probe_calls": 9.0,
+      "cover_delta_vs_full": 0.0,
+      "cover_delta_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "contextcite_top4": {
+      "cover": 0.0,
+      "em": 0.0,
+      "f1": 0.0,
+      "n_selected": 4.0,
+      "context_words": 421.3333333333333,
+      "gold_recall": 0.5,
+      "probe_calls": 9.0,
+      "cover_delta_vs_full": 0.0,
+      "cover_delta_ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "protocol": {
+    "model": "Qwen/Qwen3-4B-Instruct-2507",
+    "model_commit": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "plan_sha256": "82c0d380c17b501d6e6863d786141ccbc2d57be137ca0aad64b337f4cf7f2e75",
+    "num_masks": 8,
+    "mask_batch_size": 4,
+    "lasso_alpha": 0.01,
+    "seed": 0,
+    "torch": "2.9.0a0+50eac811a6.nv25.09",
+    "transformers": "4.57.6",
+    "datasets": "4.8.5",
+    "sklearn": "1.7.1",
+    "gpu": "NVIDIA GB10",
+    "finished_unix": 1789835743.6824389
+  }
+}

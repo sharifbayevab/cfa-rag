@@ -11,9 +11,15 @@ answer changes.
 exp/        # experiment code (data, generators, attribution/CFA, methods, selector, analysis, stats)
 results/    # cached generations (raw_*.jsonl), per-cell summaries, methods / selector /
             # set-level / open-corpus outputs, trained selector
+repro/      # analysis package for the paper: frozen inputs (SHA-256 manifests), scripts, outputs
+spark/      # scripts for the Qwen3-4B runs on a DGX Spark (Docker, Hugging Face)
 requirements.txt
 run_repro.sh
 ```
+
+The `repro/` package reproduces every number in the paper from frozen inputs;
+see `repro/README.md` for the commands. Scripts that call reader APIs read keys
+from a local `.env` file that is not part of the repository.
 
 ## Setup
 ```bash

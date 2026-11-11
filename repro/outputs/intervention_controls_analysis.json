@@ -1,0 +1,376 @@
+{
+  "n": 120,
+  "datasets": {
+    "full_answer_correct": {
+      "n_questions": 52,
+      "n_fragment_pairs": 590,
+      "delete_change_rate": {
+        "mean": 0.14745762711864407,
+        "ci95": [
+          0.1135593220338983,
+          0.188135593220339
+        ]
+      },
+      "position_preserving_mask_change_rate": {
+        "mean": 0.14067796610169492,
+        "ci95": [
+          0.11016949152542373,
+          0.17288135593220338
+        ]
+      },
+      "delete_mask_label_agreement": {
+        "mean": 0.9627118644067797,
+        "ci95": [
+          0.940677966101695,
+          0.9813559322033898
+        ]
+      },
+      "delete_positive_confirmed_by_mask": {
+        "mean": 0.8505747126436781,
+        "ci95": [
+          0.7692307692307693,
+          0.9354838709677419
+        ]
+      },
+      "exact_sensitive_set_match": {
+        "mean": 0.7307692307692307,
+        "ci95": [
+          0.6153846153846154,
+          0.8461538461538461
+        ]
+      },
+      "single_loo_empty_rate": {
+        "mean": 0.17307692307692307,
+        "ci95": [
+          0.07692307692307693,
+          0.28846153846153844
+        ]
+      },
+      "empty_loo_but_joint_gold_mask_changes": {
+        "mean": 0.038461538461538464,
+        "ci95": [
+          0.0,
+          0.09615384615384616
+        ]
+      },
+      "joint_gold_mask_change_rate": {
+        "mean": 0.8653846153846154,
+        "ci95": [
+          0.7692307692307693,
+          0.9423076923076923
+        ]
+      },
+      "joint_gold_delete_change_rate": {
+        "mean": 0.8653846153846154,
+        "ci95": [
+          0.7692307692307693,
+          0.9423076923076923
+        ]
+      },
+      "joint_only_beyond_single_gold_mask": {
+        "mean": 0.09615384615384616,
+        "ci95": [
+          0.019230769230769232,
+          0.17307692307692307
+        ]
+      }
+    },
+    "2wiki": {
+      "n_questions": 40,
+      "n_fragment_pairs": 400,
+      "delete_change_rate": {
+        "mean": 0.265,
+        "ci95": [
+          0.1975,
+          0.34
+        ]
+      },
+      "position_preserving_mask_change_rate": {
+        "mean": 0.2525,
+        "ci95": [
+          0.1875,
+          0.3225
+        ]
+      },
+      "delete_mask_label_agreement": {
+        "mean": 0.9375,
+        "ci95": [
+          0.905,
+          0.965
+        ]
+      },
+      "delete_positive_confirmed_by_mask": {
+        "mean": 0.8584905660377359,
+        "ci95": [
+          0.7799954128440367,
+          0.9347826086956522
+        ]
+      },
+      "exact_sensitive_set_match": {
+        "mean": 0.625,
+        "ci95": [
+          0.475,
+          0.775
+        ]
+      },
+      "single_loo_empty_rate": {
+        "mean": 0.15,
+        "ci95": [
+          0.05,
+          0.275
+        ]
+      },
+      "empty_loo_but_joint_gold_mask_changes": {
+        "mean": 0.05,
+        "ci95": [
+          0.0,
+          0.125
+        ]
+      },
+      "joint_gold_mask_change_rate": {
+        "mean": 0.85,
+        "ci95": [
+          0.725,
+          0.95
+        ]
+      },
+      "joint_gold_delete_change_rate": {
+        "mean": 0.825,
+        "ci95": [
+          0.7,
+          0.925
+        ]
+      },
+      "joint_only_beyond_single_gold_mask": {
+        "mean": 0.1,
+        "ci95": [
+          0.025,
+          0.2
+        ]
+      }
+    },
+    "hotpotqa": {
+      "n_questions": 40,
+      "n_fragment_pairs": 400,
+      "delete_change_rate": {
+        "mean": 0.215,
+        "ci95": [
+          0.16,
+          0.275
+        ]
+      },
+      "position_preserving_mask_change_rate": {
+        "mean": 0.1925,
+        "ci95": [
+          0.1425,
+          0.245
+        ]
+      },
+      "delete_mask_label_agreement": {
+        "mean": 0.9275,
+        "ci95": [
+          0.8925,
+          0.96
+        ]
+      },
+      "delete_positive_confirmed_by_mask": {
+        "mean": 0.7790697674418605,
+        "ci95": [
+          0.6989247311827957,
+          0.8701298701298701
+        ]
+      },
+      "exact_sensitive_set_match": {
+        "mean": 0.625,
+        "ci95": [
+          0.475,
+          0.775
+        ]
+      },
+      "single_loo_empty_rate": {
+        "mean": 0.15,
+        "ci95": [
+          0.05,
+          0.275
+        ]
+      },
+      "empty_loo_but_joint_gold_mask_changes": {
+        "mean": 0.025,
+        "ci95": [
+          0.0,
+          0.075
+        ]
+      },
+      "joint_gold_mask_change_rate": {
+        "mean": 0.85,
+        "ci95": [
+          0.725,
+          0.95
+        ]
+      },
+      "joint_gold_delete_change_rate": {
+        "mean": 0.825,
+        "ci95": [
+          0.7,
+          0.925
+        ]
+      },
+      "joint_only_beyond_single_gold_mask": {
+        "mean": 0.075,
+        "ci95": [
+          0.0,
+          0.175
+        ]
+      }
+    },
+    "musique": {
+      "n_questions": 40,
+      "n_fragment_pairs": 798,
+      "delete_change_rate": {
+        "mean": 0.18671679197994986,
+        "ci95": [
+          0.12656641604010024,
+          0.2556390977443609
+        ]
+      },
+      "position_preserving_mask_change_rate": {
+        "mean": 0.18170426065162906,
+        "ci95": [
+          0.11875,
+          0.25375
+        ]
+      },
+      "delete_mask_label_agreement": {
+        "mean": 0.9097744360902256,
+        "ci95": [
+          0.8759398496240601,
+          0.9423558897243107
+        ]
+      },
+      "delete_positive_confirmed_by_mask": {
+        "mean": 0.7449664429530202,
+        "ci95": [
+          0.6458292322834646,
+          0.83636649514008
+        ]
+      },
+      "exact_sensitive_set_match": {
+        "mean": 0.425,
+        "ci95": [
+          0.275,
+          0.575
+        ]
+      },
+      "single_loo_empty_rate": {
+        "mean": 0.15,
+        "ci95": [
+          0.05,
+          0.275
+        ]
+      },
+      "empty_loo_but_joint_gold_mask_changes": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "joint_gold_mask_change_rate": {
+        "mean": 0.675,
+        "ci95": [
+          0.525,
+          0.825
+        ]
+      },
+      "joint_gold_delete_change_rate": {
+        "mean": 0.75,
+        "ci95": [
+          0.6,
+          0.875
+        ]
+      },
+      "joint_only_beyond_single_gold_mask": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "overall": {
+    "overall": {},
+    "n_questions": 120,
+    "n_fragment_pairs": 1598,
+    "delete_change_rate": {
+      "mean": 0.21339173967459324,
+      "ci95": [
+        0.175,
+        0.254375
+      ]
+    },
+    "position_preserving_mask_change_rate": {
+      "mean": 0.20212765957446807,
+      "ci95": [
+        0.1639549436795995,
+        0.243125
+      ]
+    },
+    "delete_mask_label_agreement": {
+      "mean": 0.9211514392991239,
+      "ci95": [
+        0.9011264080100125,
+        0.9405506883604505
+      ]
+    },
+    "delete_positive_confirmed_by_mask": {
+      "mean": 0.7888563049853372,
+      "ci95": [
+        0.7357954545454546,
+        0.8402069480875983
+      ]
+    },
+    "exact_sensitive_set_match": {
+      "mean": 0.5583333333333333,
+      "ci95": [
+        0.475,
+        0.6416666666666667
+      ]
+    },
+    "single_loo_empty_rate": {
+      "mean": 0.15,
+      "ci95": [
+        0.09166666666666666,
+        0.21666666666666667
+      ]
+    },
+    "empty_loo_but_joint_gold_mask_changes": {
+      "mean": 0.025,
+      "ci95": [
+        0.0,
+        0.058333333333333334
+      ]
+    },
+    "joint_gold_mask_change_rate": {
+      "mean": 0.7916666666666666,
+      "ci95": [
+        0.7166666666666667,
+        0.8583333333333333
+      ]
+    },
+    "joint_gold_delete_change_rate": {
+      "mean": 0.8,
+      "ci95": [
+        0.725,
+        0.8666666666666667
+      ]
+    },
+    "joint_only_beyond_single_gold_mask": {
+      "mean": 0.058333333333333334,
+      "ci95": [
+        0.025,
+        0.1
+      ]
+    }
+  }
+}

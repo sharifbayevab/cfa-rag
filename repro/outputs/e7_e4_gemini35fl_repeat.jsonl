@@ -1,0 +1,450 @@
+{"q": "2wiki:10041", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Italy", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:10071", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Serbia", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:10296", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Našice", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:10481", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Cleves", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:10512", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "[5]", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:10619", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Harvard College", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:10777", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Mangaldas Nathubhoy", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:10829", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "[6]", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:10937", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Poland", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:10964", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "China", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:11126", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Washington and Lee University", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:11129", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Eyes of the Underworld", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:11142", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Paradise and Back", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:11185", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Women & Men: Stories of Seduction", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:11191", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "No", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:11289", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "21 March 1076", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:11447", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "United States", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:11456", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Shades Of A Blue Orphanage", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:1148", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Poland", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:11629", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "No", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:11680", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Ralph de Monthermer", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:1175", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Compagnie française des métaux", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:1177", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "ca. March 19, 1666", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:11820", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Oklahoma City, Oklahoma", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:11884", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Riders of the Santa Fe", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:11890", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "France", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:11953", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Warner Bros.", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:12007", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Carl Smith", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:1203", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Ramon Berenguer IV", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:12316", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Brisbane", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:12360", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Filmfare Award for Best Cinematographer", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:12375", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Michal Bat-Adam", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:12443", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "No", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:12482", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "10 March 1964", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:1272", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Wandering Fires", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:1289", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "[3] Trivandrum", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:1336", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Russia", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:1359", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Hans-Adam II", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:1401", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "[2]", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:1438", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "[5]", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:1454", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "No mention of awards won", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:1466", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Shaftsbury, Vermont", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:1502", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Way...Way Out", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:1567", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Västervik", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:1887", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Simon, the Magician", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:1889", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "No", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:2099", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Saginaw, Michigan", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:2175", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Grand Duke Michael Mikhailovich of Russia", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:2216", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Algiers, Alger, France", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:2229", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Leopoldo Torres Ríos", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:2368", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Yes", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:2431", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Vente a Alemania, Pepe", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:245", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Deuce High", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:2519", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "What Happened to Rosa", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:2566", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Madrid", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:2683", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Priyaragalu", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:269", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:2720", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Burnt by the Sun", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:2739", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Rio de Janeiro", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:2745", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "György Enyedi", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:2900", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Sultan Mahommed Shah, Aga Khan III", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:2981", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Antoine Casavant", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:2995", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Jimmy, the Boy Wonder", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:3076", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Gorka Brit", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:309", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "[4]", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:3115", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Pehla Pehla Pyaar", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:3243", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "The Wind's Fierce", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:3268", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "1861", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:3329", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Łódź", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:3512", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Arthur 2: On the Rocks", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:3670", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "[5]", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:3745", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Lanzarote", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:3784", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Hastings, Minnesota", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:3879", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Blondes at Work", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:4025", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Studio City", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:4098", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Maureen O'Sullivan", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:4117", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Chris Pérez", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:4140", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Varuthapadatha Valibar Sangam", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:4167", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "1881", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:4197", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Jiří Trvaj", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:4207", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Swaroopa", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:4226", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "la Riera de Gaià, Catalonia", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:4362", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "The Tuttles of Tahiti", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:4408", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Muchachas que estudian", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:4413", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "[1]", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:4607", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Atlantic City, New Jersey", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:4706", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Condannato a nozze", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:4989", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Naples, Florida", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:5214", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Salman Hamud Fallah", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:5243", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Ilanjodigal", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:5310", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Barbara Nawratowicz", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:5346", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Valerie Inside Outside", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:5374", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Guilty?", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:5445", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Charles Paulet, 1st Duke of Bolton", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:5522", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Yesenia", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:5658", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Sir Hew Dalrymple, 2nd Baronet", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:572", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Germanicus", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:5723", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Osita Chidoka", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:5777", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Michael Drga", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:5868", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Before the Jury", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:597", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Yes", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:6020", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "British", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:6071", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Yes", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:6189", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "No", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:6235", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Yes", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:6260", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Yes", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:6330", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Franjo Marković", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:6353", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "[1]", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:6421", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Mieszko I, Duke of Cieszyn", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:6501", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Not mentioned", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:6597", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Not specified", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:6658", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Cadolzburg", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:6702", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Harvest: 3,000 Years", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:671", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "'Adud al-Dawla", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:6727", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Junior Ponce", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:6735", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Houston, Texas", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:6766", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Terror-Creatures from the Grave", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:685", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Florida Atlantic University", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:6912", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Battle of Memories", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:6989", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Bernadette O'Farrell", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:7224", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Naples, Florida", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:766", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Paris Studio Magenia", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:7677", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "British", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:7681", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Kiliwehi", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:7740", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Kingdom of Dahomey", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:7772", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Sweden", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:8160", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Johnny Tiger", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:8164", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Her Country's Call", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:8211", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Yes", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:8223", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Beyond Forty", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:8301", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Royal School of Mines, University College, Dundee, and Mason Science College", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:8416", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Santa and the Fairy Snow Queen", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:8442", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Dallas, Texas", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:845", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "I Learned It From Father", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:8455", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "No", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:8472", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "No", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:8555", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "5 October 1852", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:8558", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "France", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:8582", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Nadia Min Dern Heng", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:8951", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "[1]", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:9009", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Claretta", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:901", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Archduke Maximilian Eugen of Austria", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:9033", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Yes", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:9192", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Yes", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:9193", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Too Many Wives", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:9234", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Yes", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:9455", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Through the Neighbor's Window", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:9565", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "15 March 1981", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:9767", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "No", "model": "gemini-3.5-flash-lite"}
+{"q": "2wiki:9780", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "British", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a713dcb5542994082a3e6d9", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "None", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a72b9155542992359bc3187", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Acela Express", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a7353b35542994cef4bc54f", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Basilica", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a738bd0554299623ed4abee", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Montagues and Capulets", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a73977d554299623ed4ac08", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Armenia", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a74581555429979e2882912", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Mitsubishi Motors", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a74c85055429916b0164218", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Alistair Grant", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a7542425542996c70cfaecc", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Bruce Chatwin", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a7619765542992db9473728", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "East Knoyle", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a7636fb55429976ec32bd79", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Abigail", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a7652435542992d0ec060a5", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Pyotr Ilyich Tchaikovsky", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a7747e15542994aec3b7266", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Lonestar", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a77a3905542992a6e59df40", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Kentucky Wildcats", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a77beae5542992a6e59dfae", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Stacey Kent", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a78c69e55429974737f787c", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Dave Brockie", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a78d01d55429974737f78b3", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "SBS", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a78d38455429970f5fffd94", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Julian Assange", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a79c7ac5542994bb9457097", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "16", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a79caad5542994f819ef09f", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Matt Kemp", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a7a03225542996c55b2dcd5", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Clinchfield Railroad", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a7c38c955429935c91b5132", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Zoonotic", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a7ca33f5542990527d554ee", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Pizza Fusion", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a7dc3275542997cc2c4749c", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Sam Boyd Stadium", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a7e04b05542995f4f40238a", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Vanarama", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a7e3117554299495941991b", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Yes", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a7f3bcd55429930675136c3", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Arthur Russell", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a7f40de5542992e7d278cc8", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Rick Ducommun", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a7fb17c5542994857a767bb", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Detroit Lions and the Los Angeles Rams", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a7fb7985542994857a767d2", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Claudio López", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a8013e45542995d8a8ddf41", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "North Sea", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a80db5055429938b6142218", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Zack Snyder", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a8284b555429954d2e2eb5f", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "1,467 rooms", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a83335f5542996488c2e3ec", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Philip K. Dick", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a83aaeb5542996488c2e483", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Graduation", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a84cd4b5542991dd0999dfe", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Yes", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a84f6c55542997175ce1f36", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "John Monash", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a84fea85542994c784ddabf", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Tennis", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a85b0c85542994c784ddb40", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Texas Tech University", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a85dfcc5542994775f60673", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Yunho", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a85e2775542994775f60680", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Kim Bauer", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a8600665542994775f606ee", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Yes", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a871e265542991e771816d1", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Jack Kilby", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a878d795542993e715abf9d", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Milk Barn Animation", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a8790785542993e715abfac", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Cheryl", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a88016b5542997e5c09a58a", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "West African descendants", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a8841195542994846c1ce65", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Matthew Vaughn", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a889d18554299206df2b310", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "punk rock band", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a88a19a5542997e5c09a64b", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "[9] Phyllocnistis liquidambarisella", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a88a5645542997e5c09a679", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Take It Easy", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a8a38135542996c9b8d5e59", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Prussia", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a8a547d55429970aeb70293", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "The Lady", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a8b78775542997f31a41d3d", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Peshwa", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a8b8b3a5542995d1e6f13e5", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Brothers", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a8be7735542997f31a41df2", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "National Football League", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a8c66db554299585d9e3683", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "2017", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a8cbda955429941ae14dee5", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "1999 to 2007", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a8ce584554299585d9e375c", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Jaffrey", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a8e341c5542995085b373d6", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "No", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a8e43455542990e94052aa1", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "No", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a8e4d9855429917b4a5bd8d", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Tom Rob Smith", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a8ec3205542995a26add506", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "unknown", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a8ef2a75542995a26add583", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "2000", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a8efef05542997ba9cb3178", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "New York City", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a9087ac5542990a98493668", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "over sixty films", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5a909a0355429916514e7505", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Yes", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ab29346554299545a2cf997", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "KXII", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ab3460055429976abd1bc80", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Johnny McDaid", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ab3abe9554299753aec597e", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Virginia Tech", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ab52cb2554299637185c4f1", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Highland Heights", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ab553e2554299494045ef81", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Saturday Night Live", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ab6654455429954757d3281", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Flowering plants", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ab67d2055429954757d3304", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Labrador Retriever", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ab6ecd85542991d322236cf", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Latin American culture", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ab7fa7b5542992aa3b8c897", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "punk rock", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ab8179f5542990e739ec817", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Dana Fox", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ab925c755429919ba4e23d6", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "films", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ab931475542991b5579f12f", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Duval County", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ab938db5542996be2020454", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Michael Tippett", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ab97cd0554299753720f81a", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Christine MacIntyre", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ab98d70554299753720f82f", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "franchising", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5abb1e1b5542992ccd8e7f19", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Nobel Prize", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5abb8afe5542993f40c73b1e", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "No", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5abbb42555429931dba144af", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "[9]", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5abbd4035542993f40c73bcb", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Kentucky Music Hall of Fame", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5abc095c5542993f40c73c5d", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Fazoli's", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5abc3a65554299700f9d782d", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Dave Haywood", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5abd09585542996e802b469b", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "2011", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5abdb4a755429965af743df0", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Czech Republic", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5abe7e1d55429976d4830b36", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "River Clyde", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5abe9c1a5542993f32c2a183", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Robert FitzRoy", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ac038db554299294b218f57", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Constantine", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ac10832554299012d1db687", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "22", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ac1b8cd55429963665198fc", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Brothers Quay", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ac1d40c5542994d76dccef5", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Traverse City", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ac24ad7554299636651995a", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Pinocchio", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ac2509755429951e9e68543", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "British", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ac2f1d1554299218029dba4", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "trees", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ac34994554299741d48a242", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "January 16, 2013", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ac38ce255429939154137c2", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "[7], [8]", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ac3bd0c554299204fd21e21", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Filmmaker", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ac3c264554299204fd21e37", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Greenwood", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ac434cb5542997ea680ca2f", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Potomac River", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ac45b23554299204fd21f31", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "five", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ac46bb05542991943173983", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "No", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ac4f9db55429924173fb532", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "genus", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5adbf84555429947ff17387c", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "No", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5adc0f8d55429947ff1738ef", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Saul og David", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5adc8c545542994734353734", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Yes", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5adcaa7f5542990d50227cdb", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "24", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5adcceda5542990d50227d31", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "British", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5adce4f65542992c1e3a2474", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Centers for Medicare and Medicaid Services", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5add3ccc5542997545bbbce5", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Klasky Csupo", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5add6b595542992200553b0c", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Atlanta, Georgia", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ade007e5542997545bbbdf4", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "N.I.B.", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ade662155429975fa854ebd", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Arctic fox", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ade7a435542997c77adee3a", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "[1]", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5adf17f95542995ec70e8f6c", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Australia", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5adf39ce5542995534e8c76d", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Shakespeare performances", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5adf490a5542993a75d26488", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "C. J. Cherryh", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5adf51e05542995534e8c78a", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Not specified in the context", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5adf5daf5542995534e8c79d", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "No", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5adf6a5c5542995ec70e8ff9", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Watertown", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5adf6b405542992d7e9f9341", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Heather Graham", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5adfb10855429942ec259af9", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Austrian Volksbanks", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5adfc97255429906c02daa41", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "second tier", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5adff4a555429925eb1afb91", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Wilmington International Airport", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5adffc8d55429925eb1afbc6", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "father and son", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ae00895554299025d62a3b2", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Philadelphia Eagles", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ae022ab554299025d62a428", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Echeveria", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ae0b4c15542993d6555ec21", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "American bands", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ae0ba9055429924de1b715c", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "December", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ae16ea85542990adbacf790", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "1975", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ae178a155429901ffe4ae92", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Real", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ae1ab2f554299234fd042ba", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Adrian Lyne", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ae2c4b8554299495565db31", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Buffalo", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ae39fb85542990afbd1e197", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Yes", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ae3d2715542990afbd1e1e9", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Yes", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ae3d4345542992f92d82387", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Mollie King", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ae4ec1e5542990ba0bbb19b", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "The Bears and I", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ae5072e55429960a22e0246", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Matt Flynn", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ae530e355429908b6326561", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "What's My Line?", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ae544035542992663a4f1af", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Long live our noble Queen", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ae55d1e55429960a22e02cb", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "4 April 1963", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ae5d0b5554299546bf82f80", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Submarine Voyage", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ae5dae2554299546bf82fa4", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Sarajevo", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ae5e8dc554299546bf82fbe", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Hakim Jamal", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ae6069c55429929b0807a67", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Coca-Cola FEMSA", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ae66d515542992ae0d16346", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "1927", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ae76d185542997ec2727641", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "Jewelry designer", "model": "gemini-3.5-flash-lite"}
+{"q": "hotpotqa:5ae791a55542994a481bbdaa", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "answer": "University of Pennsylvania", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__107548_124896", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Sir Nicholas Bacon", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__10900_21567", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "John Kukuzelis", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__109242_113442", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "13 August 1896", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__12039_11957", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Erosion of the Rocky Mountains", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__130508_32379", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "College of Charleston", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__13539_13493", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Sextuple", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__142699_67465", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "March 11, 2011", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__146919_29244", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "London Heathrow Airport", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__14_59409", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "three different relationships", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__152027_141308", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Apple Corps Ltd.", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__15258_54866", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Elizabeth II", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__15416_58040", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Fort Davis", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__161915_78851", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "New York Knicks", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__175175_347233", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Kenton County", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__20685_712629", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Philip Mountbatten, Duke of Edinburgh", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__216959_204037", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Daniel Darc", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__22431_16335", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Inter-marriage and conversions", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__24697_634490", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "King Cheng of Zhou", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__253612_110882", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "1 January 1986", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__256778_131879", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "[9]", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__25788_25839", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "500 mA", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__25788_990", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Third generation", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__269076_449113", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Israel", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__31094_31122", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "18th-century", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__31124_31122", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "18th century", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__31326_31270", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "45 miles", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__315267_277284", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Tonbridge", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__32254_84601", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Not mentioned in the context", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__32887_235620", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Emperor Zhaozong of Tang", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__33288_157788", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Gyeongbu Line", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__34734_92852", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "[5]", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__359312_18803", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "divest from downstream business", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__39954_80303", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Selous Game Reserve", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__403060_92763", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "16,801", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__40485_40502", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "ca. 2 million", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__409166_152023", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Real World label", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__409884_83837", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Karen Fairchild", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__41158_22946", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "George Sarton", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__424294_19033", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "[7]", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__434218_29905", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "15", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__435184_67370", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "January 19, 2018", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__444265_82341", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Northern Florida", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__458131_174974", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Keith Urban", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__462179_643013", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "[13]", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__472486_97805", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Not specified", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__500379_126537", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "1986", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__507722_124896", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Sir Nicholas Bacon", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__516918_126537", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "1986", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__528263_865831", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Randall County", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__53147_7298", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Josh Groban", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__540035_113442", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "13 August 1896", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__54651_169233", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Academy Award", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__556426_9237", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "September 2012", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__559076_55984", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Phil Hanseroth", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__574419_270105", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Stanley", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__57638_90991", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Sam Bowie", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__60229_1783", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Fiorello La Guardia", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__605207_135019", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Europa", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__60686_229757", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Will Arnett", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__61752_54024", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "King James I", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__64175_90973", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Lacey Chabert", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__645448_77615", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "1912", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__67660_81007", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "The Mother", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__678516_179720", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Harold Knight", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__682872_516436", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "theoretical physics", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__693444_220151", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Joan Erikson", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__697790_864352", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "[8]", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__74084_75184", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Elisabeth Shue", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__747758_58067", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Sachin Tendulkar", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__785711_63853", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Thaba Putsoa", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__797443_120537", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "2005", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__80_59409", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Jay - Z", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__825727_584042", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Goyang Hi FC", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__827940_277334", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Carrie Hamilton", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__83257_19033", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "[15]", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__84847_148696", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Governor of the Presidency of Fort William (Bengal)", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__85325_88165", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Keturah", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__857493_17335", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "323 BC", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__85993_512508", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "[14]", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__86689_728109", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Oklahoma City Thunder", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__87053_319330", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Jessie Woodrow Wilson Sayre", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__92716_319330", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Jessie Woodrow Wilson Sayre", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:2hop__95673_62765", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Edward G. Robinson", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__103197_214799_259594", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "answer": "East Germany", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__103890_10659_67187", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Poland", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__133292_40769_64047", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "[3]", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__135794_87694_64412", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "1929", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__140554_2053_5289", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Oriole Records", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__145194_160545_34754", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Japanese blackmail", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__145427_106426_157788", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Beijing–Shanghai high-speed railway", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__147135_159767_81096", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Mario Andretti", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__232315_831637_91775", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Sea, Air, and Land", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__278222_42197_18397", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Mao Zedong", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__30390_36635_87083", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "China, France, Russia, the United Kingdom and the United States", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__389955_132457_51423", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Casa Loma", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__406043_831637_91775", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Sea, Air, and Land", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__415141_42197_18397", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "[17]", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__516535_834494_34053", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "1905", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__545624_2053_52946", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "February 7, 2018", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__572324_568433_47686", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Toronto Coach Terminal", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__593288_720914_27537", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "conclave", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__593597_40769_64047", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "April 2012", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__622497_160088_49779", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Regis Philbin", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__624901_42197_18397", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "UN conference", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__639955_834494_34088", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Tucson Raceway Park", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__640171_228453_86925", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Fleur-de-lis", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__671542_665330_51423", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Old Castle", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__672543_503371_21711", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "15th century", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__694534_160088_85460", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "$59,039", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__761225_831637_91775", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Sea, Air, and Land", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__773338_42197_18397", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Politburo", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__79039_131926_87157", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "south", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__848113_15840_36014", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "five games", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__84887_538202_84283", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Warner Bros.", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop1__92788_648104_13493", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "continental treble", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop2__304722_297619_63959", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "July 2012", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop2__304722_781203_63959", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "7 November 1908", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop2__326964_573858_7713", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], "answer": "400 years", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop2__326964_846_7713", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "about 400 years", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:3hop2__91678_90098_10557", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Medieval Latin", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop1__131002_53706_795904_580996", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Oak Lawn", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop1__131611_32392_823060_610794", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Richland County", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop1__145422_698949_157828_162309", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "1992", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop1__151650_5274_458768_33632", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "early September", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop1__152562_5274_458768_33637", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Two", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop1__161810_583746_457883_650651", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "NBC", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop1__342858_131850_33952_34053", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "1905", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop1__344155_765799_282674_759393", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Green Bay", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop1__3496_5274_458768_33633", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "August 3, 1769", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop1__512794_508773_85832_745702", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Sebastian Cabot", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop1__720201_153080_159767_81096", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Mario Andretti", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop1__88342_49853_128008_87812", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Thursday, March 29", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop1__88342_75218_128008_89859", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "October 23", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop1__89632_32392_823060_610794", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "United States", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop2__105527_14670_8987_8974", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Paraguay", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop2__161602_426860_88460_126088", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Thein Sein", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop2__161602_426860_88460_20988", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Indo-Pakistani wars and conflicts", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop2__161602_474028_88460_86452", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "1989", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop2__567956_14670_8987_8529", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "1939–1945", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop2__71753_158279_70784_61381", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "1994", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop2__71753_685934_70784_79935", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "1971", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop2__9988_158985_70784_79935", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "1930", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop3__193820_466199_128875_72134", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "1839", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop3__193820_466199_695123_72134", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "1839", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop3__270458_88460_30152_20999", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Portuguese", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop3__316459_41402_145282_13584", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Barcelona", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop3__39836_29339_508306_70744", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "10", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop3__650050_88460_30152_20999", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "Portuguese", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop3__668721_132409_146285_35031", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "San Diego", "model": "gemini-3.5-flash-lite"}
+{"q": "musique:4hop3__668721_132409_371500_35031", "sel": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "answer": "third", "model": "gemini-3.5-flash-lite"}

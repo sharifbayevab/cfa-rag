@@ -1,0 +1,6 @@
+{
+ "reader": "gpt-4.1-mini",
+ "n": 450,
+ "repeat_full_answer_same_normalized": 0.9288888888888889,
+ "repeat_full_cover": 0.64
+}

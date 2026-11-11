@@ -1,0 +1,2721 @@
+{
+ "n": 300,
+ "judge": "gemini-3.5-flash (automatic proxy, not human)",
+ "agreement": 0.8933333333333333,
+ "kappa": 0.7866666666666666,
+ "rule_changed_but_judge_same": 0.21333333333333335,
+ "rule_same_but_judge_different": 0.0,
+ "by_dataset": {
+  "2wiki": {
+   "changed_but_same": 0.18
+  },
+  "hotpotqa": {
+   "changed_but_same": 0.16
+  },
+  "musique": {
+   "changed_but_same": 0.3
+  }
+ },
+ "pairs": [
+  {
+   "pair_id": "2wiki:4607|1",
+   "dataset": "2wiki",
+   "question": "Where was the composer of song By The Beautiful Sea (Song) born?",
+   "answer_full": "Atlantic City, New Jersey",
+   "answer_deleted": "Liverpool",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:4025|5",
+   "dataset": "2wiki",
+   "question": "Where was the place of death of the director of film Winter A-Go-Go?",
+   "answer_full": "Unknown",
+   "answer_deleted": "Not specified",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:3670|7",
+   "dataset": "2wiki",
+   "question": "Who is Beltrán De La Cueva, 3Rd Duke Of Alburquerque's paternal grandfather?",
+   "answer_full": "Francisco Fernández de la Cueva, 2nd Duke of Alburquerque",
+   "answer_deleted": "Don Francisco Fernández de la Cueva, 2nd Duke of Alburquerque",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:9565|0",
+   "dataset": "2wiki",
+   "question": "What is the date of death of the director of film Break The News (Film)?",
+   "answer_full": "1981",
+   "answer_deleted": "Unknown",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:6501|8",
+   "dataset": "2wiki",
+   "question": "Who is Nawrahta Of Kanni's uncle?",
+   "answer_full": "Nawrahta of Kanni's uncle is Kyawswa I.",
+   "answer_deleted": "Uzana I",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:4408|7",
+   "dataset": "2wiki",
+   "question": "Which film has the director died earlier, The Mark Of The Renegade or Muchachas Que Estudian?",
+   "answer_full": "The Mark Of The Renegade",
+   "answer_deleted": "Muchachas Que Estudian",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:4117|6",
+   "dataset": "2wiki",
+   "question": "Who is the spouse of the performer of song Dame Tu Amor (Song)?",
+   "answer_full": "Abraham Quintanilla, Jr.",
+   "answer_deleted": "Selena Quintanilla-Pérez",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:4408|3",
+   "dataset": "2wiki",
+   "question": "Which film has the director died earlier, The Mark Of The Renegade or Muchachas Que Estudian?",
+   "answer_full": "The Mark Of The Renegade",
+   "answer_deleted": "Hugo Fregonese",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:3745|5",
+   "dataset": "2wiki",
+   "question": "Where did Pilar Del Río's husband die?",
+   "answer_full": "Not specified.",
+   "answer_deleted": "1990",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:6735|0",
+   "dataset": "2wiki",
+   "question": "Where did the director of film Q.R.R (Quien Resulte Responsable) die?",
+   "answer_full": "Houston, Texas",
+   "answer_deleted": "Unknown",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:8582|3",
+   "dataset": "2wiki",
+   "question": "Who was born first out of Lyubomira Kazanova and Nadia Min Dern Heng?",
+   "answer_full": "Lyubomira Kazanova",
+   "answer_deleted": "Igor Matvienko",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:10071|6",
+   "dataset": "2wiki",
+   "question": "Where was the place of death of Engelbert I, Count Of Berg's father?",
+   "answer_full": "Serbia",
+   "answer_deleted": "Unknown",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:1438|1",
+   "dataset": "2wiki",
+   "question": "What nationality is Arinjaya Chola's father?",
+   "answer_full": "Tamil",
+   "answer_deleted": "Unknown",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:4413|2",
+   "dataset": "2wiki",
+   "question": "When did the director of film The General Line die?",
+   "answer_full": "Unknown",
+   "answer_deleted": "1948",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:1454|9",
+   "dataset": "2wiki",
+   "question": "Which award the director of film Angel Square won?",
+   "answer_full": "Gemini awards",
+   "answer_deleted": "None",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:7740|3",
+   "dataset": "2wiki",
+   "question": "Where was the place of death of Tegbesu's father?",
+   "answer_full": "Benin",
+   "answer_deleted": "Beaulieu-sur-Loire",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:572|3",
+   "dataset": "2wiki",
+   "question": "Who is Marcus Aemilius Lepidus (Executed 39)'s father-in-law?",
+   "answer_full": "Caligula",
+   "answer_deleted": "No answer available.",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:6501|9",
+   "dataset": "2wiki",
+   "question": "Who is Nawrahta Of Kanni's uncle?",
+   "answer_full": "Nawrahta of Kanni's uncle is Kyawswa I.",
+   "answer_deleted": "Nawrahta of Kanni's uncle is Nawrahta Minye.",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:8951|6",
+   "dataset": "2wiki",
+   "question": "Which country Siegfried, Prince-Archbishop Of Bremen's father is from?",
+   "answer_full": "Germany",
+   "answer_deleted": "Anhalt",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:9234|0",
+   "dataset": "2wiki",
+   "question": "Do both films: Black Forest Children and Sometime In August have the directors from the same country?",
+   "answer_full": "Yes",
+   "answer_deleted": "no",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:4025|7",
+   "dataset": "2wiki",
+   "question": "Where was the place of death of the director of film Winter A-Go-Go?",
+   "answer_full": "Unknown",
+   "answer_deleted": "Not specified",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:10512|7",
+   "dataset": "2wiki",
+   "question": "Where was the mother of William Iv, Count Of Toulouse born?",
+   "answer_full": "1020",
+   "answer_deleted": "La Marche",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:2216|4",
+   "dataset": "2wiki",
+   "question": "What is the place of birth of the director of film Paris By Night (2012 Film)?",
+   "answer_full": "Algiers",
+   "answer_deleted": "Algiers, Algeria",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:11680|3",
+   "dataset": "2wiki",
+   "question": "Who is Donnchadh Iv, Earl Of Fife's father-in-law?",
+   "answer_full": "Mary de Monthermer",
+   "answer_deleted": "Robert Bruce, Lord of Liddesdale",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:12007|7",
+   "dataset": "2wiki",
+   "question": "Who is the father of the performer of song One Love (Carlene Carter Song)?",
+   "answer_full": "Carlene Carter",
+   "answer_deleted": "June Carter",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:5346|1",
+   "dataset": "2wiki",
+   "question": "Which film has the director died first, Father And The Boys or Valerie Inside Outside?",
+   "answer_full": "Valerie Inside Outside",
+   "answer_deleted": "Father and the Boys",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:5777|7",
+   "dataset": "2wiki",
+   "question": "Who is younger, Jeong Hae-Rim or Michael Drga?",
+   "answer_full": "Jeong Hae-Rim",
+   "answer_deleted": "Jeong Hae-Rim is younger.",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:1336|2",
+   "dataset": "2wiki",
+   "question": "Which country Princess Catherine Of Schleswig-Holstein-Sonderburg-Beck's father is from?",
+   "answer_full": "Russia",
+   "answer_deleted": "No answer available.",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:11820|0",
+   "dataset": "2wiki",
+   "question": "Where was the director of film The Circus Cyclone born?",
+   "answer_full": "Oklahoma City",
+   "answer_deleted": "Unknown",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:7740|5",
+   "dataset": "2wiki",
+   "question": "Where was the place of death of Tegbesu's father?",
+   "answer_full": "Benin",
+   "answer_deleted": "Beaulieu-sur-Loire",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:1466|6",
+   "dataset": "2wiki",
+   "question": "Where was the place of death of the director of film Red Sky At Morning (1971 Film)?",
+   "answer_full": "Vermont",
+   "answer_deleted": "Santa Fe",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:9009|9",
+   "dataset": "2wiki",
+   "question": "Which film whose director was born first, The Boy On The Galloping Horse or Claretta?",
+   "answer_full": "Claretta",
+   "answer_deleted": "The Boy On The Galloping Horse",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:4025|0",
+   "dataset": "2wiki",
+   "question": "Where was the place of death of the director of film Winter A-Go-Go?",
+   "answer_full": "Unknown",
+   "answer_deleted": "Forest Lawn – Hollywood Hills Cemetery",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:12360|2",
+   "dataset": "2wiki",
+   "question": "What is the award that the director of film Armaan (1953 Film) got?",
+   "answer_full": "Filmfare Award for Best Cinematographer",
+   "answer_deleted": "No answer available.",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:3076|9",
+   "dataset": "2wiki",
+   "question": "Who is younger, Casimir Gide or Gorka Brit?",
+   "answer_full": "Casimir Gide",
+   "answer_deleted": "Gorka Brit",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:1466|7",
+   "dataset": "2wiki",
+   "question": "Where was the place of death of the director of film Red Sky At Morning (1971 Film)?",
+   "answer_full": "Vermont",
+   "answer_deleted": "Shaftsbury, Vermont",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:10071|9",
+   "dataset": "2wiki",
+   "question": "Where was the place of death of Engelbert I, Count Of Berg's father?",
+   "answer_full": "Serbia",
+   "answer_deleted": "Unknown",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:11142|7",
+   "dataset": "2wiki",
+   "question": "Which film has the director who died later, Paradise And Back or Down Rio Grande Way?",
+   "answer_full": "Paradise and Back",
+   "answer_deleted": "Down Rio Grande Way",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:10619|4",
+   "dataset": "2wiki",
+   "question": "Where did the director of film Girl Rising (Film) graduate from?",
+   "answer_full": "Harvard College",
+   "answer_deleted": "Unknown",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:8582|6",
+   "dataset": "2wiki",
+   "question": "Who was born first out of Lyubomira Kazanova and Nadia Min Dern Heng?",
+   "answer_full": "Lyubomira Kazanova",
+   "answer_deleted": "Lyubomira Kazanova was born first.",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:4117|4",
+   "dataset": "2wiki",
+   "question": "Who is the spouse of the performer of song Dame Tu Amor (Song)?",
+   "answer_full": "Abraham Quintanilla, Jr.",
+   "answer_deleted": "Selena Quintanilla-Pérez",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:4607|3",
+   "dataset": "2wiki",
+   "question": "Where was the composer of song By The Beautiful Sea (Song) born?",
+   "answer_full": "Atlantic City, New Jersey",
+   "answer_deleted": "Unknown",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:8555|0",
+   "dataset": "2wiki",
+   "question": "When did Charles Somers-Cocks, 3Rd Earl Somers's father die?",
+   "answer_full": "1852",
+   "answer_deleted": "5 January 1841",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:8558|8",
+   "dataset": "2wiki",
+   "question": "Where does the director of film Secret Defense (1998 Film) work at?",
+   "answer_full": "The director of the 1998 film \"Secret Defense\" is not mentioned in the context. The film \"Top Secret\" (1998) is directed by Jacques Rivette, but there is no information about where he",
+   "answer_deleted": "The director of the film \"Secret Defense\" (1998) is not mentioned in the context. The film \"Top Secret\" (1998) is directed by Jacques Rivette, but there is no information about where",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:11456|1",
+   "dataset": "2wiki",
+   "question": "Which album came out earlier, Shades Of A Blue Orphanage or South Central Los Skanless?",
+   "answer_full": "Shades of a Blue Orphanage",
+   "answer_deleted": "South Central Los Skanless",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:1466|9",
+   "dataset": "2wiki",
+   "question": "Where was the place of death of the director of film Red Sky At Morning (1971 Film)?",
+   "answer_full": "Vermont",
+   "answer_deleted": "United States",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:8442|0",
+   "dataset": "2wiki",
+   "question": "What is the place of birth of the founder of Horseshoe Gaming Holding Corporation?",
+   "answer_full": "Las Vegas, Nevada",
+   "answer_deleted": "Dallas, Texas",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:6421|8",
+   "dataset": "2wiki",
+   "question": "Who is Jan Of Cieszyn's paternal grandfather?",
+   "answer_full": "Casimir I, Duke of Cieszyn",
+   "answer_deleted": "Casimir I",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:7677|2",
+   "dataset": "2wiki",
+   "question": "What is the place of birth of the director of film The Keeping Room?",
+   "answer_full": "Netherlands",
+   "answer_deleted": "Liverpool",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:1203|7",
+   "dataset": "2wiki",
+   "question": "Who is Sancha Of Castile, Queen Of Aragon's father-in-law?",
+   "answer_full": "Alfonso II of Aragon",
+   "answer_deleted": "Ramon Berenguer IV",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "2wiki:8211|6",
+   "dataset": "2wiki",
+   "question": "Are both stations, Mingzhu Railway Station and Changzhou North Railway Station, located in the same country?",
+   "answer_full": "No",
+   "answer_deleted": "No",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:1177|2",
+   "dataset": "2wiki",
+   "question": "What is the date of death of Francisco De Benavides's father?",
+   "answer_full": "ca. March 19, 1666",
+   "answer_deleted": "ca. March 19, 1666",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:1567|3",
+   "dataset": "2wiki",
+   "question": "Where was the director of film Drömsemester born?",
+   "answer_full": "Västervik, Kalmar County, Sweden",
+   "answer_deleted": "Västervik, Kalmar County, Sweden",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:11191|6",
+   "dataset": "2wiki",
+   "question": "Are the directors of both films The Great Bank Robbery (1969 Film) and The Head Of The Family (1922 Film) from the same country?",
+   "answer_full": "No",
+   "answer_deleted": "No",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:1359|3",
+   "dataset": "2wiki",
+   "question": "Who is the paternal grandfather of Prince Joseph Wenzel Of Liechtenstein?",
+   "answer_full": "Prince Alois of Liechtenstein",
+   "answer_deleted": "Prince Alois of Liechtenstein",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:6702|3",
+   "dataset": "2wiki",
+   "question": "Which film whose director was born first, Harvest: 3,000 Years or The Artist'S Wife?",
+   "answer_full": "Harvest: 3,000 Years",
+   "answer_deleted": "Harvest: 3,000 Years",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:9192|4",
+   "dataset": "2wiki",
+   "question": "Are both airports, Far View Airport and Bellevue Airfield, located in the same country?",
+   "answer_full": "Yes",
+   "answer_deleted": "Yes",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:5310|2",
+   "dataset": "2wiki",
+   "question": "Who was born first out of Peter Haslop and Barbara Nawratowicz?",
+   "answer_full": "Barbara Nawratowicz",
+   "answer_deleted": "Barbara Nawratowicz",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:6189|2",
+   "dataset": "2wiki",
+   "question": "Do both films: Ghost (1990 Film) and 16 Days In Afghanistan have the directors from the same country?",
+   "answer_full": "No",
+   "answer_deleted": "No",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:2900|1",
+   "dataset": "2wiki",
+   "question": "Who is the paternal grandfather of Princess Yasmin Aga Khan?",
+   "answer_full": "Prince Ali Salman Aga Khan",
+   "answer_deleted": "Prince Ali Salman Aga Khan",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:3512|4",
+   "dataset": "2wiki",
+   "question": "Which film was released first, Arthur 2: On The Rocks or The Opposite Sex And How To Live With Them?",
+   "answer_full": "The Opposite Sex And How To Live With Them",
+   "answer_deleted": "The Opposite Sex And How To Live With Them",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:9234|5",
+   "dataset": "2wiki",
+   "question": "Do both films: Black Forest Children and Sometime In August have the directors from the same country?",
+   "answer_full": "Yes",
+   "answer_deleted": "Yes",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:3879|3",
+   "dataset": "2wiki",
+   "question": "Which film has the director who is older, Our Mighty Yaya or Blondes At Work?",
+   "answer_full": "Blondes at Work",
+   "answer_deleted": "Blondes at Work",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:6071|8",
+   "dataset": "2wiki",
+   "question": "Are Royal St. George'S College and Branksome Hall both located in the same country?",
+   "answer_full": "Yes",
+   "answer_deleted": "Yes",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:3879|9",
+   "dataset": "2wiki",
+   "question": "Which film has the director who is older, Our Mighty Yaya or Blondes At Work?",
+   "answer_full": "Blondes at Work",
+   "answer_deleted": "Blondes At Work",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:11456|5",
+   "dataset": "2wiki",
+   "question": "Which album came out earlier, Shades Of A Blue Orphanage or South Central Los Skanless?",
+   "answer_full": "Shades of a Blue Orphanage",
+   "answer_deleted": "Shades of a Blue Orphanage",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:10619|9",
+   "dataset": "2wiki",
+   "question": "Where did the director of film Girl Rising (Film) graduate from?",
+   "answer_full": "Harvard College",
+   "answer_deleted": "Harvard College",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:10964|1",
+   "dataset": "2wiki",
+   "question": "Which country the director of film And The Spring Comes is from?",
+   "answer_full": "China",
+   "answer_deleted": "China",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:8555|6",
+   "dataset": "2wiki",
+   "question": "When did Charles Somers-Cocks, 3Rd Earl Somers's father die?",
+   "answer_full": "1852",
+   "answer_deleted": "1852",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:269|1",
+   "dataset": "2wiki",
+   "question": "Who is the spouse of the performer of song Lolita (Leah Labelle Song)?",
+   "answer_full": "Leah LaBelle",
+   "answer_deleted": "Leah LaBelle",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:2368|1",
+   "dataset": "2wiki",
+   "question": "Are Jaguaribe River and Uaçá River both located in the same country?",
+   "answer_full": "Yes",
+   "answer_deleted": "Yes",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:8416|8",
+   "dataset": "2wiki",
+   "question": "Which film has the director who died earlier, Santa And The Fairy Snow Queen or Hearts In Bondage?",
+   "answer_full": "Hearts in Bondage",
+   "answer_deleted": "Hearts in Bondage",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:12443|6",
+   "dataset": "2wiki",
+   "question": "Are The Last Ride To Santa Cruz and North Of The Rio Grande from the same country?",
+   "answer_full": "No",
+   "answer_deleted": "No",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:9780|0",
+   "dataset": "2wiki",
+   "question": "What nationality of the company that published Qs World University Rankings?",
+   "answer_full": "British",
+   "answer_deleted": "British",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:11953|2",
+   "dataset": "2wiki",
+   "question": "Where does Michael Reagan's mother work at?",
+   "answer_full": "Unknown",
+   "answer_deleted": "Unknown",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:10829|6",
+   "dataset": "2wiki",
+   "question": "Who is the father of the director of film Legend Of A Fighter?",
+   "answer_full": "Yuen Siu-tien",
+   "answer_deleted": "Yuen Siu-tien",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:4362|9",
+   "dataset": "2wiki",
+   "question": "Which film came out earlier, Hang 'Em High or The Tuttles Of Tahiti?",
+   "answer_full": "Hang 'Em High",
+   "answer_deleted": "Hang 'Em High",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:2995|7",
+   "dataset": "2wiki",
+   "question": "Which film was released earlier, Entranced Earth or Jimmy, The Boy Wonder?",
+   "answer_full": "Entranced Earth",
+   "answer_deleted": "Entranced Earth",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:6912|9",
+   "dataset": "2wiki",
+   "question": "Which film has the director born later, Battle Of Memories or The Wedding Of Lilli Marlene?",
+   "answer_full": "Battle of Memories",
+   "answer_deleted": "Battle Of Memories",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:8160|9",
+   "dataset": "2wiki",
+   "question": "Which film has the director who died later, Strange Boarders or Johnny Tiger?",
+   "answer_full": "Johnny Tiger",
+   "answer_deleted": "Johnny Tiger",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:597|3",
+   "dataset": "2wiki",
+   "question": "Are Les Misérables (1917 Film) and The Better 'Ole (1926 Film) both from the same country?",
+   "answer_full": "No",
+   "answer_deleted": "no",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:1466|8",
+   "dataset": "2wiki",
+   "question": "Where was the place of death of the director of film Red Sky At Morning (1971 Film)?",
+   "answer_full": "Vermont",
+   "answer_deleted": "Vermont",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:8472|5",
+   "dataset": "2wiki",
+   "question": "Were Kyle Wiltjer and Christopher T. Russell from the same country?",
+   "answer_full": "no",
+   "answer_deleted": "no",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:10296|2",
+   "dataset": "2wiki",
+   "question": "Where was the father of Teodor Pejačević born?",
+   "answer_full": "Našice",
+   "answer_deleted": "Našice",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:6421|2",
+   "dataset": "2wiki",
+   "question": "Who is Jan Of Cieszyn's paternal grandfather?",
+   "answer_full": "Casimir I, Duke of Cieszyn",
+   "answer_deleted": "Casimir I, Duke of Cieszyn",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:4226|6",
+   "dataset": "2wiki",
+   "question": "Where was the place of death of the director of film Volavérunt?",
+   "answer_full": "la Riera de Gaià, Catalonia",
+   "answer_deleted": "la Riera de Gaià, Catalonia",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:2175|3",
+   "dataset": "2wiki",
+   "question": "Who is the maternal grandfather of Count Michael Mikhailovich Of Torby?",
+   "answer_full": "Countess Sophie of Merenberg",
+   "answer_deleted": "Countess Sophie of Merenberg",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:8455|4",
+   "dataset": "2wiki",
+   "question": "Are both director of film Boum Sur Paris and director of film The Broken Butterfly from the same country?",
+   "answer_full": "No",
+   "answer_deleted": "no",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:245|0",
+   "dataset": "2wiki",
+   "question": "Which film has the director who died earlier, Deuce High or The King Is The Best Mayor?",
+   "answer_full": "The King is the Best Mayor",
+   "answer_deleted": "The King Is The Best Mayor",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:5445|9",
+   "dataset": "2wiki",
+   "question": "Who is Charles Armand Powlett's paternal grandfather?",
+   "answer_full": "Henri Nompar de Caumont, 3rd Duc de La Force",
+   "answer_deleted": "Henri Nompar de Caumont, 3rd Duc de La Force",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:671|3",
+   "dataset": "2wiki",
+   "question": "Who is the paternal grandfather of Sultan Al-Dawla?",
+   "answer_full": "Baha al-Dawla",
+   "answer_deleted": "Baha al-Dawla",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:3243|4",
+   "dataset": "2wiki",
+   "question": "Which film has the director born later, The Wind'S Fierce or Special Delivery (1927 Film)?",
+   "answer_full": "The Wind's Fierce",
+   "answer_deleted": "The Wind's Fierce",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:2368|0",
+   "dataset": "2wiki",
+   "question": "Are Jaguaribe River and Uaçá River both located in the same country?",
+   "answer_full": "Yes",
+   "answer_deleted": "yes",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:309|0",
+   "dataset": "2wiki",
+   "question": "What is the place of birth of Consort Liang's husband?",
+   "answer_full": "Han dynasty",
+   "answer_deleted": "Han dynasty",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:2683|2",
+   "dataset": "2wiki",
+   "question": "Which film has the director born first, Priyaragalu or Heaven'S Soldiers?",
+   "answer_full": "Priyaragalu",
+   "answer_deleted": "Priyaragalu",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:10296|7",
+   "dataset": "2wiki",
+   "question": "Where was the father of Teodor Pejačević born?",
+   "answer_full": "Našice",
+   "answer_deleted": "Našice",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:766|6",
+   "dataset": "2wiki",
+   "question": "Where did the director of film 29+1 study?",
+   "answer_full": "Paris Studio Magenia",
+   "answer_deleted": "Paris Studio Magenia",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:8455|1",
+   "dataset": "2wiki",
+   "question": "Are both director of film Boum Sur Paris and director of film The Broken Butterfly from the same country?",
+   "answer_full": "No",
+   "answer_deleted": "no",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:7772|3",
+   "dataset": "2wiki",
+   "question": "Which country Albertine, Baroness Staël Von Holstein's father is from?",
+   "answer_full": "Sweden",
+   "answer_deleted": "Sweden",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "2wiki:9192|0",
+   "dataset": "2wiki",
+   "question": "Are both airports, Far View Airport and Bellevue Airfield, located in the same country?",
+   "answer_full": "Yes",
+   "answer_deleted": "Yes",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5a7fb7985542994857a767d2|0",
+   "dataset": "hotpotqa",
+   "question": "Which retired Argentine footballer who played as a forward was a main player for Valencia CF?",
+   "answer_full": "Claudio López",
+   "answer_deleted": "Mario Kempes",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5adc0f8d55429947ff1738ef|5",
+   "dataset": "hotpotqa",
+   "question": "Between Parsifal and Saul og David which opera has more acts?",
+   "answer_full": "Saul og David has more acts.",
+   "answer_deleted": "Saul og David",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5ac1d40c5542994d76dccef5|3",
+   "dataset": "hotpotqa",
+   "question": "What is the population of the city at which the transmitter of WLLZ-LP was placed? ",
+   "answer_full": "Cedar",
+   "answer_deleted": "No answer available in provided context.",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5ae3d4345542992f92d82387|3",
+   "dataset": "hotpotqa",
+   "question": "The group formed during the summer of 2007 included what girl born in 1987?",
+   "answer_full": "Mollie King",
+   "answer_deleted": "Vanessa White",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5ab553e2554299494045ef81|2",
+   "dataset": "hotpotqa",
+   "question": "Which show was Andrew \"Andy\" Spade's brother in n the 1990s?",
+   "answer_full": "Saturday Night Live",
+   "answer_deleted": "None",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5a713dcb5542994082a3e6d9|7",
+   "dataset": "hotpotqa",
+   "question": "What pursuit did both Gevork Minaskanian and George Stambolian have in common?",
+   "answer_full": "Research and development",
+   "answer_deleted": "Research",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5a74c85055429916b0164218|3",
+   "dataset": "hotpotqa",
+   "question": "Born on 6 March 1937, this man was also a citizen of the United Kingdom.",
+   "answer_full": "Alistair Grant",
+   "answer_deleted": "Sir Matthew Alistair Grant",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5a7fb7985542994857a767d2|8",
+   "dataset": "hotpotqa",
+   "question": "Which retired Argentine footballer who played as a forward was a main player for Valencia CF?",
+   "answer_full": "Claudio López",
+   "answer_deleted": "Mariano Campodónico",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5ac038db554299294b218f57|0",
+   "dataset": "hotpotqa",
+   "question": "Which of the movie which has Rich Lee 3-D previsualizations was directed by Francis Lawrence?",
+   "answer_full": "None",
+   "answer_deleted": "Constantine",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5ab925c755429919ba4e23d6|3",
+   "dataset": "hotpotqa",
+   "question": "J. Searle Dawley and Ken Annakin were both directors of what?",
+   "answer_full": "J. Searle Dawley and Ken Annakin were both directors of films.",
+   "answer_deleted": "J. Searle Dawley and Ken Annakin were both directors of silent films.",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5a8cbda955429941ae14dee5|4",
+   "dataset": "hotpotqa",
+   "question": "Richard Burton became involved in a mayoral campaign for a politician that previously served as the Mayor of Baltimore during what time period?",
+   "answer_full": "1998",
+   "answer_deleted": "1998–2007",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5ab6654455429954757d3281|0",
+   "dataset": "hotpotqa",
+   "question": "Arbutus and Aspidistra are what types of plants?",
+   "answer_full": "Arbutus is a genus of flowering plants in the family Ericaceae; Aspidistra is a genus of flowering plants in the family Asparagaceae.",
+   "answer_deleted": "Arbutus is a genus of flowering plants; Aspidistra is a plant species.",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5ac1b8cd55429963665198fc|5",
+   "dataset": "hotpotqa",
+   "question": "Who won more awards, Brothers Quay or Jake Kasdan?",
+   "answer_full": "Jake Kasdan",
+   "answer_deleted": "No",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5ae66d515542992ae0d16346|5",
+   "dataset": "hotpotqa",
+   "question": "In what year was the singer who popularized \"I'll Keep the Lovelight Burning\" born?",
+   "answer_full": "1949",
+   "answer_deleted": "1947",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5ab98d70554299753720f82f|3",
+   "dataset": "hotpotqa",
+   "question": "What kind of action does Mark's Pizzeria and Patxi's Chicago Pizza have in common?",
+   "answer_full": "Both are pizza restaurant chains.",
+   "answer_deleted": "Both are pizzeria chains.",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5adcaa7f5542990d50227cdb|0",
+   "dataset": "hotpotqa",
+   "question": "How many chapters does Yōko Shōji's most famous manga have?",
+   "answer_full": "24",
+   "answer_deleted": "0",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5ac45b23554299204fd21f31|1",
+   "dataset": "hotpotqa",
+   "question": "The 1994 \"The Shadow\" co-stars Lone, Penelope Ann Miller, Peter Boyle, Jonathan Winters, Tim Curry and an actor that has received how many Emmy Award nominations?",
+   "answer_full": "5",
+   "answer_deleted": "3",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5a78d38455429970f5fffd94|5",
+   "dataset": "hotpotqa",
+   "question": "Who is one other client that is represented by the same person that also represents a barrister at Doughty Street Chambers?",
+   "answer_full": "Amal Clooney",
+   "answer_deleted": "Yulia Tymoshenko",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5ab925c755429919ba4e23d6|4",
+   "dataset": "hotpotqa",
+   "question": "J. Searle Dawley and Ken Annakin were both directors of what?",
+   "answer_full": "J. Searle Dawley and Ken Annakin were both directors of films.",
+   "answer_deleted": "Silent films",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5a7fb17c5542994857a767bb|7",
+   "dataset": "hotpotqa",
+   "question": "Which two teams did the the head coach of The 2007 San Diego State Aztecs play for professionally?",
+   "answer_full": "Detroit Lions and Los Angeles Rams",
+   "answer_deleted": "No information provided about professional teams coached by Chuck Long. Answer: no",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5a7636fb55429976ec32bd79|6",
+   "dataset": "hotpotqa",
+   "question": "Who was the wife of the president when William Bainbridge started his career?",
+   "answer_full": "Abigail Adams",
+   "answer_deleted": "No information available.",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5ac10832554299012d1db687|0",
+   "dataset": "hotpotqa",
+   "question": "How many episodes were in the 23rd season of a Fox network show which, in it's twenty-second season, aired it's twenty-first episode which was written by John Frink and directed by Bob Anderson.",
+   "answer_full": "22",
+   "answer_deleted": "26",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5a8a38135542996c9b8d5e59|8",
+   "dataset": "hotpotqa",
+   "question": "Where did Otto von Bismarck and Ludwig Friedrich Leopold von Gerlach originate? ",
+   "answer_full": "Prussia",
+   "answer_deleted": "Otto von Bismarck: Germany; Ludwig Friedrich Leopold von Gerlach: Prussia",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5a83aaeb5542996488c2e483|8",
+   "dataset": "hotpotqa",
+   "question": "What studio album did Kanye West record with Roc-A-Fella Records and soul singer Dwele?",
+   "answer_full": "Graduation",
+   "answer_deleted": "The College Dropout",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5a8be7735542997f31a41df2|8",
+   "dataset": "hotpotqa",
+   "question": "What conference does the team that drafted Derrick Hamilton in 2004 belong to?",
+   "answer_full": "NFC",
+   "answer_deleted": "National Football Conference (NFC)",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5ac434cb5542997ea680ca2f|1",
+   "dataset": "hotpotqa",
+   "question": "What river runs along the neighborhood where Ashley Estes Kavanaugh's wedding was held?",
+   "answer_full": "Potomac River",
+   "answer_deleted": "Georgetown River",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5a80db5055429938b6142218|6",
+   "dataset": "hotpotqa",
+   "question": "Whos version of Dawn of the Dead did R.D. Reid act in, the original by Zack Snyder or the remake by George A. Romero?",
+   "answer_full": "remake by George A. Romero",
+   "answer_deleted": "George A. Romero",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5abdb4a755429965af743df0|3",
+   "dataset": "hotpotqa",
+   "question": "What was the country which has border with the village where an Austrian forest caretaker, naturalist, pseudoscientistref>Ronald Engert: \"Die Forellenturbine als Prinzip der kostenlosen Energiegewinnung born?",
+   "answer_full": "Austria",
+   "answer_deleted": "Czech Republic",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5ac10832554299012d1db687|2",
+   "dataset": "hotpotqa",
+   "question": "How many episodes were in the 23rd season of a Fox network show which, in it's twenty-second season, aired it's twenty-first episode which was written by John Frink and directed by Bob Anderson.",
+   "answer_full": "22",
+   "answer_deleted": "23",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5adffc8d55429925eb1afbc6|5",
+   "dataset": "hotpotqa",
+   "question": "What where Mark Chamberlain and Alex Oxlade-Chamberlain being?",
+   "answer_full": "Mark Chamberlain and Alex Oxlade-Chamberlain are footballers.",
+   "answer_deleted": "Mark Chamberlain: photographer, Alex Oxlade-Chamberlain: footballer",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5a871e265542991e771816d1|9",
+   "dataset": "hotpotqa",
+   "question": "The man nicknamed \"the Mayor of Silicon Valley\"  was credited along with what engineer that was awarded the nobel prize for physics on December 10, 2000",
+   "answer_full": "Jack Kilby",
+   "answer_deleted": "Robert Noyce",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5a73977d554299623ed4ac08|8",
+   "dataset": "hotpotqa",
+   "question": "What is the shared country of ancestry between Art Laboe and Scout Tufankjian?",
+   "answer_full": "Armenia",
+   "answer_deleted": "no",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5ab3abe9554299753aec597e|8",
+   "dataset": "hotpotqa",
+   "question": "Where did the free agent quarterback acquired for the 2015 Buffalo Bills season play college football at?",
+   "answer_full": "Virginia Tech",
+   "answer_deleted": "Baltimore",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5a79c7ac5542994bb9457097|4",
+   "dataset": "hotpotqa",
+   "question": "How many girls and boys are in the seventeen sibling family featured on Counting On?",
+   "answer_full": "16 girls, 1 boy",
+   "answer_deleted": "16 girls and 1 boy",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5adffc8d55429925eb1afbc6|6",
+   "dataset": "hotpotqa",
+   "question": "What where Mark Chamberlain and Alex Oxlade-Chamberlain being?",
+   "answer_full": "Mark Chamberlain and Alex Oxlade-Chamberlain are footballers.",
+   "answer_deleted": "Brothers",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5a8ce584554299585d9e375c|1",
+   "dataset": "hotpotqa",
+   "question": "Which town in New Hampshire with a population of 5,457 in 2010 is located by Mount Monadnock?",
+   "answer_full": "Jaffrey",
+   "answer_deleted": "Fitzwilliam",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5a8841195542994846c1ce65|1",
+   "dataset": "hotpotqa",
+   "question": "Who produced the 1998 British comedy starring the director of the feature film \"Eddie the Eagle\"?",
+   "answer_full": "Dexter Fletcher",
+   "answer_deleted": "Matthew Vaughn",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5a8e341c5542995085b373d6|8",
+   "dataset": "hotpotqa",
+   "question": "Were either Hou Hsiao-hsien or Kenny Ortega winners of an Academy Award?",
+   "answer_full": "No",
+   "answer_deleted": "Yes",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5ae16ea85542990adbacf790|6",
+   "dataset": "hotpotqa",
+   "question": "When did the UVF Mid-Ulster Brigade conducted the attack The Miami Showband killings?",
+   "answer_full": "31 July 1975",
+   "answer_deleted": "1975",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5adf6b405542992d7e9f9341|9",
+   "dataset": "hotpotqa",
+   "question": "Which contributor to Fear: 13 Stories of Suspense and Horror was born on March 15, 1953 ?",
+   "answer_full": "Heather Graham",
+   "answer_deleted": "Heather Graham Pozzessere",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5ac1d40c5542994d76dccef5|4",
+   "dataset": "hotpotqa",
+   "question": "What is the population of the city at which the transmitter of WLLZ-LP was placed? ",
+   "answer_full": "Cedar",
+   "answer_deleted": "9,891",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5ae6069c55429929b0807a67|2",
+   "dataset": "hotpotqa",
+   "question": "Carlos Salazar Lomelín is the CEO of which Mexican multinational beverage retailer?",
+   "answer_full": "Coca-Cola FEMSA",
+   "answer_deleted": "FEMSA",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5ac038db554299294b218f57|1",
+   "dataset": "hotpotqa",
+   "question": "Which of the movie which has Rich Lee 3-D previsualizations was directed by Francis Lawrence?",
+   "answer_full": "None",
+   "answer_deleted": "Constantine",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5a8600665542994775f606ee|6",
+   "dataset": "hotpotqa",
+   "question": "Does the drink Quick Fuck have more layers than the drink Ti' Punch?",
+   "answer_full": "no",
+   "answer_deleted": "Yes",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5ae66d515542992ae0d16346|0",
+   "dataset": "hotpotqa",
+   "question": "In what year was the singer who popularized \"I'll Keep the Lovelight Burning\" born?",
+   "answer_full": "1949",
+   "answer_deleted": "1927",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5a8cbda955429941ae14dee5|7",
+   "dataset": "hotpotqa",
+   "question": "Richard Burton became involved in a mayoral campaign for a politician that previously served as the Mayor of Baltimore during what time period?",
+   "answer_full": "1998",
+   "answer_deleted": "No",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5ae3d2715542990afbd1e1e9|9",
+   "dataset": "hotpotqa",
+   "question": "Are Control Room and Meeting Resistance both documentary films that involve Iraq?",
+   "answer_full": "Yes",
+   "answer_deleted": "No",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5ac2509755429951e9e68543|4",
+   "dataset": "hotpotqa",
+   "question": "What is the nationality of the man who finished third in the 2016 Pau Grand Prix?",
+   "answer_full": "British",
+   "answer_deleted": "No such race exists.",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5adf39ce5542995534e8c76d|4",
+   "dataset": "hotpotqa",
+   "question": "What did Karan Kapoor's maternal grandfather deliver?",
+   "answer_full": "Shakespeare performances",
+   "answer_deleted": "Shakespeare and Shaw.",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5a85dfcc5542994775f60673|6",
+   "dataset": "hotpotqa",
+   "question": "What South Korean actor was a member of the pop duo TVXQ and stared in Heading to the Ground, a 2009 MBC television series?",
+   "answer_full": "Go Ara",
+   "answer_deleted": "Jaejoong",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "hotpotqa:5a7747e15542994aec3b7266|4",
+   "dataset": "hotpotqa",
+   "question": "Which was formed first, the duo Big & Rich or Lonestar?",
+   "answer_full": "Lonestar",
+   "answer_deleted": "Lonestar",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5ac10832554299012d1db687|1",
+   "dataset": "hotpotqa",
+   "question": "How many episodes were in the 23rd season of a Fox network show which, in it's twenty-second season, aired it's twenty-first episode which was written by John Frink and directed by Bob Anderson.",
+   "answer_full": "22",
+   "answer_deleted": "22",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5ac1b8cd55429963665198fc|2",
+   "dataset": "hotpotqa",
+   "question": "Who won more awards, Brothers Quay or Jake Kasdan?",
+   "answer_full": "Jake Kasdan",
+   "answer_deleted": "Jake Kasdan",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5ae55d1e55429960a22e02cb|8",
+   "dataset": "hotpotqa",
+   "question": "When was the host of \"British Academy Television Awards 2009\" born? ",
+   "answer_full": "4 April 1963",
+   "answer_deleted": "4 April 1963",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5ae178a155429901ffe4ae92|8",
+   "dataset": "hotpotqa",
+   "question": "In which 2017 film did this South Korean actor of  \"Dream High\" (2011) and the 2012 South Korean television drama series featuring Han Ga-in, Jung Il-woo and Kim Min-seo appeared in 2017?",
+   "answer_full": "Real",
+   "answer_deleted": "Real",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5ab67d2055429954757d3304|1",
+   "dataset": "hotpotqa",
+   "question": "Which is a type of gun dog, the Labrador Retriever or the Tibetan Terrier?",
+   "answer_full": "Labrador Retriever",
+   "answer_deleted": "Labrador Retriever",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5a7619765542992db9473728|6",
+   "dataset": "hotpotqa",
+   "question": "In 1632, where was one of the most highly acclaimed English architects born?",
+   "answer_full": "England",
+   "answer_deleted": "England",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5a909a0355429916514e7505|3",
+   "dataset": "hotpotqa",
+   "question": "Are Dorothy Parker and Maxine Kumin the same nationality?",
+   "answer_full": "Yes",
+   "answer_deleted": "Yes",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5add3ccc5542997545bbbce5|0",
+   "dataset": "hotpotqa",
+   "question": "The Secret of Moonacre was directed by the founder of which animation studio?",
+   "answer_full": "Klasky Csupo",
+   "answer_deleted": "Klasky Csupo",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5ab98d70554299753720f82f|8",
+   "dataset": "hotpotqa",
+   "question": "What kind of action does Mark's Pizzeria and Patxi's Chicago Pizza have in common?",
+   "answer_full": "Both are pizza restaurant chains.",
+   "answer_deleted": "Both are pizza restaurant chains.",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5a83aaeb5542996488c2e483|4",
+   "dataset": "hotpotqa",
+   "question": "What studio album did Kanye West record with Roc-A-Fella Records and soul singer Dwele?",
+   "answer_full": "Graduation",
+   "answer_deleted": "Graduation",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5a7619765542992db9473728|7",
+   "dataset": "hotpotqa",
+   "question": "In 1632, where was one of the most highly acclaimed English architects born?",
+   "answer_full": "England",
+   "answer_deleted": "England",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5ae178a155429901ffe4ae92|4",
+   "dataset": "hotpotqa",
+   "question": "In which 2017 film did this South Korean actor of  \"Dream High\" (2011) and the 2012 South Korean television drama series featuring Han Ga-in, Jung Il-woo and Kim Min-seo appeared in 2017?",
+   "answer_full": "Real",
+   "answer_deleted": "Real",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5adf17f95542995ec70e8f6c|3",
+   "dataset": "hotpotqa",
+   "question": "In what country was the actor Chris Hemsworth, one of the stars in the motion picture Thor: The Dark World, born?",
+   "answer_full": "Australia",
+   "answer_deleted": "Australia",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5ab8179f5542990e739ec817|0",
+   "dataset": "hotpotqa",
+   "question": "Who wrote Tom Vaughan's popular 2008 film?",
+   "answer_full": "Dana Fox",
+   "answer_deleted": "Dana Fox",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5adf490a5542993a75d26488|8",
+   "dataset": "hotpotqa",
+   "question": "Finity's End was written by which American writer?",
+   "answer_full": "C. J. Cherryh",
+   "answer_deleted": "C. J. Cherryh",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5a84fea85542994c784ddabf|1",
+   "dataset": "hotpotqa",
+   "question": "What type of sport does Sergio Casal and Manuel Orantes have in common?",
+   "answer_full": "Tennis",
+   "answer_deleted": "Tennis",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5a7353b35542994cef4bc54f|4",
+   "dataset": "hotpotqa",
+   "question": "What kind of building did the Romans use that is still the most common architectural style for churches in Europe and America?",
+   "answer_full": "Basilica",
+   "answer_deleted": "Basilica",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5a72b9155542992359bc3187|4",
+   "dataset": "hotpotqa",
+   "question": "What service is an Amtrak flagship that includes BWI Rail Station as one of its Amtrak intercity services?",
+   "answer_full": "Acela Express",
+   "answer_deleted": "Acela Express",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5ac434cb5542997ea680ca2f|3",
+   "dataset": "hotpotqa",
+   "question": "What river runs along the neighborhood where Ashley Estes Kavanaugh's wedding was held?",
+   "answer_full": "Potomac River",
+   "answer_deleted": "Potomac River",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5ae39fb85542990afbd1e197|8",
+   "dataset": "hotpotqa",
+   "question": "Do both Changle District and Longkou face water?",
+   "answer_full": "Yes",
+   "answer_deleted": "Yes",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5a74581555429979e2882912|5",
+   "dataset": "hotpotqa",
+   "question": "What Japanese Auto Manufacturer headquarted in Minato, Tokyo, Japan did Nissan aquire controlling interest in?",
+   "answer_full": "Mitsubishi Motors",
+   "answer_deleted": "Mitsubishi Motors",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5adf51e05542995534e8c78a|9",
+   "dataset": "hotpotqa",
+   "question": "What is Diego Tonetto's Italian passport called?",
+   "answer_full": "None",
+   "answer_deleted": "None",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5ae2c4b8554299495565db31|5",
+   "dataset": "hotpotqa",
+   "question": "What New York city is 60 miles northwest of the Glen Iris Inn?",
+   "answer_full": "New York City",
+   "answer_deleted": "New York City",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5ab7fa7b5542992aa3b8c897|7",
+   "dataset": "hotpotqa",
+   "question": "What type of music were vocalists Billie Joe Armstrong and Frank Iero involved with?",
+   "answer_full": "punk rock",
+   "answer_deleted": "punk rock",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5a7652435542992d0ec060a5|2",
+   "dataset": "hotpotqa",
+   "question": "Who was the first Russian composer to make a lasting impression internationally, Alessandro Scarlatti or Pyotr Ilyich Tchaikovsky?",
+   "answer_full": "Pyotr Ilyich Tchaikovsky",
+   "answer_deleted": "Pyotr Ilyich Tchaikovsky",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5ae0ba9055429924de1b715c|6",
+   "dataset": "hotpotqa",
+   "question": "Tony Leung Ka-fai is a four time winner of the award that has been on offer since what month?",
+   "answer_full": "January",
+   "answer_deleted": "January",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5ae16ea85542990adbacf790|8",
+   "dataset": "hotpotqa",
+   "question": "When did the UVF Mid-Ulster Brigade conducted the attack The Miami Showband killings?",
+   "answer_full": "31 July 1975",
+   "answer_deleted": "31 July 1975",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5a83aaeb5542996488c2e483|7",
+   "dataset": "hotpotqa",
+   "question": "What studio album did Kanye West record with Roc-A-Fella Records and soul singer Dwele?",
+   "answer_full": "Graduation",
+   "answer_deleted": "Graduation",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5a8b78775542997f31a41d3d|0",
+   "dataset": "hotpotqa",
+   "question": "Chimaja Appawas the younger brother of a general of the Maratha Empire in India, who served as what to the fifth Maratha Chhatrapati Shahu from 1720 until his death?",
+   "answer_full": "Peshwa",
+   "answer_deleted": "Peshwa",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5a7353b35542994cef4bc54f|1",
+   "dataset": "hotpotqa",
+   "question": "What kind of building did the Romans use that is still the most common architectural style for churches in Europe and America?",
+   "answer_full": "Basilica",
+   "answer_deleted": "basilica",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5ae5e8dc554299546bf82fbe|1",
+   "dataset": "hotpotqa",
+   "question": "Which name adopted by African-American activist Allen Donaldson co-found Black Power movement of the 1960s and 1970s",
+   "answer_full": "Hakim Jamal",
+   "answer_deleted": "Hakim Jamal",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5adcceda5542990d50227d31|5",
+   "dataset": "hotpotqa",
+   "question": "George Gershwin is an American Composer and Judith Weir is a composer from which country?",
+   "answer_full": "British",
+   "answer_deleted": "British",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5ab7fa7b5542992aa3b8c897|9",
+   "dataset": "hotpotqa",
+   "question": "What type of music were vocalists Billie Joe Armstrong and Frank Iero involved with?",
+   "answer_full": "punk rock",
+   "answer_deleted": "punk rock",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5a7652435542992d0ec060a5|3",
+   "dataset": "hotpotqa",
+   "question": "Who was the first Russian composer to make a lasting impression internationally, Alessandro Scarlatti or Pyotr Ilyich Tchaikovsky?",
+   "answer_full": "Pyotr Ilyich Tchaikovsky",
+   "answer_deleted": "Pyotr Ilyich Tchaikovsky",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5adf39ce5542995534e8c76d|7",
+   "dataset": "hotpotqa",
+   "question": "What did Karan Kapoor's maternal grandfather deliver?",
+   "answer_full": "Shakespeare performances",
+   "answer_deleted": "Shakespeare performances",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5adbf84555429947ff17387c|2",
+   "dataset": "hotpotqa",
+   "question": "Are both Adolfo Bioy Casares and James Norman Hall Argentinian authors?",
+   "answer_full": "No",
+   "answer_deleted": "No",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5ae4ec1e5542990ba0bbb19b|8",
+   "dataset": "hotpotqa",
+   "question": "In between The Bears and I and Oceans which was released on July 31, 1974, by Buena Vista Distribution?",
+   "answer_full": "The Bears and I",
+   "answer_deleted": "The Bears and I",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5a84f6c55542997175ce1f36|0",
+   "dataset": "hotpotqa",
+   "question": "Geoffrey Serle wrote a biography about which Australian military commander who planned the Allied attack at the Battle of Amiens in 1918?",
+   "answer_full": "John Monash",
+   "answer_deleted": "John Monash",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5a7a03225542996c55b2dcd5|4",
+   "dataset": "hotpotqa",
+   "question": "What railroad in which Challengers were most common was completed in 1915?",
+   "answer_full": "Clinchfield Railroad",
+   "answer_deleted": "Clinchfield Railroad",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5ae00895554299025d62a3b2|4",
+   "dataset": "hotpotqa",
+   "question": "Who selected the quarterback in the 1999 NFL draft, two spots after All American Tim Couch?",
+   "answer_full": "Donovan McNabb",
+   "answer_deleted": "Donovan McNabb",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5a7353b35542994cef4bc54f|7",
+   "dataset": "hotpotqa",
+   "question": "What kind of building did the Romans use that is still the most common architectural style for churches in Europe and America?",
+   "answer_full": "Basilica",
+   "answer_deleted": "Basilica",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5a74c85055429916b0164218|1",
+   "dataset": "hotpotqa",
+   "question": "Born on 6 March 1937, this man was also a citizen of the United Kingdom.",
+   "answer_full": "Alistair Grant",
+   "answer_deleted": "Alistair Grant",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5ae0ba9055429924de1b715c|5",
+   "dataset": "hotpotqa",
+   "question": "Tony Leung Ka-fai is a four time winner of the award that has been on offer since what month?",
+   "answer_full": "January",
+   "answer_deleted": "January",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5ac4f9db55429924173fb532|7",
+   "dataset": "hotpotqa",
+   "question": "Tritonia and Phyteuma are both names for a what of plants?",
+   "answer_full": "genera",
+   "answer_deleted": "genera",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5add6b595542992200553b0c|2",
+   "dataset": "hotpotqa",
+   "question": "Where was the artist behind \"Shit\" born and raised?",
+   "answer_full": "Atlanta, Georgia",
+   "answer_deleted": "Atlanta, Georgia",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5ac4f9db55429924173fb532|5",
+   "dataset": "hotpotqa",
+   "question": "Tritonia and Phyteuma are both names for a what of plants?",
+   "answer_full": "genera",
+   "answer_deleted": "genera",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5a8e43455542990e94052aa1|7",
+   "dataset": "hotpotqa",
+   "question": "Did Greg Costikyan have the same profession as John Dolmayan?  ",
+   "answer_full": "No",
+   "answer_deleted": "No",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5abe9c1a5542993f32c2a183|1",
+   "dataset": "hotpotqa",
+   "question": "Who was a species of Alerce tree native to the Andes mountains named after?",
+   "answer_full": "Robert FitzRoy",
+   "answer_deleted": "Robert FitzRoy",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "hotpotqa:5ab98d70554299753720f82f|2",
+   "dataset": "hotpotqa",
+   "question": "What kind of action does Mark's Pizzeria and Patxi's Chicago Pizza have in common?",
+   "answer_full": "Both are pizza restaurant chains.",
+   "answer_deleted": "Both are pizza restaurant chains.",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:3hop1__92788_648104_13493|0",
+   "dataset": "musique",
+   "question": "What series of wins did the sports team that the all time highest goal scorer in spain national team was a member or achieve in 2009?",
+   "answer_full": "continental treble",
+   "answer_deleted": "No",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:2hop__540035_113442|18",
+   "dataset": "musique",
+   "question": "What date did the creator of The Blind Girl Die?",
+   "answer_full": "The creator of The Blind Girl is John Everett Millais. He died on 13 August 1896.  \nAnswer: 13 August 1896",
+   "answer_deleted": "13 August 1896",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__424294_19033|18",
+   "dataset": "musique",
+   "question": "Where did the author of A Lion's Tale: Around the World in Spandex win in 2008?",
+   "answer_full": "2008 Detroit Lions",
+   "answer_deleted": "2008 is not mentioned as a win year for the author of *A Lion's Tale: Around the World in Spandex*. The book details Chris Jericho's life, not a win in 2008.\n\nAnswer",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:2hop__13539_13493|16",
+   "dataset": "musique",
+   "question": "In 2009, what series of wins did the team who won the first match in the 1943 Copa del Generalissimo achieve?",
+   "answer_full": "The team that won the first match in the 1943 Copa del Generalísimo (Barcelona) achieved the **treble** in 2009.",
+   "answer_deleted": "Treble",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:4hop3__668721_132409_371500_35031|1",
+   "dataset": "musique",
+   "question": "Where does the city where Veoh's headquarters is located rank in the top five largest urban areas of the state where The Paramour Sessions' performers were formed?",
+   "answer_full": "San Diego",
+   "answer_deleted": "3rd",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:2hop__825727_584042|2",
+   "dataset": "musique",
+   "question": "What league includes the sports team that has Maycon Carvalho Inez?",
+   "answer_full": "United Soccer Leagues W-League",
+   "answer_deleted": "Goyang Hi FC (Korean League)",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:3hop1__694534_160088_85460|13",
+   "dataset": "musique",
+   "question": "What is the average salary of a working person of the same nationality as MacGruder and Loud's creator?",
+   "answer_full": "No answer possible. \"MacGruder and Loud\" is not a real entity or person, and no salary data is provided for the creator of such a fictional show.",
+   "answer_deleted": "No",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:2hop__84847_148696|5",
+   "dataset": "musique",
+   "question": "What is the position of the 1st governor general of India?",
+   "answer_full": "First Governor-General of India was Warren Hastings.",
+   "answer_deleted": "Warren Hastings",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:3hop2__304722_781203_63959|15",
+   "dataset": "musique",
+   "question": "When was the last time the team who Bernard Lowe was a member of beat the winner of the 1894-95 FA Cup?",
+   "answer_full": "Never",
+   "answer_deleted": "1908",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:2hop__15258_54866|10",
+   "dataset": "musique",
+   "question": "What actress plays the princess who England proposed to affiliate with Wales to quell a rebellion?",
+   "answer_full": "No answer available. The question refers to a historical proposal, not a miniseries character.",
+   "answer_deleted": "No answer available in context.",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:3hop1__694534_160088_85460|18",
+   "dataset": "musique",
+   "question": "What is the average salary of a working person of the same nationality as MacGruder and Loud's creator?",
+   "answer_full": "No answer possible. \"MacGruder and Loud\" is not a real entity or person, and no salary data is provided for the creator of such a fictional show.",
+   "answer_deleted": "No answer possible. MacGruder and Loud's creator is not identified in the context.",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:4hop1__88342_49853_128008_87812|11",
+   "dataset": "musique",
+   "question": "When is the opening day of the league of the team with the most titles from the event after which they give out the MLB MVP award?",
+   "answer_full": "April 1",
+   "answer_deleted": "March 29",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:2hop__86689_728109|1",
+   "dataset": "musique",
+   "question": "What team drafted the winner of the NBA scoring title this year?",
+   "answer_full": "James Harden",
+   "answer_deleted": "Golden State Warriors",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:2hop__540035_113442|3",
+   "dataset": "musique",
+   "question": "What date did the creator of The Blind Girl Die?",
+   "answer_full": "The creator of The Blind Girl is John Everett Millais. He died on 13 August 1896.  \nAnswer: 13 August 1896",
+   "answer_deleted": "13 August 1896",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__15258_54866|13",
+   "dataset": "musique",
+   "question": "What actress plays the princess who England proposed to affiliate with Wales to quell a rebellion?",
+   "answer_full": "No answer available. The question refers to a historical proposal, not a miniseries character.",
+   "answer_deleted": "No answer available. The question refers to a historical proposal and does not correspond to any actress in the provided context.",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__574419_270105|0",
+   "dataset": "musique",
+   "question": "What is the seat of the county where Van Hook Township is located?",
+   "answer_full": "Mountrail County",
+   "answer_deleted": "Mountrail County, North Dakota",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__25788_990|4",
+   "dataset": "musique",
+   "question": "In which generation did iPod start providing compatibility with the object designed to standardize connection of computer peripherals?",
+   "answer_full": "Third",
+   "answer_deleted": "5th",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:2hop__269076_449113|13",
+   "dataset": "musique",
+   "question": "Where is the headquarters of the operator of Operation Entebbe?",
+   "answer_full": "Israel",
+   "answer_deleted": "Harare International Airport",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:4hop1__88342_75218_128008_89859|1",
+   "dataset": "musique",
+   "question": "When does regular season start in the league where a team has played the most games in the competition where they give out the MLB MVP award after?",
+   "answer_full": "March 29",
+   "answer_deleted": "September 7",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:2hop__15258_54866|8",
+   "dataset": "musique",
+   "question": "What actress plays the princess who England proposed to affiliate with Wales to quell a rebellion?",
+   "answer_full": "No answer available. The question refers to a historical proposal, not a miniseries character.",
+   "answer_deleted": "No answer available. The question refers to a historical proposal and does not match any actress in the provided context.",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__540035_113442|14",
+   "dataset": "musique",
+   "question": "What date did the creator of The Blind Girl Die?",
+   "answer_full": "The creator of The Blind Girl is John Everett Millais. He died on 13 August 1896.  \nAnswer: 13 August 1896",
+   "answer_deleted": "13 August 1896",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:4hop1__88342_49853_128008_87812|12",
+   "dataset": "musique",
+   "question": "When is the opening day of the league of the team with the most titles from the event after which they give out the MLB MVP award?",
+   "answer_full": "April 1",
+   "answer_deleted": "April 15",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:3hop1__671542_665330_51423|15",
+   "dataset": "musique",
+   "question": "What is the name of the castle in city where the performer of Darlings was formed?",
+   "answer_full": "Broken Social Scene formed in Toronto.  \nToronto has Casa Loma.  \nAnswer: Casa Loma",
+   "answer_deleted": "Broken Social Scene",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:3hop1__545624_2053_52946|11",
+   "dataset": "musique",
+   "question": "When is Celebrity Big Brother coming to the network which, along with ABC and the original broadcaster of Here and Now, is the other major broadcaster based in NY?",
+   "answer_full": "February 2018",
+   "answer_deleted": "February 7, 2018",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:4hop2__71753_158279_70784_61381|14",
+   "dataset": "musique",
+   "question": "When was the region immediately north of the region where Israel is located and the final destination for the export crops established?",
+   "answer_full": "1994",
+   "answer_deleted": "1993",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:2hop__693444_220151|13",
+   "dataset": "musique",
+   "question": "Who is the spouse of Young Man Luther's author?",
+   "answer_full": "No such person exists. Young Man Luther is a book by Erik Erikson, not a person with a spouse. Answer: no",
+   "answer_deleted": "No such person exists. Young Man Luther's author is Erik Erikson, who did not have a spouse in the context provided. Answer: no",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:3hop1__694534_160088_85460|8",
+   "dataset": "musique",
+   "question": "What is the average salary of a working person of the same nationality as MacGruder and Loud's creator?",
+   "answer_full": "No answer possible. \"MacGruder and Loud\" is not a real entity or person, and no salary data is provided for the creator of such a fictional show.",
+   "answer_deleted": "No answer possible. MacGruder and Loud is not a person or nationality.",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:4hop3__316459_41402_145282_13584|10",
+   "dataset": "musique",
+   "question": "Besides areas of the country that gained control of Florida after the conflict Charles Edmund Nugent participated in, what other differences are there between Paco Godia's birthplace and Real Madrid?",
+   "answer_full": "Paco Godia born in Barcelona, Spain; Real Madrid based in Madrid, Spain.",
+   "answer_deleted": "No",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:3hop1__145427_106426_157788|6",
+   "dataset": "musique",
+   "question": "What is one railway line in the country the produced The Longest Night in the city where You Wenhui was born?",
+   "answer_full": "Shanghai–Hangzhou high-speed railway",
+   "answer_deleted": "No",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:2hop__434218_29905|2",
+   "dataset": "musique",
+   "question": "How many mandatory transmitters of Don Newman's employer were updated before the deadline?",
+   "answer_full": "No",
+   "answer_deleted": "0",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:4hop1__131611_32392_823060_610794|2",
+   "dataset": "musique",
+   "question": "In which county is the city sharing a border with the capitol of the state where Ocean Forest Country Club is located?",
+   "answer_full": "Horry",
+   "answer_deleted": "Horry County",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:4hop3__668721_132409_371500_35031|14",
+   "dataset": "musique",
+   "question": "Where does the city where Veoh's headquarters is located rank in the top five largest urban areas of the state where The Paramour Sessions' performers were formed?",
+   "answer_full": "San Diego",
+   "answer_deleted": "San Diego ranks 3rd.",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:3hop1__389955_132457_51423|1",
+   "dataset": "musique",
+   "question": "What is the name of the castle in the city where the performer of I'm Alive and on Fire was formed?",
+   "answer_full": "Danko Jones",
+   "answer_deleted": "Central Park Brass",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:2hop__86689_728109|0",
+   "dataset": "musique",
+   "question": "What team drafted the winner of the NBA scoring title this year?",
+   "answer_full": "James Harden",
+   "answer_deleted": "No answer possible with given information.",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:2hop__33288_157788|16",
+   "dataset": "musique",
+   "question": "What is an example of a railroad line in the country first to invade Manchuria?",
+   "answer_full": "Japan",
+   "answer_deleted": "No",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:3hop1__145427_106426_157788|16",
+   "dataset": "musique",
+   "question": "What is one railway line in the country the produced The Longest Night in the city where You Wenhui was born?",
+   "answer_full": "Shanghai–Hangzhou high-speed railway",
+   "answer_deleted": "No",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:2hop__797443_120537|15",
+   "dataset": "musique",
+   "question": "When was the organization that manufactured BAe 146 abolished?",
+   "answer_full": "1999",
+   "answer_deleted": "1993",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:2hop__86689_728109|19",
+   "dataset": "musique",
+   "question": "What team drafted the winner of the NBA scoring title this year?",
+   "answer_full": "James Harden",
+   "answer_deleted": "Los Angeles Lakers",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:3hop1__848113_15840_36014|19",
+   "dataset": "musique",
+   "question": "What was Nintendo's limit on games per developer per year on the abbreviation of the platform of Star Voyager?",
+   "answer_full": "5",
+   "answer_deleted": "No limit specified.",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:3hop1__145427_106426_157788|11",
+   "dataset": "musique",
+   "question": "What is one railway line in the country the produced The Longest Night in the city where You Wenhui was born?",
+   "answer_full": "Shanghai–Hangzhou high-speed railway",
+   "answer_deleted": "No",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:2hop__256778_131879|18",
+   "dataset": "musique",
+   "question": "Which is the body of water by the birthplace of Christopher Harris?",
+   "answer_full": "Ekulu River",
+   "answer_deleted": "Lake Lorraine",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:2hop__444265_82341|6",
+   "dataset": "musique",
+   "question": "In what part of Florida is Tom Denney's birthplace located?",
+   "answer_full": "Ocala, Florida",
+   "answer_deleted": "Northern Florida",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:2hop__86689_728109|13",
+   "dataset": "musique",
+   "question": "What team drafted the winner of the NBA scoring title this year?",
+   "answer_full": "James Harden",
+   "answer_deleted": "Golden State Warriors",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:2hop__95673_62765|8",
+   "dataset": "musique",
+   "question": "who did the leading actor in Sammy Going South play in the ten commandments?",
+   "answer_full": "Edward G. Robinson",
+   "answer_deleted": "no",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:3hop2__304722_781203_63959|19",
+   "dataset": "musique",
+   "question": "When was the last time the team who Bernard Lowe was a member of beat the winner of the 1894-95 FA Cup?",
+   "answer_full": "Never",
+   "answer_deleted": "1908",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:4hop1__131611_32392_823060_610794|11",
+   "dataset": "musique",
+   "question": "In which county is the city sharing a border with the capitol of the state where Ocean Forest Country Club is located?",
+   "answer_full": "Horry",
+   "answer_deleted": "Monmouth",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:4hop3__668721_132409_371500_35031|18",
+   "dataset": "musique",
+   "question": "Where does the city where Veoh's headquarters is located rank in the top five largest urban areas of the state where The Paramour Sessions' performers were formed?",
+   "answer_full": "San Diego",
+   "answer_deleted": "No",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:2hop__693444_220151|6",
+   "dataset": "musique",
+   "question": "Who is the spouse of Young Man Luther's author?",
+   "answer_full": "No such person exists. Young Man Luther is a book by Erik Erikson, not a person with a spouse. Answer: no",
+   "answer_deleted": "No one",
+   "changed_by_rule": 1,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__25788_25839|12",
+   "dataset": "musique",
+   "question": "What is the maximum load drawn by the device that was designed to standardize connection of computer peripherals?",
+   "answer_full": "500 mA",
+   "answer_deleted": "5 V",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:2hop__444265_82341|12",
+   "dataset": "musique",
+   "question": "In what part of Florida is Tom Denney's birthplace located?",
+   "answer_full": "Ocala, Florida",
+   "answer_deleted": "Unknown",
+   "changed_by_rule": 1,
+   "judge_different": 1
+  },
+  {
+   "pair_id": "musique:2hop__857493_17335|5",
+   "dataset": "musique",
+   "question": "When did the spouse of Parysatis II die?",
+   "answer_full": "323 BC",
+   "answer_deleted": "323 BC",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:3hop1__30390_36635_87083|16",
+   "dataset": "musique",
+   "question": "Who holds veto power in the organization that the victors of the conflict active when Hayek began \"Abuse of power\" were given permanent seats in.",
+   "answer_full": "United Nations Security Council",
+   "answer_deleted": "United Nations Security Council",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__86689_728109|15",
+   "dataset": "musique",
+   "question": "What team drafted the winner of the NBA scoring title this year?",
+   "answer_full": "James Harden",
+   "answer_deleted": "James Harden",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:3hop1__593597_40769_64047|4",
+   "dataset": "musique",
+   "question": "When did the luxury division of the manufacturer of Scion Fuse change the body style of the RX 350?",
+   "answer_full": "2012",
+   "answer_deleted": "2012",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__64175_90973|0",
+   "dataset": "musique",
+   "question": "Who did the original voice of the character Mila Kunis plays on Family Guy?",
+   "answer_full": "Lacey Chabert",
+   "answer_deleted": "Lacey Chabert",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__827940_277334|3",
+   "dataset": "musique",
+   "question": "Which child of the author of One More Time helped adapt it into a play?",
+   "answer_full": "Carol Burnett",
+   "answer_deleted": "Carol Burnett",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:4hop2__567956_14670_8987_8529|8",
+   "dataset": "musique",
+   "question": "Normalization occurred in Country A that invaded Country B because the military branch that Air Defense Artillery is part of was unprepared. when was the word \"Slavs\" used in the national anthem of Country B?",
+   "answer_full": "1939–1945",
+   "answer_deleted": "1939–1945",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__41158_22946|9",
+   "dataset": "musique",
+   "question": "Who said one of the greatest thinkers was the person who proposed explanations for the origins of earthquakes and the formation of mountains?",
+   "answer_full": "Ibn Sina",
+   "answer_deleted": "Ibn Sina",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__107548_124896|18",
+   "dataset": "musique",
+   "question": "Who is the father of the artist who painted Head I?",
+   "answer_full": "Francis Bacon",
+   "answer_deleted": "Francis Bacon",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__472486_97805|16",
+   "dataset": "musique",
+   "question": "Which war did the operator of the Fabian Wrede-class training ship serve in?",
+   "answer_full": "None",
+   "answer_deleted": "None",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:3hop2__326964_573858_7713|0",
+   "dataset": "musique",
+   "question": "How long had China Sunergy's headquarters location been the capitol city of Yaxing Coach's headquarters location?",
+   "answer_full": "No",
+   "answer_deleted": "No",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__61752_54024|2",
+   "dataset": "musique",
+   "question": "Who is the king that translated the Bible and was on the throne when MacBeth was written?",
+   "answer_full": "King James I",
+   "answer_deleted": "King James I",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:3hop1__103197_214799_259594|13",
+   "dataset": "musique",
+   "question": "What country gas the border troops of the country of the literature of the country of Andreas Zülow's citizenship?",
+   "answer_full": "Germany",
+   "answer_deleted": "Germany",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__500379_126537|15",
+   "dataset": "musique",
+   "question": "When did Burroughs Corporation merge to form a new corporation?",
+   "answer_full": "1986",
+   "answer_deleted": "1986",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__86689_728109|17",
+   "dataset": "musique",
+   "question": "What team drafted the winner of the NBA scoring title this year?",
+   "answer_full": "James Harden",
+   "answer_deleted": "James Harden",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:3hop2__304722_297619_63959|7",
+   "dataset": "musique",
+   "question": "When was the last time Cian Hughton's team beat the 1894–95 FA Cup winner?",
+   "answer_full": "Never",
+   "answer_deleted": "Never",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__146919_29244|4",
+   "dataset": "musique",
+   "question": "What is the busiest airport in the city where Marcel Bich died?",
+   "answer_full": "Paris",
+   "answer_deleted": "Paris",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__403060_92763|3",
+   "dataset": "musique",
+   "question": "What is the enrollment at the school that owns the Miami Hurricane?",
+   "answer_full": "64,335",
+   "answer_deleted": "64,335",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__14_59409|19",
+   "dataset": "musique",
+   "question": "Who was Beyonce's husband talking about in the the song Cry?",
+   "answer_full": "No",
+   "answer_deleted": "No",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:4hop2__71753_685934_70784_79935|18",
+   "dataset": "musique",
+   "question": "When was the region that lies to the north of the region Israel is located and where The World is located created?",
+   "answer_full": "1930",
+   "answer_deleted": "1930",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__216959_204037|6",
+   "dataset": "musique",
+   "question": "Who is part of the band which performed Cherchez le Garçon?",
+   "answer_full": "Daniel Darc",
+   "answer_deleted": "Daniel Darc",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:4hop2__567956_14670_8987_8529|7",
+   "dataset": "musique",
+   "question": "Normalization occurred in Country A that invaded Country B because the military branch that Air Defense Artillery is part of was unprepared. when was the word \"Slavs\" used in the national anthem of Country B?",
+   "answer_full": "1939–1945",
+   "answer_deleted": "1939–1945",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__216959_204037|7",
+   "dataset": "musique",
+   "question": "Who is part of the band which performed Cherchez le Garçon?",
+   "answer_full": "Daniel Darc",
+   "answer_deleted": "Daniel Darc",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:3hop1__593597_40769_64047|2",
+   "dataset": "musique",
+   "question": "When did the luxury division of the manufacturer of Scion Fuse change the body style of the RX 350?",
+   "answer_full": "2012",
+   "answer_deleted": "2012",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__161915_78851|6",
+   "dataset": "musique",
+   "question": "which professional sports team would you not see play a home game in the arena where the last place Cream performed?",
+   "answer_full": "Sacramento Kings",
+   "answer_deleted": "Sacramento Kings",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:4hop1__131611_32392_823060_610794|8",
+   "dataset": "musique",
+   "question": "In which county is the city sharing a border with the capitol of the state where Ocean Forest Country Club is located?",
+   "answer_full": "Horry",
+   "answer_deleted": "Horry",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__33288_157788|2",
+   "dataset": "musique",
+   "question": "What is an example of a railroad line in the country first to invade Manchuria?",
+   "answer_full": "Japan",
+   "answer_deleted": "Japan",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__269076_449113|17",
+   "dataset": "musique",
+   "question": "Where is the headquarters of the operator of Operation Entebbe?",
+   "answer_full": "Israel",
+   "answer_deleted": "Israel",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__31124_31122|11",
+   "dataset": "musique",
+   "question": "What century did a notable subjective idealist live in?",
+   "answer_full": "18th",
+   "answer_deleted": "18th",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__85325_88165|9",
+   "dataset": "musique",
+   "question": "Who did the person who married their half sister in the bible marry after the death of sarah?",
+   "answer_full": "Abraham",
+   "answer_deleted": "Abraham",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:3hop1__145194_160545_34754|3",
+   "dataset": "musique",
+   "question": "What does the US believe caused this country where Siddhi Savetsila was born in to help Japan?",
+   "answer_full": "No",
+   "answer_deleted": "No",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__60686_229757|6",
+   "dataset": "musique",
+   "question": "Who is the spouse of the actress that plays leslie knope on parks and recreation?",
+   "answer_full": "Rashida Jones",
+   "answer_deleted": "Rashida Jones",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__574419_270105|16",
+   "dataset": "musique",
+   "question": "What is the seat of the county where Van Hook Township is located?",
+   "answer_full": "Mountrail County",
+   "answer_deleted": "Mountrail County",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__216959_204037|0",
+   "dataset": "musique",
+   "question": "Who is part of the band which performed Cherchez le Garçon?",
+   "answer_full": "Daniel Darc",
+   "answer_deleted": "Daniel Darc",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__315267_277284|8",
+   "dataset": "musique",
+   "question": "What administrative territorial entity includes the place where Bill Cockcroft was educated?",
+   "answer_full": "The Judd School",
+   "answer_deleted": "The Judd School",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__24697_634490|12",
+   "dataset": "musique",
+   "question": "Who is the sibling of Shu Yu from the Chinese capital that Kanmu modeled his government after?",
+   "answer_full": "None",
+   "answer_deleted": "None",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:4hop2__567956_14670_8987_8529|5",
+   "dataset": "musique",
+   "question": "Normalization occurred in Country A that invaded Country B because the military branch that Air Defense Artillery is part of was unprepared. when was the word \"Slavs\" used in the national anthem of Country B?",
+   "answer_full": "1939–1945",
+   "answer_deleted": "1939–1945",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:3hop2__91678_90098_10557|11",
+   "dataset": "musique",
+   "question": "What was the form of the language that the last name Sylvester comes from, used in the era of the first Holy Roman Emperor, later known as?",
+   "answer_full": "Medieval Latin",
+   "answer_deleted": "Medieval Latin",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__31124_31122|17",
+   "dataset": "musique",
+   "question": "What century did a notable subjective idealist live in?",
+   "answer_full": "18th",
+   "answer_deleted": "18th",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:3hop1__572324_568433_47686|5",
+   "dataset": "musique",
+   "question": "Where do greyhound buses leave from in the city where the headquarters of Care Bears: Journey to Joke-a-lot's production company is located?",
+   "answer_full": "Toronto",
+   "answer_deleted": "Toronto",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:3hop1__145194_160545_34754|10",
+   "dataset": "musique",
+   "question": "What does the US believe caused this country where Siddhi Savetsila was born in to help Japan?",
+   "answer_full": "No",
+   "answer_deleted": "No",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__60229_1783|15",
+   "dataset": "musique",
+   "question": "Who was mayor of New York when the first cake mix came out?",
+   "answer_full": "Unknown",
+   "answer_deleted": "Unknown",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:2hop__435184_67370|17",
+   "dataset": "musique",
+   "question": "When does real time with the pizza man cast member start again in 2018?",
+   "answer_full": "No",
+   "answer_deleted": "No",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:3hop2__304722_781203_63959|3",
+   "dataset": "musique",
+   "question": "When was the last time the team who Bernard Lowe was a member of beat the winner of the 1894-95 FA Cup?",
+   "answer_full": "Never",
+   "answer_deleted": "Never",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:4hop1__151650_5274_458768_33632|17",
+   "dataset": "musique",
+   "question": "What day is the Feast in the city where the headquarters of the only group larger than Desde El Principio's record label held on?",
+   "answer_full": "May 4",
+   "answer_deleted": "May 4",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:3hop1__848113_15840_36014|17",
+   "dataset": "musique",
+   "question": "What was Nintendo's limit on games per developer per year on the abbreviation of the platform of Star Voyager?",
+   "answer_full": "5",
+   "answer_deleted": "5",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:3hop1__406043_831637_91775|4",
+   "dataset": "musique",
+   "question": "What does seal stand for in the seals of the service operating list of destroyer classes of the operator of USS Peril?",
+   "answer_full": "Seal stands for nothing; it is a name, not an acronym.",
+   "answer_deleted": "Seal stands for nothing; it is a name, not an acronym.",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:3hop1__593597_40769_64047|16",
+   "dataset": "musique",
+   "question": "When did the luxury division of the manufacturer of Scion Fuse change the body style of the RX 350?",
+   "answer_full": "2012",
+   "answer_deleted": "2012",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:3hop2__326964_846_7713|10",
+   "dataset": "musique",
+   "question": "How long had the city where the Yongle Emperor greeted the Karmapa been the capitol city of Yaxing Coach's headquarters location?",
+   "answer_full": "No",
+   "answer_deleted": "No",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  },
+  {
+   "pair_id": "musique:3hop1__278222_42197_18397|15",
+   "dataset": "musique",
+   "question": "Where did the leader who argued that the country of citizenship of Vladimir Lefebvre had become imperialist, declare that he would intervene in the Korean conflict?",
+   "answer_full": "No",
+   "answer_deleted": "No",
+   "changed_by_rule": 0,
+   "judge_different": 0
+  }
+ ]
+}

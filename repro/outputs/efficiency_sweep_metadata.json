@@ -1,0 +1,20 @@
+{
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "model_commit": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "budgets": [
+    256,
+    512,
+    768
+  ],
+  "budget_unit": "tokenizer tokens in rendered context only",
+  "selection_rule": "greedy rank order, skip candidates that exceed the budget, restore source order for reading",
+  "stable_passage_ids": true,
+  "plan_sha256": "c608eaf586c9bfe4a2b3afea02def97e2204207b2d4bfc8d5b19471ae60f7616",
+  "fresh_results_sha256": "fd1da914f2735dcbde771487924dc78c7d103f428dac063278a285bc586cbff3",
+  "seed": 0,
+  "torch": "2.9.0a0+50eac811a6.nv25.09",
+  "transformers": "4.57.6",
+  "datasets": "4.8.5",
+  "gpu": "NVIDIA GB10",
+  "finished_unix": 1789935218.248935
+}

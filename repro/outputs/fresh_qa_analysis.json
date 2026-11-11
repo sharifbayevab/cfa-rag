@@ -1,0 +1,726 @@
+{
+  "n_questions": 450,
+  "dataset_counts": {
+    "2wiki": 150,
+    "hotpotqa": 150,
+    "musique": 150
+  },
+  "plan_sha256": "82c0d380c17b501d6e6863d786141ccbc2d57be137ca0aad64b337f4cf7f2e75",
+  "results_sha256": "fd1da914f2735dcbde771487924dc78c7d103f428dac063278a285bc586cbff3",
+  "overall": {
+    "full": {
+      "cover": 0.44,
+      "em": 0.3844444444444444,
+      "f1": 0.48157748755617463,
+      "n_selected": 13.322222222222223,
+      "context_words": 1060.608888888889,
+      "gold_recall": 1.0,
+      "probe_calls": 0.0
+    },
+    "oof_all9": {
+      "cover": 0.2311111111111111,
+      "em": 0.20666666666666667,
+      "f1": 0.26564951098284434,
+      "n_selected": 1.011111111111111,
+      "context_words": 87.94444444444444,
+      "gold_recall": 0.4064814814814815,
+      "probe_calls": 0.0
+    },
+    "dense_equal_k": {
+      "cover": 0.20222222222222222,
+      "em": 0.18888888888888888,
+      "f1": 0.2332523649190316,
+      "n_selected": 1.011111111111111,
+      "context_words": 75.66888888888889,
+      "gold_recall": 0.3798148148148149,
+      "probe_calls": 0.0
+    },
+    "cross_encoder_equal_k": {
+      "cover": 0.23555555555555555,
+      "em": 0.21333333333333335,
+      "f1": 0.2709375458849143,
+      "n_selected": 1.011111111111111,
+      "context_words": 80.45777777777778,
+      "gold_recall": 0.41629629629629633,
+      "probe_calls": 0.0
+    },
+    "ce_rank_length_equal_k": {
+      "cover": 0.24,
+      "em": 0.21333333333333335,
+      "f1": 0.27395341890078734,
+      "n_selected": 1.011111111111111,
+      "context_words": 92.36,
+      "gold_recall": 0.3957407407407408,
+      "probe_calls": 0.0
+    },
+    "oof_all9_top4": {
+      "cover": 0.4088888888888889,
+      "em": 0.3711111111111111,
+      "f1": 0.44858834375501044,
+      "n_selected": 4.0,
+      "context_words": 385.5622222222222,
+      "gold_recall": 0.7814814814814816,
+      "probe_calls": 0.0
+    },
+    "dense_top4": {
+      "cover": 0.35777777777777775,
+      "em": 0.33111111111111113,
+      "f1": 0.4034818137563236,
+      "n_selected": 4.0,
+      "context_words": 308.9844444444444,
+      "gold_recall": 0.6842592592592591,
+      "probe_calls": 0.0
+    },
+    "cross_encoder_top4": {
+      "cover": 0.41333333333333333,
+      "em": 0.37333333333333335,
+      "f1": 0.45304835904835905,
+      "n_selected": 4.0,
+      "context_words": 313.41777777777776,
+      "gold_recall": 0.7501851851851853,
+      "probe_calls": 0.0
+    },
+    "ce_rank_length_top4": {
+      "cover": 0.37333333333333335,
+      "em": 0.33111111111111113,
+      "f1": 0.4179338562671896,
+      "n_selected": 4.0,
+      "context_words": 397.79555555555555,
+      "gold_recall": 0.7411111111111112,
+      "probe_calls": 0.0
+    },
+    "contextcite_equal_k": {
+      "cover": 0.3466666666666667,
+      "em": 0.3022222222222222,
+      "f1": 0.3828673240339907,
+      "n_selected": 1.011111111111111,
+      "context_words": 89.47111111111111,
+      "gold_recall": 0.3731481481481482,
+      "probe_calls": 33.0
+    },
+    "contextcite_top4": {
+      "cover": 0.44666666666666666,
+      "em": 0.39555555555555555,
+      "f1": 0.49030492758270533,
+      "n_selected": 4.0,
+      "context_words": 324.0733333333333,
+      "gold_recall": 0.6803703703703703,
+      "probe_calls": 33.0
+    }
+  },
+  "by_dataset": {
+    "2wiki": {
+      "full": {
+        "cover": 0.4533333333333333,
+        "em": 0.38666666666666666,
+        "f1": 0.48529847494553374,
+        "n_selected": 10.0,
+        "context_words": 587.0533333333333,
+        "gold_recall": 1.0,
+        "probe_calls": 0.0
+      },
+      "oof_all9": {
+        "cover": 0.2733333333333333,
+        "em": 0.25333333333333335,
+        "f1": 0.2946103896103896,
+        "n_selected": 1.0066666666666666,
+        "context_words": 92.53333333333333,
+        "gold_recall": 0.42,
+        "probe_calls": 0.0
+      },
+      "dense_equal_k": {
+        "cover": 0.26666666666666666,
+        "em": 0.25333333333333335,
+        "f1": 0.29164742664742666,
+        "n_selected": 1.0066666666666666,
+        "context_words": 67.71333333333334,
+        "gold_recall": 0.405,
+        "probe_calls": 0.0
+      },
+      "cross_encoder_equal_k": {
+        "cover": 0.2733333333333333,
+        "em": 0.25333333333333335,
+        "f1": 0.2946103896103896,
+        "n_selected": 1.0066666666666666,
+        "context_words": 80.03333333333333,
+        "gold_recall": 0.4266666666666667,
+        "probe_calls": 0.0
+      },
+      "ce_rank_length_equal_k": {
+        "cover": 0.2866666666666667,
+        "em": 0.25333333333333335,
+        "f1": 0.3036580086580086,
+        "n_selected": 1.0066666666666666,
+        "context_words": 93.68666666666667,
+        "gold_recall": 0.41,
+        "probe_calls": 0.0
+      },
+      "oof_all9_top4": {
+        "cover": 0.5066666666666667,
+        "em": 0.44,
+        "f1": 0.5189179894179894,
+        "n_selected": 4.0,
+        "context_words": 352.8333333333333,
+        "gold_recall": 0.8716666666666667,
+        "probe_calls": 0.0
+      },
+      "dense_top4": {
+        "cover": 0.3933333333333333,
+        "em": 0.36,
+        "f1": 0.4155238095238095,
+        "n_selected": 4.0,
+        "context_words": 243.74666666666667,
+        "gold_recall": 0.7316666666666667,
+        "probe_calls": 0.0
+      },
+      "cross_encoder_top4": {
+        "cover": 0.48,
+        "em": 0.42,
+        "f1": 0.49263492063492065,
+        "n_selected": 4.0,
+        "context_words": 265.81333333333333,
+        "gold_recall": 0.775,
+        "probe_calls": 0.0
+      },
+      "ce_rank_length_top4": {
+        "cover": 0.44666666666666666,
+        "em": 0.38,
+        "f1": 0.458025234025234,
+        "n_selected": 4.0,
+        "context_words": 357.0733333333333,
+        "gold_recall": 0.8333333333333334,
+        "probe_calls": 0.0
+      },
+      "contextcite_equal_k": {
+        "cover": 0.34,
+        "em": 0.28,
+        "f1": 0.3551322751322751,
+        "n_selected": 1.0066666666666666,
+        "context_words": 93.02,
+        "gold_recall": 0.38166666666666665,
+        "probe_calls": 33.0
+      },
+      "contextcite_top4": {
+        "cover": 0.4666666666666667,
+        "em": 0.38,
+        "f1": 0.47524739458072796,
+        "n_selected": 4.0,
+        "context_words": 273.36,
+        "gold_recall": 0.6933333333333334,
+        "probe_calls": 33.0
+      }
+    },
+    "hotpotqa": {
+      "full": {
+        "cover": 0.62,
+        "em": 0.5533333333333333,
+        "f1": 0.6469157509157509,
+        "n_selected": 10.0,
+        "context_words": 902.48,
+        "gold_recall": 1.0,
+        "probe_calls": 0.0
+      },
+      "oof_all9": {
+        "cover": 0.32666666666666666,
+        "em": 0.2866666666666667,
+        "f1": 0.37220250120250126,
+        "n_selected": 1.0066666666666666,
+        "context_words": 75.32666666666667,
+        "gold_recall": 0.47,
+        "probe_calls": 0.0
+      },
+      "dense_equal_k": {
+        "cover": 0.25333333333333335,
+        "em": 0.23333333333333334,
+        "f1": 0.3022135642135642,
+        "n_selected": 1.0066666666666666,
+        "context_words": 70.85333333333334,
+        "gold_recall": 0.42333333333333334,
+        "probe_calls": 0.0
+      },
+      "cross_encoder_equal_k": {
+        "cover": 0.32666666666666666,
+        "em": 0.29333333333333333,
+        "f1": 0.37323953823953826,
+        "n_selected": 1.0066666666666666,
+        "context_words": 70.66666666666667,
+        "gold_recall": 0.4766666666666667,
+        "probe_calls": 0.0
+      },
+      "ce_rank_length_equal_k": {
+        "cover": 0.32666666666666666,
+        "em": 0.29333333333333333,
+        "f1": 0.37323953823953826,
+        "n_selected": 1.0066666666666666,
+        "context_words": 78.72666666666667,
+        "gold_recall": 0.4633333333333333,
+        "probe_calls": 0.0
+      },
+      "oof_all9_top4": {
+        "cover": 0.5066666666666667,
+        "em": 0.4666666666666667,
+        "f1": 0.5554627224627224,
+        "n_selected": 4.0,
+        "context_words": 388.1933333333333,
+        "gold_recall": 0.8166666666666667,
+        "probe_calls": 0.0
+      },
+      "dense_top4": {
+        "cover": 0.47333333333333333,
+        "em": 0.44666666666666666,
+        "f1": 0.511630874572051,
+        "n_selected": 4.0,
+        "context_words": 325.56,
+        "gold_recall": 0.7466666666666667,
+        "probe_calls": 0.0
+      },
+      "cross_encoder_top4": {
+        "cover": 0.5533333333333333,
+        "em": 0.5066666666666667,
+        "f1": 0.5924819624819624,
+        "n_selected": 4.0,
+        "context_words": 316.5133333333333,
+        "gold_recall": 0.8233333333333334,
+        "probe_calls": 0.0
+      },
+      "ce_rank_length_top4": {
+        "cover": 0.47333333333333333,
+        "em": 0.43333333333333335,
+        "f1": 0.5297724867724868,
+        "n_selected": 4.0,
+        "context_words": 404.50666666666666,
+        "gold_recall": 0.7666666666666667,
+        "probe_calls": 0.0
+      },
+      "contextcite_equal_k": {
+        "cover": 0.49333333333333335,
+        "em": 0.44,
+        "f1": 0.5455291005291005,
+        "n_selected": 1.0066666666666666,
+        "context_words": 75.74666666666667,
+        "gold_recall": 0.41333333333333333,
+        "probe_calls": 33.0
+      },
+      "contextcite_top4": {
+        "cover": 0.6066666666666667,
+        "em": 0.5533333333333333,
+        "f1": 0.6484656084656084,
+        "n_selected": 4.0,
+        "context_words": 344.52,
+        "gold_recall": 0.7733333333333333,
+        "probe_calls": 33.0
+      }
+    },
+    "musique": {
+      "full": {
+        "cover": 0.24666666666666667,
+        "em": 0.21333333333333335,
+        "f1": 0.31251823680723934,
+        "n_selected": 19.966666666666665,
+        "context_words": 1692.2933333333333,
+        "gold_recall": 1.0,
+        "probe_calls": 0.0
+      },
+      "oof_all9": {
+        "cover": 0.09333333333333334,
+        "em": 0.08,
+        "f1": 0.13013564213564213,
+        "n_selected": 1.02,
+        "context_words": 95.97333333333333,
+        "gold_recall": 0.32944444444444443,
+        "probe_calls": 0.0
+      },
+      "dense_equal_k": {
+        "cover": 0.08666666666666667,
+        "em": 0.08,
+        "f1": 0.1058961038961039,
+        "n_selected": 1.02,
+        "context_words": 88.44,
+        "gold_recall": 0.3111111111111111,
+        "probe_calls": 0.0
+      },
+      "cross_encoder_equal_k": {
+        "cover": 0.10666666666666667,
+        "em": 0.09333333333333334,
+        "f1": 0.14496270980481504,
+        "n_selected": 1.02,
+        "context_words": 90.67333333333333,
+        "gold_recall": 0.3455555555555555,
+        "probe_calls": 0.0
+      },
+      "ce_rank_length_equal_k": {
+        "cover": 0.10666666666666667,
+        "em": 0.09333333333333334,
+        "f1": 0.14496270980481504,
+        "n_selected": 1.02,
+        "context_words": 104.66666666666667,
+        "gold_recall": 0.3138888888888889,
+        "probe_calls": 0.0
+      },
+      "oof_all9_top4": {
+        "cover": 0.21333333333333335,
+        "em": 0.20666666666666667,
+        "f1": 0.2713843193843194,
+        "n_selected": 4.0,
+        "context_words": 415.66,
+        "gold_recall": 0.6561111111111111,
+        "probe_calls": 0.0
+      },
+      "dense_top4": {
+        "cover": 0.20666666666666667,
+        "em": 0.18666666666666668,
+        "f1": 0.28329075717311014,
+        "n_selected": 4.0,
+        "context_words": 357.64666666666665,
+        "gold_recall": 0.5744444444444444,
+        "probe_calls": 0.0
+      },
+      "cross_encoder_top4": {
+        "cover": 0.20666666666666667,
+        "em": 0.19333333333333333,
+        "f1": 0.274028194028194,
+        "n_selected": 4.0,
+        "context_words": 357.9266666666667,
+        "gold_recall": 0.6522222222222221,
+        "probe_calls": 0.0
+      },
+      "ce_rank_length_top4": {
+        "cover": 0.2,
+        "em": 0.18,
+        "f1": 0.266003848003848,
+        "n_selected": 4.0,
+        "context_words": 431.8066666666667,
+        "gold_recall": 0.6233333333333333,
+        "probe_calls": 0.0
+      },
+      "contextcite_equal_k": {
+        "cover": 0.20666666666666667,
+        "em": 0.18666666666666668,
+        "f1": 0.24794059644059643,
+        "n_selected": 1.02,
+        "context_words": 99.64666666666666,
+        "gold_recall": 0.3244444444444444,
+        "probe_calls": 33.0
+      },
+      "contextcite_top4": {
+        "cover": 0.26666666666666666,
+        "em": 0.25333333333333335,
+        "f1": 0.3472017797017797,
+        "n_selected": 4.0,
+        "context_words": 354.34,
+        "gold_recall": 0.5744444444444444,
+        "probe_calls": 33.0
+      }
+    }
+  },
+  "paired_stratified_bootstrap": [
+    {
+      "left": "oof_all9",
+      "right": "full",
+      "metric": "cover",
+      "difference": -0.2088888888888889,
+      "ci95": [
+        -0.25555555555555554,
+        -0.16216666666666746
+      ]
+    },
+    {
+      "left": "oof_all9",
+      "right": "dense_equal_k",
+      "metric": "cover",
+      "difference": 0.028888888888888888,
+      "ci95": [
+        0.0044444444444444444,
+        0.05333333333333334
+      ]
+    },
+    {
+      "left": "oof_all9",
+      "right": "cross_encoder_equal_k",
+      "metric": "cover",
+      "difference": -0.0044444444444444444,
+      "ci95": [
+        -0.017777777777777778,
+        0.006666666666666667
+      ]
+    },
+    {
+      "left": "oof_all9",
+      "right": "ce_rank_length_equal_k",
+      "metric": "cover",
+      "difference": -0.008888888888888889,
+      "ci95": [
+        -0.022222222222222223,
+        0.0044444444444444444
+      ]
+    },
+    {
+      "left": "oof_all9",
+      "right": "contextcite_equal_k",
+      "metric": "cover",
+      "difference": -0.11555555555555555,
+      "ci95": [
+        -0.15555555555555556,
+        -0.07555555555555556
+      ]
+    },
+    {
+      "left": "contextcite_equal_k",
+      "right": "full",
+      "metric": "cover",
+      "difference": -0.09333333333333334,
+      "ci95": [
+        -0.13333333333333333,
+        -0.05555555555555555
+      ]
+    },
+    {
+      "left": "oof_all9_top4",
+      "right": "full",
+      "metric": "cover",
+      "difference": -0.03111111111111111,
+      "ci95": [
+        -0.07111111111111111,
+        0.008888888888888889
+      ]
+    },
+    {
+      "left": "oof_all9_top4",
+      "right": "dense_top4",
+      "metric": "cover",
+      "difference": 0.051111111111111114,
+      "ci95": [
+        0.013333333333333334,
+        0.08888888888888889
+      ]
+    },
+    {
+      "left": "oof_all9_top4",
+      "right": "cross_encoder_top4",
+      "metric": "cover",
+      "difference": -0.0044444444444444444,
+      "ci95": [
+        -0.04,
+        0.03111111111111111
+      ]
+    },
+    {
+      "left": "oof_all9_top4",
+      "right": "ce_rank_length_top4",
+      "metric": "cover",
+      "difference": 0.035555555555555556,
+      "ci95": [
+        0.006666666666666667,
+        0.06444444444444444
+      ]
+    },
+    {
+      "left": "oof_all9_top4",
+      "right": "contextcite_top4",
+      "metric": "cover",
+      "difference": -0.03777777777777778,
+      "ci95": [
+        -0.07777777777777778,
+        0.0044444444444444444
+      ]
+    },
+    {
+      "left": "contextcite_top4",
+      "right": "full",
+      "metric": "cover",
+      "difference": 0.006666666666666667,
+      "ci95": [
+        -0.017777777777777778,
+        0.03111111111111111
+      ]
+    },
+    {
+      "left": "oof_all9",
+      "right": "full",
+      "metric": "f1",
+      "difference": -0.21592797657333038,
+      "ci95": [
+        -0.261244320868106,
+        -0.1696144648679602
+      ]
+    },
+    {
+      "left": "oof_all9",
+      "right": "dense_equal_k",
+      "metric": "f1",
+      "difference": 0.032397146063812735,
+      "ci95": [
+        0.007737554112554112,
+        0.0579630631713965
+      ]
+    },
+    {
+      "left": "oof_all9",
+      "right": "cross_encoder_equal_k",
+      "metric": "f1",
+      "difference": -0.00528803490206999,
+      "ci95": [
+        -0.018469767010117887,
+        0.007432098765432099
+      ]
+    },
+    {
+      "left": "oof_all9",
+      "right": "ce_rank_length_equal_k",
+      "metric": "f1",
+      "difference": -0.008303907917943006,
+      "ci95": [
+        -0.022338652186020606,
+        0.005001308827624616
+      ]
+    },
+    {
+      "left": "oof_all9",
+      "right": "contextcite_equal_k",
+      "metric": "f1",
+      "difference": -0.11721781305114638,
+      "ci95": [
+        -0.15686992344075676,
+        -0.07848791085457753
+      ]
+    },
+    {
+      "left": "contextcite_equal_k",
+      "right": "full",
+      "metric": "f1",
+      "difference": -0.09871016352218398,
+      "ci95": [
+        -0.13477805956949176,
+        -0.0630896729632024
+      ]
+    },
+    {
+      "left": "oof_all9_top4",
+      "right": "full",
+      "metric": "f1",
+      "difference": -0.03298914380116426,
+      "ci95": [
+        -0.0715975147437104,
+        0.0042975318601703874
+      ]
+    },
+    {
+      "left": "oof_all9_top4",
+      "right": "dense_top4",
+      "metric": "f1",
+      "difference": 0.04510652999868686,
+      "ci95": [
+        0.009607446139553982,
+        0.08142370006536673
+      ]
+    },
+    {
+      "left": "oof_all9_top4",
+      "right": "cross_encoder_top4",
+      "metric": "f1",
+      "difference": -0.0044600152933486235,
+      "ci95": [
+        -0.040148178210678204,
+        0.030372865097865086
+      ]
+    },
+    {
+      "left": "oof_all9_top4",
+      "right": "ce_rank_length_top4",
+      "metric": "f1",
+      "difference": 0.030654487487820823,
+      "ci95": [
+        0.0021867327117327117,
+        0.0597066859066859
+      ]
+    },
+    {
+      "left": "oof_all9_top4",
+      "right": "contextcite_top4",
+      "metric": "f1",
+      "difference": -0.04171658382769494,
+      "ci95": [
+        -0.08204497955747955,
+        -0.0012630544866656026
+      ]
+    },
+    {
+      "left": "contextcite_top4",
+      "right": "full",
+      "metric": "f1",
+      "difference": 0.008727440026530678,
+      "ci95": [
+        -0.012311871248429928,
+        0.02999076526220246
+      ]
+    }
+  ],
+  "execution": {
+    "reader": "Qwen/Qwen3-4B-Instruct-2507",
+    "reader_commit": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "gpu": "NVIDIA GB10",
+    "container": "nvcr.io/nvidia/pytorch:25.09-py3@sha256:f3b4a33fd60d5e0358287bb44d57e91eda45e8f1681fef1bfd6c969371417130",
+    "software": {
+      "torch": "2.9.0a0+50eac811a6.nv25.09",
+      "transformers": "4.57.6",
+      "datasets": "4.8.5",
+      "scikit_learn": "1.7.1"
+    },
+    "mask_batches": [
+      {
+        "rows": [
+          1,
+          232
+        ],
+        "batch_size": 16
+      },
+      {
+        "rows": [
+          233,
+          450
+        ],
+        "batch_size": 32
+      }
+    ],
+    "lm_head_execution": [
+      {
+        "rows": [
+          1,
+          249
+        ],
+        "mode": "prompt-wide logits, then response slice"
+      },
+      {
+        "rows": [
+          250,
+          450
+        ],
+        "mode": "identical final-state logits only"
+      }
+    ],
+    "teacher_forcing_cache": [
+      {
+        "rows": [
+          1,
+          305
+        ],
+        "use_cache": true
+      },
+      {
+        "rows": [
+          306,
+          316
+        ],
+        "use_cache": false
+      },
+      {
+        "rows": [
+          317,
+          450
+        ],
+        "use_cache": true
+      }
+    ],
+    "note": "Batching, final-state LM-head evaluation, and the unused KV cache change execution only; all rows use the same model, prompts, fixed responses, and 32 deterministic masks."
+  }
+}

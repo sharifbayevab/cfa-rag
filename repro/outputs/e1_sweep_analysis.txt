@@ -1,0 +1,58 @@
+e1_sweep.jsonl: n=450 full  44.2 tokens 1632
+arm                       128    256    384    512    768   1024    avg
+gold_cfa_transfer        30.0   44.4   51.3   49.8   48.0   46.9   45.1
+gold_cfa_exact           27.8   43.8   50.0   50.0   46.4   46.4   44.1
+cfa_transfer_bge         29.1   42.9   48.4   48.2   47.6   46.4   43.8
+gold_oracle              27.8   42.0   48.7   48.9   46.9   46.0   43.4
+cfa_transfer             28.9   41.8   47.8   48.0   45.8   46.0   43.0
+signed_oracle            27.8   39.3   46.2   49.1   46.7   48.4   42.9
+cfa_transfer_local2_bge   27.3   42.4   47.6   45.3   44.9   46.0   42.3
+contextcite              26.4   40.9   43.8   45.3   45.3   45.8   41.3
+cfa_transfer_local2      28.0   39.6   44.4   46.0   43.8   45.6   41.2
+cfa_exact_bge            26.2   40.0   44.7   45.6   45.8   44.7   41.1
+bge                      25.1   37.1   45.6   44.2   44.9   46.0   40.5
+cfa_transfer_gemma4b_bge   25.6   38.9   45.6   44.0   44.0   44.9   40.5
+cfa_exact                26.4   37.6   42.7   45.1   44.2   45.6   40.3
+cfa_transfer_gemma4b     24.4   36.4   39.6   42.9   43.1   44.2   38.4
+tgt_signed               23.6   32.9   38.2   39.1   42.0   43.1   36.5
+signed_support           24.2   32.9   36.2   39.1   41.6   44.2   36.4
+ce                       24.7   33.3   36.2   39.1   40.0   43.1   36.1
+tgt_ce                   24.7   33.3   36.0   39.1   40.0   43.1   36.0
+tgt_gold                 24.2   33.6   37.8   36.9   41.1   42.7   36.0
+oof                      23.6   33.3   38.0   36.4   42.0   41.1   35.7
+tgt_cfa                  24.2   32.7   36.9   36.9   42.0   40.7   35.6
+dense                    22.4   31.1   34.4   35.8   40.2   42.9   34.5
+tokens ce: [108, 234, 360, 484, 713, 927] gold recall ce/cfa_exact: [(36, 35), (58, 58), (68, 69), (75, 78), (83, 85), (90, 90)]
+[headline_vs_ce ] cfa_exact-ce                        +1.8   +4.2*  +6.4*  +6.0*  +4.2*  +2.4  | avg  +4.2 [+2.4,+6.0] pH=0.001 | <=384  +4.1 [+2.0,+6.4] | 2wi +0.7 hot +6.8 mus +5.1
+[headline_vs_ce ] cfa_transfer-ce                     +4.2*  +8.4* +11.6*  +8.9*  +5.8*  +2.9* | avg  +7.0 [+5.0,+9.0] pH=0.001 | <=384  +8.1 [+5.6,+10.7] | 2wi +1.7 hot +10.3 mus +8.9
+[vs_bge         ] cfa_exact-bge                       +1.3   +0.4   -2.9   +0.9   -0.7   -0.4  | avg  -0.2 [-1.9,+1.3] pH=0.771 | <=384  -0.4 [-2.4,+1.6] | 2wi +0.2 hot -0.9 mus +0.0
+[vs_bge         ] cfa_exact_bge-bge                   +1.1   +2.9   -0.9   +1.3   +0.9   -1.3  | avg  +0.7 [-0.8,+2.0] pH=0.684 | <=384  +1.0 [-0.9,+2.7] | 2wi +0.8 hot +0.7 mus +0.6
+[vs_bge         ] cfa_transfer_bge-bge                +4.0*  +5.8*  +2.9   +4.0   +2.7   +0.4  | avg  +3.3 [+1.9,+4.7] pH=0.002 | <=384  +4.2 [+2.1,+6.4] | 2wi +1.9 hot +3.0 mus +5.0
+[vs_bge         ] cfa_transfer-bge                    +3.8   +4.7   +2.2   +3.8   +0.9   +0.0  | avg  +2.6 [+1.0,+4.1] pH=0.009 | <=384  +3.6 [+1.5,+5.7] | 2wi +1.2 hot +2.7 mus +3.8
+[vs_contextcite ] cfa_exact-contextcite               +0.0   -3.3   -1.1   -0.2   -1.1   -0.2  | avg  -1.0 [-2.4,+0.3] pH=0.387 | <=384  -1.5 [-3.4,+0.3] | 2wi -0.3 hot -1.6 mus -1.1
+[vs_contextcite ] cfa_exact_bge-contextcite           -0.2   -0.9   +0.9   +0.2   +0.4   -1.1  | avg  -0.1 [-1.4,+1.2] pH=0.848 | <=384  -0.1 [-1.9,+1.6] | 2wi +0.2 hot -0.0 mus -0.6
+[vs_contextcite ] contextcite-ce                      +1.8   +7.6*  +7.6*  +6.2*  +5.3*  +2.7  | avg  +5.2 [+3.0,+7.4] pH=0.002 | <=384  +5.6 [+2.9,+8.4] | 2wi +1.0 hot +8.3 mus +6.2
+[vs_contextcite ] contextcite-bge                     +1.3   +3.8   -1.8   +1.1   +0.4   -0.2  | avg  +0.8 [-1.1,+2.4] pH=0.830 | <=384  +1.1 [-1.2,+3.3] | 2wi +0.6 hot +0.7 mus +1.1
+[gold_internal  ] gold_cfa_exact-gold_oracle          +0.0   +1.8   +1.3   +1.1   -0.4   +0.4  | avg  +0.7 [-0.3,+1.6] pH=0.153 | <=384  +1.0 [-0.1,+2.2] | 2wi -0.4 hot +1.6 mus +1.0
+[gold_internal  ] gold_cfa_transfer-gold_oracle       +2.2   +2.4   +2.7   +0.9   +1.1   +0.9  | avg  +1.7 [+0.7,+2.8] pH=0.002 | <=384  +2.4 [+1.0,+3.9] | 2wi +0.1 hot +3.1 mus +1.9
+[modern_reranker] bge-ce                              +0.4   +3.8   +9.3*  +5.1*  +4.9*  +2.9  | avg  +4.4 [+2.7,+6.1] pH=0.002 | <=384  +4.5 [+2.5,+6.6] | 2wi +0.4 hot +7.7 mus +5.1
+[modern_reranker] oof-ce                              -1.1   +0.0   +1.8   -2.7   +2.0   -2.0  | avg  -0.3 [-1.8,+1.1] pH=0.638 | <=384  +0.2 [-1.2,+1.7] | 2wi -2.0 hot +0.1 mus +0.9
+[modern_reranker] dense-ce                            -2.2   -2.2   -1.8   -3.3   +0.2   -0.2  | avg  -1.6 [-3.0,-0.1] pH=0.064 | <=384  -2.1 [-4.0,-0.2] | 2wi -1.2 hot -3.2 mus -0.3
+[target_ablation] tgt_cfa-tgt_gold                    +0.0   -0.9   -0.9   +0.0   +0.9   -2.0  | avg  -0.5 [-1.7,+0.8] pH=1.000 | <=384  -0.6 [-2.0,+0.8] | 2wi -0.0 hot -2.2 mus +0.8
+[target_ablation] tgt_signed-tgt_gold                 -0.7   -0.7   +0.4   +2.2   +0.9   +0.4  | avg  +0.4 [-0.8,+1.7] pH=1.000 | <=384  -0.3 [-1.8,+1.2] | 2wi +1.7 hot -0.8 mus +0.4
+[target_ablation] tgt_cfa-ce                          -0.4   -0.7   +0.7   -2.2   +2.0   -2.4  | avg  -0.5 [-1.9,+0.8] pH=1.000 | <=384  -0.1 [-1.6,+1.3] | 2wi -2.4 hot +0.4 mus +0.4
+[target_ablation] tgt_gold-ce                         -0.4   +0.2   +1.6   -2.2   +1.1   -0.4  | avg  -0.0 [-1.4,+1.3] pH=1.000 | <=384  +0.4 [-0.9,+1.8] | 2wi -2.4 hot +2.7 mus -0.3
+[target_ablation] tgt_signed-ce                       -1.1   -0.4   +2.0   +0.0   +2.0   +0.0  | avg  +0.4 [-1.0,+1.7] pH=1.000 | <=384  +0.1 [-1.5,+1.7] | 2wi -0.8 hot +1.9 mus +0.1
+[target_ablation] tgt_ce-ce                           +0.0   +0.0   -0.2   +0.0   +0.0   +0.0  | avg  -0.0 [-0.1,+0.0] pH=1.000 | <=384  -0.1 [-0.2,+0.0] | 2wi -0.1 hot +0.0 mus +0.0
+[target_ablation] signed_support-ce                   -0.4   -0.4   +0.0   +0.0   +1.6   +1.1  | avg  +0.3 [-1.0,+1.7] pH=1.000 | <=384  -0.3 [-1.9,+1.3] | 2wi -1.9 hot +2.1 mus +0.7
+[cheap_prober   ] cfa_transfer_local2-ce              +3.3   +6.2*  +8.2*  +6.9*  +3.8   +2.4  | avg  +5.1 [+3.3,+6.9] pH=0.002 | <=384  +5.9 [+3.6,+8.2] | 2wi +1.7 hot +8.7 mus +5.1
+[cheap_prober   ] cfa_transfer_gemma4b-ce             -0.2   +3.1   +3.3   +3.8   +3.1   +1.1  | avg  +2.4 [+0.8,+4.0] pH=0.015 | <=384  +2.1 [+0.1,+4.1] | 2wi -0.8 hot +5.4 mus +2.4
+[cheap_prober   ] cfa_transfer_local2_bge-bge         +2.2   +5.3*  +2.0   +1.1   +0.0   +0.0  | avg  +1.8 [+0.4,+3.2] pH=0.022 | <=384  +3.2 [+1.3,+5.0] | 2wi +1.7 hot +2.4 mus +1.2
+[cheap_prober   ] cfa_transfer_gemma4b_bge-bge        +0.4   +1.8   +0.0   -0.2   -0.9   -1.1  | avg  -0.0 [-1.3,+1.3] pH=0.986 | <=384  +0.7 [-1.0,+2.5] | 2wi -0.4 hot +1.6 mus -1.1
+[other          ] signed_oracle-ce                    +3.1*  +6.0* +10.0* +10.0*  +6.7*  +5.3* | avg  +6.9 [+5.2,+8.6] pH=0.002 | <=384  +6.4 [+4.4,+8.4] | 2wi +6.3 hot +9.0 mus +5.2
+[other          ] gold_oracle-ce                      +3.1*  +8.7* +12.4*  +9.8*  +6.9*  +2.9* | avg  +7.3 [+5.8,+8.9] pH=0.002 | <=384  +8.1 [+6.2,+10.0] | 2wi +3.1 hot +9.6 mus +9.2
+[other          ] cfa_exact-cfa_transfer              -2.4   -4.2   -5.1*  -2.9   -1.6   -0.4  | avg  -2.8 [-4.6,-1.1] pH=0.002 | <=384  -3.9 [-6.3,-1.7] | 2wi -1.0 hot -3.6 mus -3.8
+fixed cfa_prune                  cover  43.6 tokens 401 n_sel 3.06 gold_recall  58.4 vs full -0.7 [-4.0,+2.7] ratio 4.07x vs_ce_match_prune +7.1 [+3.6,+10.7] vs_bge_match_prune +4.0 [+0.4,+7.6] vs_contextcite_match_prune +0.9 [-1.8,+3.6]
+fixed ce_match_prune             cover  36.4 tokens 383 n_sel 3.48 gold_recall  59.4 vs full -7.8 [-12.2,-3.6] ratio 4.27x 
+fixed bge_match_prune            cover  39.6 tokens 387 n_sel 3.29 gold_recall  63.9 vs full -4.7 [-8.7,-0.7] ratio 4.22x 
+fixed contextcite_match_prune    cover  42.7 tokens 389 n_sel 3.32 gold_recall  55.6 vs full -1.6 [-4.9,+2.0] ratio 4.20x 

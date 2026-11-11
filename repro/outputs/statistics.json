@@ -1,0 +1,52 @@
+{
+  "question_model_observations": 2250,
+  "unique_questions": 450,
+  "bootstrap": {
+    "unit": "question",
+    "strata": [
+      "hotpotqa",
+      "2wiki",
+      "musique"
+    ],
+    "generators": "fixed, kept together",
+    "seed": 0,
+    "resamples": 10000
+  },
+  "delta_cover": -0.011555555555555553,
+  "delta_ci95": [
+    -0.025777777777777778,
+    0.0022222222222222227
+  ],
+  "delta_lower_one_sided95": -0.023555555555555555,
+  "pooled_closedbook_given_correct": 0.36536796536796534,
+  "pooled_closedbook_ci95": [
+    0.32332667294293815,
+    0.40705716922865665
+  ],
+  "jaccard_all": 0.2103273866999871,
+  "jaccard_ci95": [
+    0.1959668069822907,
+    0.2248845413363821
+  ],
+  "jaccard_chance": 0.09447865437420058,
+  "jaccard_excess_ci95": [
+    0.1019715646880872,
+    0.12966296583896839
+  ],
+  "jaccard_nonempty": 0.2576138378197994,
+  "jaccard_nonempty_chance": 0.11571963654978304,
+  "final_context_word_ratio": 4.132879352835329,
+  "total_probe_and_final_context_word_ratio": 15.546062010501306,
+  "empty_set_rate_all": 0.18355555555555556,
+  "quality_secondary": {
+    "em": {
+      "full": 0.4533333333333333,
+      "causal_prune": 0.44755555555555554
+    },
+    "f1": {
+      "full": 0.5532717410403685,
+      "causal_prune": 0.5419082777851746
+    }
+  },
+  "pearson_gold_assisted_score": 0.07369890537882323
+}

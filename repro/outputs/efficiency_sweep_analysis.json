@@ -1,0 +1,1131 @@
+{
+  "n": 450,
+  "overall": {
+    "oof_calibrated": {
+      "cover": 0.4177777777777778,
+      "em": 0.37777777777777777,
+      "f1": 0.4620436455653847,
+      "n_selected": 6.7,
+      "context_tokens": 1009.9444444444445,
+      "gold_recall": 0.835925925925926,
+      "probe_calls": 0.0
+    },
+    "oof_threshold_0.1": {
+      "cover": 0.44222222222222224,
+      "em": 0.3888888888888889,
+      "f1": 0.4876717636504508,
+      "n_selected": 12.717777777777778,
+      "context_tokens": 1596.1066666666666,
+      "gold_recall": 0.995,
+      "probe_calls": 0.0
+    },
+    "oof_threshold_0.2": {
+      "cover": 0.4111111111111111,
+      "em": 0.37333333333333335,
+      "f1": 0.45298092031425363,
+      "n_selected": 4.773333333333333,
+      "context_tokens": 759.7133333333334,
+      "gold_recall": 0.7844444444444445,
+      "probe_calls": 0.0
+    },
+    "oof_threshold_0.3": {
+      "cover": 0.31333333333333335,
+      "em": 0.2866666666666667,
+      "f1": 0.35217585029349735,
+      "n_selected": 1.7133333333333334,
+      "context_tokens": 257.14,
+      "gold_recall": 0.5487037037037037,
+      "probe_calls": 0.0
+    },
+    "oof_threshold_0.4": {
+      "cover": 0.26222222222222225,
+      "em": 0.2288888888888889,
+      "f1": 0.29414047149960465,
+      "n_selected": 1.0866666666666667,
+      "context_tokens": 151.9,
+      "gold_recall": 0.42944444444444446,
+      "probe_calls": 0.0
+    },
+    "oof_threshold_0.5": {
+      "cover": 0.24666666666666667,
+      "em": 0.21777777777777776,
+      "f1": 0.27908756144669455,
+      "n_selected": 1.011111111111111,
+      "context_tokens": 136.80666666666667,
+      "gold_recall": 0.4064814814814815,
+      "probe_calls": 0.0
+    },
+    "oof_tok256": {
+      "cover": 0.34,
+      "em": 0.31555555555555553,
+      "f1": 0.38243824077157407,
+      "n_selected": 2.74,
+      "context_tokens": 236.4088888888889,
+      "gold_recall": 0.5885185185185186,
+      "probe_calls": 0.0
+    },
+    "dense_tok256": {
+      "cover": 0.31555555555555553,
+      "em": 0.2822222222222222,
+      "f1": 0.34090080001639145,
+      "n_selected": 2.92,
+      "context_tokens": 232.5222222222222,
+      "gold_recall": 0.5390740740740741,
+      "probe_calls": 0.0
+    },
+    "cross_encoder_tok256": {
+      "cover": 0.33555555555555555,
+      "em": 0.3111111111111111,
+      "f1": 0.3766078736078736,
+      "n_selected": 2.9133333333333336,
+      "context_tokens": 233.9488888888889,
+      "gold_recall": 0.5794444444444444,
+      "probe_calls": 0.0
+    },
+    "ce_rank_length_tok256": {
+      "cover": 0.3244444444444444,
+      "em": 0.2911111111111111,
+      "f1": 0.3611599018265685,
+      "n_selected": 2.7,
+      "context_tokens": 235.32666666666665,
+      "gold_recall": 0.5775925925925925,
+      "probe_calls": 0.0
+    },
+    "contextcite_tok256": {
+      "cover": 0.40444444444444444,
+      "em": 0.36666666666666664,
+      "f1": 0.4464804138115966,
+      "n_selected": 2.82,
+      "context_tokens": 234.12222222222223,
+      "gold_recall": 0.5212962962962963,
+      "probe_calls": 33.0
+    },
+    "oof_tok512": {
+      "cover": 0.36666666666666664,
+      "em": 0.3422222222222222,
+      "f1": 0.4223645860312527,
+      "n_selected": 4.673333333333333,
+      "context_tokens": 486.61333333333334,
+      "gold_recall": 0.7451851851851853,
+      "probe_calls": 0.0
+    },
+    "dense_tok512": {
+      "cover": 0.35777777777777775,
+      "em": 0.3288888888888889,
+      "f1": 0.40703511484884036,
+      "n_selected": 5.1466666666666665,
+      "context_tokens": 481.4844444444444,
+      "gold_recall": 0.7062962962962964,
+      "probe_calls": 0.0
+    },
+    "cross_encoder_tok512": {
+      "cover": 0.3977777777777778,
+      "em": 0.36444444444444446,
+      "f1": 0.4477931574598241,
+      "n_selected": 5.14,
+      "context_tokens": 483.7911111111111,
+      "gold_recall": 0.7485185185185186,
+      "probe_calls": 0.0
+    },
+    "ce_rank_length_tok512": {
+      "cover": 0.36444444444444446,
+      "em": 0.3288888888888889,
+      "f1": 0.4112628235961569,
+      "n_selected": 4.497777777777777,
+      "context_tokens": 487.35777777777776,
+      "gold_recall": 0.7096296296296296,
+      "probe_calls": 0.0
+    },
+    "contextcite_tok512": {
+      "cover": 0.45555555555555555,
+      "em": 0.4088888888888889,
+      "f1": 0.49932719242793616,
+      "n_selected": 4.997777777777777,
+      "context_tokens": 483.3022222222222,
+      "gold_recall": 0.6890740740740741,
+      "probe_calls": 33.0
+    },
+    "oof_tok768": {
+      "cover": 0.42,
+      "em": 0.3711111111111111,
+      "f1": 0.4564796339233904,
+      "n_selected": 6.242222222222222,
+      "context_tokens": 724.2533333333333,
+      "gold_recall": 0.8401851851851853,
+      "probe_calls": 0.0
+    },
+    "dense_tok768": {
+      "cover": 0.4022222222222222,
+      "em": 0.3622222222222222,
+      "f1": 0.4470083664876834,
+      "n_selected": 6.92,
+      "context_tokens": 714.7444444444444,
+      "gold_recall": 0.8112962962962964,
+      "probe_calls": 0.0
+    },
+    "cross_encoder_tok768": {
+      "cover": 0.39555555555555555,
+      "em": 0.36444444444444446,
+      "f1": 0.45183532516865854,
+      "n_selected": 6.9,
+      "context_tokens": 713.3711111111111,
+      "gold_recall": 0.8346296296296297,
+      "probe_calls": 0.0
+    },
+    "ce_rank_length_tok768": {
+      "cover": 0.3977777777777778,
+      "em": 0.35777777777777775,
+      "f1": 0.44515739670641624,
+      "n_selected": 6.111111111111111,
+      "context_tokens": 724.5288888888889,
+      "gold_recall": 0.8133333333333334,
+      "probe_calls": 0.0
+    },
+    "contextcite_tok768": {
+      "cover": 0.45111111111111113,
+      "em": 0.4066666666666667,
+      "f1": 0.4923256989037883,
+      "n_selected": 6.866666666666666,
+      "context_tokens": 719.7488888888889,
+      "gold_recall": 0.777962962962963,
+      "probe_calls": 33.0
+    }
+  },
+  "by_dataset": {
+    "2wiki": {
+      "oof_calibrated": {
+        "cover": 0.49333333333333335,
+        "em": 0.4266666666666667,
+        "f1": 0.5026349206349205,
+        "n_selected": 3.42,
+        "context_tokens": 522.58,
+        "gold_recall": 0.825,
+        "probe_calls": 0.0
+      },
+      "oof_threshold_0.1": {
+        "cover": 0.46,
+        "em": 0.4,
+        "f1": 0.4918064114534703,
+        "n_selected": 8.726666666666667,
+        "context_tokens": 908.9733333333334,
+        "gold_recall": 0.9883333333333333,
+        "probe_calls": 0.0
+      },
+      "oof_threshold_0.2": {
+        "cover": 0.4866666666666667,
+        "em": 0.42,
+        "f1": 0.4939047619047619,
+        "n_selected": 2.62,
+        "context_tokens": 433.6,
+        "gold_recall": 0.7783333333333333,
+        "probe_calls": 0.0
+      },
+      "oof_threshold_0.3": {
+        "cover": 0.3466666666666667,
+        "em": 0.31333333333333335,
+        "f1": 0.3603595337124749,
+        "n_selected": 1.46,
+        "context_tokens": 232.28,
+        "gold_recall": 0.5483333333333333,
+        "probe_calls": 0.0
+      },
+      "oof_threshold_0.4": {
+        "cover": 0.3333333333333333,
+        "em": 0.29333333333333333,
+        "f1": 0.3431133463486405,
+        "n_selected": 1.0533333333333332,
+        "context_tokens": 160.85333333333332,
+        "gold_recall": 0.44333333333333336,
+        "probe_calls": 0.0
+      },
+      "oof_threshold_0.5": {
+        "cover": 0.30666666666666664,
+        "em": 0.28,
+        "f1": 0.319621282856577,
+        "n_selected": 1.0066666666666666,
+        "context_tokens": 147.58666666666667,
+        "gold_recall": 0.42,
+        "probe_calls": 0.0
+      },
+      "oof_tok256": {
+        "cover": 0.35333333333333333,
+        "em": 0.30666666666666664,
+        "f1": 0.3746565656565657,
+        "n_selected": 3.473333333333333,
+        "context_tokens": 242.42,
+        "gold_recall": 0.595,
+        "probe_calls": 0.0
+      },
+      "dense_tok256": {
+        "cover": 0.36,
+        "em": 0.30666666666666664,
+        "f1": 0.3711708482676225,
+        "n_selected": 3.953333333333333,
+        "context_tokens": 240.36,
+        "gold_recall": 0.5716666666666667,
+        "probe_calls": 0.0
+      },
+      "cross_encoder_tok256": {
+        "cover": 0.37333333333333335,
+        "em": 0.34,
+        "f1": 0.4057676767676768,
+        "n_selected": 3.88,
+        "context_tokens": 241.09333333333333,
+        "gold_recall": 0.5833333333333334,
+        "probe_calls": 0.0
+      },
+      "ce_rank_length_tok256": {
+        "cover": 0.35333333333333333,
+        "em": 0.29333333333333333,
+        "f1": 0.3767570947570948,
+        "n_selected": 3.4133333333333336,
+        "context_tokens": 243.37333333333333,
+        "gold_recall": 0.5933333333333334,
+        "probe_calls": 0.0
+      },
+      "contextcite_tok256": {
+        "cover": 0.4066666666666667,
+        "em": 0.36,
+        "f1": 0.4163739235674719,
+        "n_selected": 3.7,
+        "context_tokens": 243.23333333333332,
+        "gold_recall": 0.51,
+        "probe_calls": 33.0
+      },
+      "oof_tok512": {
+        "cover": 0.3933333333333333,
+        "em": 0.35333333333333333,
+        "f1": 0.4296060236060237,
+        "n_selected": 5.8933333333333335,
+        "context_tokens": 489.05333333333334,
+        "gold_recall": 0.8033333333333333,
+        "probe_calls": 0.0
+      },
+      "dense_tok512": {
+        "cover": 0.4266666666666667,
+        "em": 0.38,
+        "f1": 0.4514155474155474,
+        "n_selected": 6.64,
+        "context_tokens": 475.91333333333336,
+        "gold_recall": 0.78,
+        "probe_calls": 0.0
+      },
+      "cross_encoder_tok512": {
+        "cover": 0.44,
+        "em": 0.4,
+        "f1": 0.4722197802197802,
+        "n_selected": 6.506666666666667,
+        "context_tokens": 478.32666666666665,
+        "gold_recall": 0.7816666666666666,
+        "probe_calls": 0.0
+      },
+      "ce_rank_length_tok512": {
+        "cover": 0.4266666666666667,
+        "em": 0.36666666666666664,
+        "f1": 0.45439967439967444,
+        "n_selected": 5.673333333333333,
+        "context_tokens": 489.7266666666667,
+        "gold_recall": 0.7733333333333333,
+        "probe_calls": 0.0
+      },
+      "contextcite_tok512": {
+        "cover": 0.4533333333333333,
+        "em": 0.3933333333333333,
+        "f1": 0.4798699035169623,
+        "n_selected": 6.406666666666666,
+        "context_tokens": 480.4,
+        "gold_recall": 0.7216666666666667,
+        "probe_calls": 33.0
+      },
+      "oof_tok768": {
+        "cover": 0.4533333333333333,
+        "em": 0.38,
+        "f1": 0.4683287779758369,
+        "n_selected": 7.546666666666667,
+        "context_tokens": 691.5533333333333,
+        "gold_recall": 0.9166666666666666,
+        "probe_calls": 0.0
+      },
+      "dense_tok768": {
+        "cover": 0.44,
+        "em": 0.38666666666666666,
+        "f1": 0.46977296777296773,
+        "n_selected": 8.226666666666667,
+        "context_tokens": 671.52,
+        "gold_recall": 0.9,
+        "probe_calls": 0.0
+      },
+      "cross_encoder_tok768": {
+        "cover": 0.44,
+        "em": 0.38666666666666666,
+        "f1": 0.4672275132275132,
+        "n_selected": 8.12,
+        "context_tokens": 675.14,
+        "gold_recall": 0.905,
+        "probe_calls": 0.0
+      },
+      "ce_rank_length_tok768": {
+        "cover": 0.4266666666666667,
+        "em": 0.36,
+        "f1": 0.45385258749964635,
+        "n_selected": 7.446666666666666,
+        "context_tokens": 693.34,
+        "gold_recall": 0.9083333333333333,
+        "probe_calls": 0.0
+      },
+      "contextcite_tok768": {
+        "cover": 0.44666666666666666,
+        "em": 0.3933333333333333,
+        "f1": 0.4741873638344227,
+        "n_selected": 8.12,
+        "context_tokens": 683.6133333333333,
+        "gold_recall": 0.8733333333333333,
+        "probe_calls": 33.0
+      }
+    },
+    "hotpotqa": {
+      "oof_calibrated": {
+        "cover": 0.52,
+        "em": 0.47333333333333333,
+        "f1": 0.5591630591630591,
+        "n_selected": 4.74,
+        "context_tokens": 751.1333333333333,
+        "gold_recall": 0.7966666666666666,
+        "probe_calls": 0.0
+      },
+      "oof_threshold_0.1": {
+        "cover": 0.62,
+        "em": 0.5533333333333333,
+        "f1": 0.652023976023976,
+        "n_selected": 9.666666666666666,
+        "context_tokens": 1372.4466666666667,
+        "gold_recall": 0.9966666666666667,
+        "probe_calls": 0.0
+      },
+      "oof_threshold_0.2": {
+        "cover": 0.5,
+        "em": 0.47333333333333333,
+        "f1": 0.5521361231361231,
+        "n_selected": 3.28,
+        "context_tokens": 515.6,
+        "gold_recall": 0.77,
+        "probe_calls": 0.0
+      },
+      "oof_threshold_0.3": {
+        "cover": 0.38666666666666666,
+        "em": 0.36,
+        "f1": 0.4363876863876863,
+        "n_selected": 1.32,
+        "context_tokens": 165.59333333333333,
+        "gold_recall": 0.5566666666666666,
+        "probe_calls": 0.0
+      },
+      "oof_threshold_0.4": {
+        "cover": 0.3466666666666667,
+        "em": 0.3,
+        "f1": 0.39420250120250117,
+        "n_selected": 1.0333333333333334,
+        "context_tokens": 121.64,
+        "gold_recall": 0.4766666666666667,
+        "probe_calls": 0.0
+      },
+      "oof_threshold_0.5": {
+        "cover": 0.34,
+        "em": 0.29333333333333333,
+        "f1": 0.38753583453583457,
+        "n_selected": 1.0066666666666666,
+        "context_tokens": 118.56666666666666,
+        "gold_recall": 0.47,
+        "probe_calls": 0.0
+      },
+      "oof_tok256": {
+        "cover": 0.5133333333333333,
+        "em": 0.5,
+        "f1": 0.5714179894179894,
+        "n_selected": 2.3333333333333335,
+        "context_tokens": 228.44666666666666,
+        "gold_recall": 0.7166666666666667,
+        "probe_calls": 0.0
+      },
+      "dense_tok256": {
+        "cover": 0.44,
+        "em": 0.4066666666666667,
+        "f1": 0.47097936322936323,
+        "n_selected": 2.3866666666666667,
+        "context_tokens": 223.33333333333334,
+        "gold_recall": 0.6366666666666667,
+        "probe_calls": 0.0
+      },
+      "cross_encoder_tok256": {
+        "cover": 0.47333333333333333,
+        "em": 0.44666666666666666,
+        "f1": 0.5138431938431939,
+        "n_selected": 2.3733333333333335,
+        "context_tokens": 224.7,
+        "gold_recall": 0.6866666666666666,
+        "probe_calls": 0.0
+      },
+      "ce_rank_length_tok256": {
+        "cover": 0.4533333333333333,
+        "em": 0.4266666666666667,
+        "f1": 0.49650986050986046,
+        "n_selected": 2.3066666666666666,
+        "context_tokens": 226.16666666666666,
+        "gold_recall": 0.68,
+        "probe_calls": 0.0
+      },
+      "contextcite_tok256": {
+        "cover": 0.5733333333333334,
+        "em": 0.5266666666666666,
+        "f1": 0.6252755392755392,
+        "n_selected": 2.3,
+        "context_tokens": 224.13333333333333,
+        "gold_recall": 0.6066666666666667,
+        "probe_calls": 33.0
+      },
+      "oof_tok512": {
+        "cover": 0.5,
+        "em": 0.48,
+        "f1": 0.5660711880711881,
+        "n_selected": 3.98,
+        "context_tokens": 476.28,
+        "gold_recall": 0.82,
+        "probe_calls": 0.0
+      },
+      "dense_tok512": {
+        "cover": 0.48,
+        "em": 0.4533333333333333,
+        "f1": 0.5318280423280423,
+        "n_selected": 4.286666666666667,
+        "context_tokens": 477.23333333333335,
+        "gold_recall": 0.7633333333333333,
+        "probe_calls": 0.0
+      },
+      "cross_encoder_tok512": {
+        "cover": 0.54,
+        "em": 0.4866666666666667,
+        "f1": 0.5892092352092351,
+        "n_selected": 4.373333333333333,
+        "context_tokens": 481.1066666666667,
+        "gold_recall": 0.8333333333333334,
+        "probe_calls": 0.0
+      },
+      "ce_rank_length_tok512": {
+        "cover": 0.4666666666666667,
+        "em": 0.4266666666666667,
+        "f1": 0.5208253968253969,
+        "n_selected": 3.8866666666666667,
+        "context_tokens": 478.26666666666665,
+        "gold_recall": 0.7933333333333333,
+        "probe_calls": 0.0
+      },
+      "contextcite_tok512": {
+        "cover": 0.6333333333333333,
+        "em": 0.5866666666666667,
+        "f1": 0.6738991378991379,
+        "n_selected": 4.18,
+        "context_tokens": 477.5133333333333,
+        "gold_recall": 0.7733333333333333,
+        "probe_calls": 33.0
+      },
+      "oof_tok768": {
+        "cover": 0.5733333333333334,
+        "em": 0.52,
+        "f1": 0.6059157996000102,
+        "n_selected": 5.566666666666666,
+        "context_tokens": 733.1866666666666,
+        "gold_recall": 0.8966666666666666,
+        "probe_calls": 0.0
+      },
+      "dense_tok768": {
+        "cover": 0.5333333333333333,
+        "em": 0.49333333333333335,
+        "f1": 0.5701073562041303,
+        "n_selected": 6.073333333333333,
+        "context_tokens": 726.9133333333333,
+        "gold_recall": 0.8533333333333334,
+        "probe_calls": 0.0
+      },
+      "cross_encoder_tok768": {
+        "cover": 0.5466666666666666,
+        "em": 0.5066666666666667,
+        "f1": 0.6081481111481112,
+        "n_selected": 6.113333333333333,
+        "context_tokens": 717.7866666666666,
+        "gold_recall": 0.89,
+        "probe_calls": 0.0
+      },
+      "ce_rank_length_tok768": {
+        "cover": 0.54,
+        "em": 0.49333333333333335,
+        "f1": 0.5861673141673142,
+        "n_selected": 5.386666666666667,
+        "context_tokens": 733.4733333333334,
+        "gold_recall": 0.8533333333333334,
+        "probe_calls": 0.0
+      },
+      "contextcite_tok768": {
+        "cover": 0.6133333333333333,
+        "em": 0.56,
+        "f1": 0.6499971139971139,
+        "n_selected": 5.913333333333333,
+        "context_tokens": 729.1466666666666,
+        "gold_recall": 0.8366666666666667,
+        "probe_calls": 33.0
+      }
+    },
+    "musique": {
+      "oof_calibrated": {
+        "cover": 0.24,
+        "em": 0.23333333333333334,
+        "f1": 0.32433295689817426,
+        "n_selected": 11.94,
+        "context_tokens": 1756.12,
+        "gold_recall": 0.8861111111111112,
+        "probe_calls": 0.0
+      },
+      "oof_threshold_0.1": {
+        "cover": 0.24666666666666667,
+        "em": 0.21333333333333335,
+        "f1": 0.31918490347390605,
+        "n_selected": 19.76,
+        "context_tokens": 2506.9,
+        "gold_recall": 1.0,
+        "probe_calls": 0.0
+      },
+      "oof_threshold_0.2": {
+        "cover": 0.24666666666666667,
+        "em": 0.22666666666666666,
+        "f1": 0.3129018759018759,
+        "n_selected": 8.42,
+        "context_tokens": 1329.94,
+        "gold_recall": 0.805,
+        "probe_calls": 0.0
+      },
+      "oof_threshold_0.3": {
+        "cover": 0.20666666666666667,
+        "em": 0.18666666666666668,
+        "f1": 0.2597803307803308,
+        "n_selected": 2.36,
+        "context_tokens": 373.5466666666667,
+        "gold_recall": 0.5411111111111111,
+        "probe_calls": 0.0
+      },
+      "oof_threshold_0.4": {
+        "cover": 0.10666666666666667,
+        "em": 0.09333333333333334,
+        "f1": 0.1451055669476722,
+        "n_selected": 1.1733333333333333,
+        "context_tokens": 173.20666666666668,
+        "gold_recall": 0.36833333333333335,
+        "probe_calls": 0.0
+      },
+      "oof_threshold_0.5": {
+        "cover": 0.09333333333333334,
+        "em": 0.08,
+        "f1": 0.13010556694767222,
+        "n_selected": 1.02,
+        "context_tokens": 144.26666666666668,
+        "gold_recall": 0.32944444444444443,
+        "probe_calls": 0.0
+      },
+      "oof_tok256": {
+        "cover": 0.15333333333333332,
+        "em": 0.14,
+        "f1": 0.20124016724016724,
+        "n_selected": 2.4133333333333336,
+        "context_tokens": 238.36,
+        "gold_recall": 0.45388888888888884,
+        "probe_calls": 0.0
+      },
+      "dense_tok256": {
+        "cover": 0.14666666666666667,
+        "em": 0.13333333333333333,
+        "f1": 0.18055218855218857,
+        "n_selected": 2.42,
+        "context_tokens": 233.87333333333333,
+        "gold_recall": 0.40888888888888886,
+        "probe_calls": 0.0
+      },
+      "cross_encoder_tok256": {
+        "cover": 0.16,
+        "em": 0.14666666666666667,
+        "f1": 0.2102127502127502,
+        "n_selected": 2.486666666666667,
+        "context_tokens": 236.05333333333334,
+        "gold_recall": 0.4683333333333333,
+        "probe_calls": 0.0
+      },
+      "ce_rank_length_tok256": {
+        "cover": 0.16666666666666666,
+        "em": 0.15333333333333332,
+        "f1": 0.2102127502127502,
+        "n_selected": 2.38,
+        "context_tokens": 236.44,
+        "gold_recall": 0.4594444444444444,
+        "probe_calls": 0.0
+      },
+      "contextcite_tok256": {
+        "cover": 0.23333333333333334,
+        "em": 0.21333333333333335,
+        "f1": 0.2977917785917786,
+        "n_selected": 2.46,
+        "context_tokens": 235.0,
+        "gold_recall": 0.4472222222222222,
+        "probe_calls": 33.0
+      },
+      "oof_tok512": {
+        "cover": 0.20666666666666667,
+        "em": 0.19333333333333333,
+        "f1": 0.2714165464165464,
+        "n_selected": 4.1466666666666665,
+        "context_tokens": 494.50666666666666,
+        "gold_recall": 0.6122222222222222,
+        "probe_calls": 0.0
+      },
+      "dense_tok512": {
+        "cover": 0.16666666666666666,
+        "em": 0.15333333333333332,
+        "f1": 0.23786175480293129,
+        "n_selected": 4.513333333333334,
+        "context_tokens": 491.3066666666667,
+        "gold_recall": 0.5755555555555555,
+        "probe_calls": 0.0
+      },
+      "cross_encoder_tok512": {
+        "cover": 0.21333333333333335,
+        "em": 0.20666666666666667,
+        "f1": 0.28195045695045695,
+        "n_selected": 4.54,
+        "context_tokens": 491.94,
+        "gold_recall": 0.6305555555555555,
+        "probe_calls": 0.0
+      },
+      "ce_rank_length_tok512": {
+        "cover": 0.2,
+        "em": 0.19333333333333333,
+        "f1": 0.2585633995633995,
+        "n_selected": 3.933333333333333,
+        "context_tokens": 494.08,
+        "gold_recall": 0.5622222222222222,
+        "probe_calls": 0.0
+      },
+      "contextcite_tok512": {
+        "cover": 0.28,
+        "em": 0.24666666666666667,
+        "f1": 0.34421253586770834,
+        "n_selected": 4.406666666666666,
+        "context_tokens": 491.99333333333334,
+        "gold_recall": 0.5722222222222223,
+        "probe_calls": 33.0
+      },
+      "oof_tok768": {
+        "cover": 0.23333333333333334,
+        "em": 0.21333333333333335,
+        "f1": 0.2951943241943242,
+        "n_selected": 5.613333333333333,
+        "context_tokens": 748.02,
+        "gold_recall": 0.7072222222222222,
+        "probe_calls": 0.0
+      },
+      "dense_tok768": {
+        "cover": 0.23333333333333334,
+        "em": 0.20666666666666667,
+        "f1": 0.3011447754859519,
+        "n_selected": 6.46,
+        "context_tokens": 745.8,
+        "gold_recall": 0.6805555555555555,
+        "probe_calls": 0.0
+      },
+      "cross_encoder_tok768": {
+        "cover": 0.2,
+        "em": 0.2,
+        "f1": 0.2801303511303511,
+        "n_selected": 6.466666666666667,
+        "context_tokens": 747.1866666666666,
+        "gold_recall": 0.7088888888888889,
+        "probe_calls": 0.0
+      },
+      "ce_rank_length_tok768": {
+        "cover": 0.22666666666666666,
+        "em": 0.22,
+        "f1": 0.2954522884522884,
+        "n_selected": 5.5,
+        "context_tokens": 746.7733333333333,
+        "gold_recall": 0.6783333333333333,
+        "probe_calls": 0.0
+      },
+      "contextcite_tok768": {
+        "cover": 0.29333333333333333,
+        "em": 0.26666666666666666,
+        "f1": 0.35279261887982816,
+        "n_selected": 6.566666666666666,
+        "context_tokens": 746.4866666666667,
+        "gold_recall": 0.6238888888888889,
+        "probe_calls": 33.0
+      }
+    }
+  },
+  "contrasts": [
+    {
+      "left": "oof_tok256",
+      "right": "dense_tok256",
+      "metric": "cover",
+      "difference": 0.024444444444444446,
+      "ci95": [
+        -0.006666666666666667,
+        0.05555555555555555
+      ]
+    },
+    {
+      "left": "oof_tok256",
+      "right": "dense_tok256",
+      "metric": "f1",
+      "difference": 0.041537440755182696,
+      "ci95": [
+        0.010462615272023874,
+        0.07333251771128114
+      ]
+    },
+    {
+      "left": "oof_tok256",
+      "right": "dense_tok256",
+      "metric": "gold_recall",
+      "difference": 0.049444444444444444,
+      "ci95": [
+        0.028328703703703703,
+        0.07111111111111111
+      ]
+    },
+    {
+      "left": "oof_tok256",
+      "right": "cross_encoder_tok256",
+      "metric": "cover",
+      "difference": 0.0044444444444444444,
+      "ci95": [
+        -0.02,
+        0.028888888888888888
+      ]
+    },
+    {
+      "left": "oof_tok256",
+      "right": "cross_encoder_tok256",
+      "metric": "f1",
+      "difference": 0.0058303671637004945,
+      "ci95": [
+        -0.01795290203623537,
+        0.03004923841590508
+      ]
+    },
+    {
+      "left": "oof_tok256",
+      "right": "cross_encoder_tok256",
+      "metric": "gold_recall",
+      "difference": 0.009074074074074075,
+      "ci95": [
+        -0.00574074074074074,
+        0.02388888888888889
+      ]
+    },
+    {
+      "left": "oof_tok256",
+      "right": "ce_rank_length_tok256",
+      "metric": "cover",
+      "difference": 0.015555555555555555,
+      "ci95": [
+        -0.011111111111111112,
+        0.042222222222222223
+      ]
+    },
+    {
+      "left": "oof_tok256",
+      "right": "ce_rank_length_tok256",
+      "metric": "f1",
+      "difference": 0.021278338945005616,
+      "ci95": [
+        -0.004213848805515472,
+        0.047149021965688626
+      ]
+    },
+    {
+      "left": "oof_tok256",
+      "right": "ce_rank_length_tok256",
+      "metric": "gold_recall",
+      "difference": 0.010925925925925924,
+      "ci95": [
+        -0.005185185185185184,
+        0.026486111111111047
+      ]
+    },
+    {
+      "left": "oof_tok256",
+      "right": "contextcite_tok256",
+      "metric": "cover",
+      "difference": -0.06444444444444444,
+      "ci95": [
+        -0.10222222222222223,
+        -0.024444444444444446
+      ]
+    },
+    {
+      "left": "oof_tok256",
+      "right": "contextcite_tok256",
+      "metric": "f1",
+      "difference": -0.0640421730400225,
+      "ci95": [
+        -0.10199715006419308,
+        -0.026002041268170302
+      ]
+    },
+    {
+      "left": "oof_tok256",
+      "right": "contextcite_tok256",
+      "metric": "gold_recall",
+      "difference": 0.06722222222222222,
+      "ci95": [
+        0.037037037037037035,
+        0.09777777777777778
+      ]
+    },
+    {
+      "left": "oof_tok512",
+      "right": "dense_tok512",
+      "metric": "cover",
+      "difference": 0.008888888888888889,
+      "ci95": [
+        -0.02666666666666667,
+        0.042222222222222223
+      ]
+    },
+    {
+      "left": "oof_tok512",
+      "right": "dense_tok512",
+      "metric": "f1",
+      "difference": 0.015329471182412364,
+      "ci95": [
+        -0.01788392444519895,
+        0.0478988899263409
+      ]
+    },
+    {
+      "left": "oof_tok512",
+      "right": "dense_tok512",
+      "metric": "gold_recall",
+      "difference": 0.03888888888888889,
+      "ci95": [
+        0.015370370370370373,
+        0.06296296296296296
+      ]
+    },
+    {
+      "left": "oof_tok512",
+      "right": "cross_encoder_tok512",
+      "metric": "cover",
+      "difference": -0.03111111111111111,
+      "ci95": [
+        -0.06222222222222222,
+        0.0
+      ]
+    },
+    {
+      "left": "oof_tok512",
+      "right": "cross_encoder_tok512",
+      "metric": "f1",
+      "difference": -0.02542857142857143,
+      "ci95": [
+        -0.057757411415744746,
+        0.005871456629789934
+      ]
+    },
+    {
+      "left": "oof_tok512",
+      "right": "cross_encoder_tok512",
+      "metric": "gold_recall",
+      "difference": -0.0033333333333333335,
+      "ci95": [
+        -0.02388888888888889,
+        0.017222222222222222
+      ]
+    },
+    {
+      "left": "oof_tok512",
+      "right": "ce_rank_length_tok512",
+      "metric": "cover",
+      "difference": 0.0022222222222222222,
+      "ci95": [
+        -0.02666666666666667,
+        0.03111111111111111
+      ]
+    },
+    {
+      "left": "oof_tok512",
+      "right": "ce_rank_length_tok512",
+      "metric": "f1",
+      "difference": 0.011101762435095768,
+      "ci95": [
+        -0.016891233766233766,
+        0.039479753888087214
+      ]
+    },
+    {
+      "left": "oof_tok512",
+      "right": "ce_rank_length_tok512",
+      "metric": "gold_recall",
+      "difference": 0.035555555555555556,
+      "ci95": [
+        0.017222222222222226,
+        0.05407407407407407
+      ]
+    },
+    {
+      "left": "oof_tok512",
+      "right": "contextcite_tok512",
+      "metric": "cover",
+      "difference": -0.08888888888888889,
+      "ci95": [
+        -0.12672222222222218,
+        -0.04888888888888889
+      ]
+    },
+    {
+      "left": "oof_tok512",
+      "right": "contextcite_tok512",
+      "metric": "f1",
+      "difference": -0.07696260639668348,
+      "ci95": [
+        -0.11564481412147065,
+        -0.03871008159133582
+      ]
+    },
+    {
+      "left": "oof_tok512",
+      "right": "contextcite_tok512",
+      "metric": "gold_recall",
+      "difference": 0.05611111111111111,
+      "ci95": [
+        0.024259259259259258,
+        0.08925925925925926
+      ]
+    },
+    {
+      "left": "oof_tok768",
+      "right": "dense_tok768",
+      "metric": "cover",
+      "difference": 0.017777777777777778,
+      "ci95": [
+        -0.013333333333333334,
+        0.051111111111111114
+      ]
+    },
+    {
+      "left": "oof_tok768",
+      "right": "dense_tok768",
+      "metric": "f1",
+      "difference": 0.009471267435707004,
+      "ci95": [
+        -0.021130559302808542,
+        0.03981333299915175
+      ]
+    },
+    {
+      "left": "oof_tok768",
+      "right": "dense_tok768",
+      "metric": "gold_recall",
+      "difference": 0.028888888888888888,
+      "ci95": [
+        0.0044398148148148174,
+        0.05333333333333334
+      ]
+    },
+    {
+      "left": "oof_tok768",
+      "right": "cross_encoder_tok768",
+      "metric": "cover",
+      "difference": 0.024444444444444446,
+      "ci95": [
+        -0.006666666666666667,
+        0.05555555555555555
+      ]
+    },
+    {
+      "left": "oof_tok768",
+      "right": "cross_encoder_tok768",
+      "metric": "f1",
+      "difference": 0.00464430875473187,
+      "ci95": [
+        -0.02569528539056403,
+        0.03449361722346758
+      ]
+    },
+    {
+      "left": "oof_tok768",
+      "right": "cross_encoder_tok768",
+      "metric": "gold_recall",
+      "difference": 0.005555555555555556,
+      "ci95": [
+        -0.015740740740740743,
+        0.02666666666666667
+      ]
+    },
+    {
+      "left": "oof_tok768",
+      "right": "ce_rank_length_tok768",
+      "metric": "cover",
+      "difference": 0.022222222222222223,
+      "ci95": [
+        -0.0044444444444444444,
+        0.04888888888888889
+      ]
+    },
+    {
+      "left": "oof_tok768",
+      "right": "ce_rank_length_tok768",
+      "metric": "f1",
+      "difference": 0.011322237216974059,
+      "ci95": [
+        -0.013829534662867994,
+        0.03618122997859839
+      ]
+    },
+    {
+      "left": "oof_tok768",
+      "right": "ce_rank_length_tok768",
+      "metric": "gold_recall",
+      "difference": 0.026851851851851852,
+      "ci95": [
+        0.00611111111111111,
+        0.04722222222222222
+      ]
+    },
+    {
+      "left": "oof_tok768",
+      "right": "contextcite_tok768",
+      "metric": "cover",
+      "difference": -0.03111111111111111,
+      "ci95": [
+        -0.06444444444444444,
+        0.0022222222222222222
+      ]
+    },
+    {
+      "left": "oof_tok768",
+      "right": "contextcite_tok768",
+      "metric": "f1",
+      "difference": -0.035846064980397906,
+      "ci95": [
+        -0.06820100760867795,
+        -0.0037547338010185238
+      ]
+    },
+    {
+      "left": "oof_tok768",
+      "right": "contextcite_tok768",
+      "metric": "gold_recall",
+      "difference": 0.06222222222222222,
+      "ci95": [
+        0.03203703703703704,
+        0.09277777777777778
+      ]
+    }
+  ]
+}

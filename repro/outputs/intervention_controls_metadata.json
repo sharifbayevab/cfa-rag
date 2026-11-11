@@ -1,0 +1,16 @@
+{
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "model_commit": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "sample_rule": "first 40 SHA-256-sorted question IDs per dataset",
+  "sample_size": 120,
+  "plan_sha256": "82c0d380c17b501d6e6863d786141ccbc2d57be137ca0aad64b337f4cf7f2e75",
+  "neutral_token_id": 279,
+  "neutral_token_probe": " the",
+  "position_control": "replace exact title+text token positions; preserve passage IDs and prompt length",
+  "seed": 0,
+  "torch": "2.9.0a0+50eac811a6.nv25.09",
+  "transformers": "4.57.6",
+  "datasets": "4.8.5",
+  "gpu": "NVIDIA GB10",
+  "finished_unix": 1789930947.651598
+}

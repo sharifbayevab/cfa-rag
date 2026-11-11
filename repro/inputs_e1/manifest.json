@@ -1,0 +1,33 @@
+{
+ "note": "Inputs produced on 2026-11-11: frozen pools, exact LOO answers and budget sweep of HF Qwen3-4B-Instruct-2507 (DGX Spark, torch 2.14, transformers 5.17).",
+ "files": {
+  "e1_loo.jsonl": {
+   "sha256": "e574ceb56aeaf6e31b47304b72371143f1ad0a8248e553c52169c9e64b958f9e",
+   "bytes": 871066
+  },
+  "e1_loo.metadata.json": {
+   "sha256": "5bc8e59bb5d9fb0036014e3de7d4d7a6165211ac3ba2bf34b3fbdffb3611926d",
+   "bytes": 499
+  },
+  "e1_plan.jsonl": {
+   "sha256": "ae0923531d074633d4c5f745f3e6a7e1ce6e47571920743cc808baf6f393f001",
+   "bytes": 1116090
+  },
+  "e1_sweep.jsonl": {
+   "sha256": "363a625316dd6f5e9b33c50ca285f7073ea289ee8f977b6338f791f6ac2a8c65",
+   "bytes": 12680762
+  },
+  "e1_sweep.metadata.json": {
+   "sha256": "a2039e3b71905cb8f79f0043a17fdb6a57d0f33eb591adcd9f3d08751ffe21de",
+   "bytes": 647
+  },
+  "pools_all.jsonl": {
+   "sha256": "c3d80850ea939af79e994ef7a079d2b1c972c1cdd9a680a2600709adf98a4cc7",
+   "bytes": 3413283
+  },
+  "e1_loo_masks.jsonl": {
+   "sha256": "cec177982115dbd8ff3ac342b67642d987ff45d09dd4662df95e9a84332b4071",
+   "bytes": 407901
+  }
+ }
+}

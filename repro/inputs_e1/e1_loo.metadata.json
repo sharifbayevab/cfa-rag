@@ -1,0 +1,17 @@
+{
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "model_commit": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "neutral_token_id": 279,
+  "neutral_token_probe": " the",
+  "stable_passage_ids": true,
+  "seed": 0,
+  "torch": "2.14.0+cu130",
+  "transformers": "5.17.0",
+  "datasets": "5.0.1",
+  "gpu": "NVIDIA GB10",
+  "plan_sha256": "82c0d380c17b501d6e6863d786141ccbc2d57be137ca0aad64b337f4cf7f2e75",
+  "batch_size": 24,
+  "max_new_tokens": 48,
+  "num_masks": 32,
+  "finished_unix": 1794380592.7893162
+}

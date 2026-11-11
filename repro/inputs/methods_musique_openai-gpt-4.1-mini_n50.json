@@ -1,0 +1,56 @@
+{
+  "dataset": "musique",
+  "generator": "openai:gpt-4.1-mini",
+  "n": 50,
+  "methods": {
+    "full": {
+      "acc": 0.48,
+      "f1": 0.568,
+      "tokens": 1667.5,
+      "probe_calls": 0.0,
+      "gold_recall": 1.0
+    },
+    "random_k": {
+      "acc": 0.16,
+      "f1": 0.222,
+      "tokens": 314.2,
+      "probe_calls": 0.0,
+      "gold_recall": 0.24
+    },
+    "topk_relevance": {
+      "acc": 0.28,
+      "f1": 0.326,
+      "tokens": 342.4,
+      "probe_calls": 0.0,
+      "gold_recall": 0.5
+    },
+    "amortized_causal": {
+      "acc": 0.24,
+      "f1": 0.281,
+      "tokens": 92.8,
+      "probe_calls": 0.0,
+      "gold_recall": 0.322
+    },
+    "contextcite": {
+      "acc": 0.44,
+      "f1": 0.509,
+      "tokens": 340.1,
+      "probe_calls": 17.0,
+      "gold_recall": 0.507
+    },
+    "cfa_prune": {
+      "acc": 0.48,
+      "f1": 0.539,
+      "tokens": 393.0,
+      "probe_calls": 21.0,
+      "gold_recall": 0.577
+    },
+    "oracle_gold": {
+      "acc": 0.58,
+      "f1": 0.617,
+      "tokens": 225.0,
+      "probe_calls": 0.0,
+      "gold_recall": 1.0
+    }
+  }
+}

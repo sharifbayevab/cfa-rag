@@ -1,0 +1,42 @@
+{
+  "n_questions": 120,
+  "n_answer_pairs": 3436,
+  "model": "BAAI/bge-base-en-v1.5",
+  "model_commit": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+  "thresholds": {
+    "0.80": {
+      "string_change_count": 855,
+      "semantic_change_count": 713,
+      "string_change_precision_for_semantic_change": 0.8339181286549707,
+      "delete_mask_semantic_label_agreement": 0.9317897371714643,
+      "delete_semantic_change_rate": 0.17459324155193992,
+      "mask_semantic_change_rate": 0.16270337922403003,
+      "joint_gold_mask_semantic_change_rate": 0.7166666666666667
+    },
+    "0.85": {
+      "string_change_count": 855,
+      "semantic_change_count": 753,
+      "string_change_precision_for_semantic_change": 0.8807017543859649,
+      "delete_mask_semantic_label_agreement": 0.9299123904881101,
+      "delete_semantic_change_rate": 0.18523153942428036,
+      "mask_semantic_change_rate": 0.17146433041301626,
+      "joint_gold_mask_semantic_change_rate": 0.7666666666666667
+    },
+    "0.90": {
+      "string_change_count": 855,
+      "semantic_change_count": 776,
+      "string_change_precision_for_semantic_change": 0.9076023391812865,
+      "delete_mask_semantic_label_agreement": 0.9274092615769712,
+      "delete_semantic_change_rate": 0.19086357947434293,
+      "mask_semantic_change_rate": 0.17709637046307886,
+      "joint_gold_mask_semantic_change_rate": 0.7833333333333333
+    }
+  },
+  "cosine_quantiles_for_string_changes": {
+    "0.1": 0.4616299867630005,
+    "0.25": 0.5124699473381042,
+    "0.5": 0.570520281791687,
+    "0.75": 0.6915661692619324,
+    "0.9": 0.8859366178512577
+  }
+}

@@ -1,0 +1,192 @@
+[
+  {
+    "file": "raw_2wiki_ollama-gemma3-12b_n150.jsonl",
+    "sha256": "070fe2caef480c8f4fb0ac5724e1b80d69749ad9aa406024bbac15caa6f9da30",
+    "source": "cfa-research/results/raw_2wiki_ollama-gemma3-12b_n150.jsonl"
+  },
+  {
+    "file": "raw_2wiki_ollama-gemma3-4b_n150.jsonl",
+    "sha256": "eabe1a7366c73bf92ae487064719469cb7a2f3750700e493b392b7f7564b57be",
+    "source": "cfa-research/results/raw_2wiki_ollama-gemma3-4b_n150.jsonl"
+  },
+  {
+    "file": "raw_2wiki_openai-gpt-4.1-mini_n150.jsonl",
+    "sha256": "f3e50b452ca6e720e87e39884093b969a2dc6c81b2ba6a91f0d846b84625338b",
+    "source": "cfa-research/results/raw_2wiki_openai-gpt-4.1-mini_n150.jsonl"
+  },
+  {
+    "file": "raw_2wiki_openai-gpt-4.1-nano_n150.jsonl",
+    "sha256": "a2a046e6c2a18355589bf8cb27df692dca85f4447704f0566d67ebf8f58fa6ab",
+    "source": "cfa-research/results/raw_2wiki_openai-gpt-4.1-nano_n150.jsonl"
+  },
+  {
+    "file": "raw_2wiki_openai-gpt-4.1_n150.jsonl",
+    "sha256": "7abd3f92e875899eac7c44aa37726e6f27c15a097bc4a091c5f042f5bd4f75cd",
+    "source": "cfa-research/results/raw_2wiki_openai-gpt-4.1_n150.jsonl"
+  },
+  {
+    "file": "raw_hotpotqa_ollama-gemma3-12b_n150.jsonl",
+    "sha256": "93e7a19613f2c21eb161fa609aec58f4ce53fbe685960762c5e96c805e02581b",
+    "source": "cfa-research/results/raw_hotpotqa_ollama-gemma3-12b_n150.jsonl"
+  },
+  {
+    "file": "raw_hotpotqa_ollama-gemma3-4b_n150.jsonl",
+    "sha256": "41c44063b5fd3d66a856b1dfba7fe5c8d04624a6a5f4f3d1df1ca69d5d5c8108",
+    "source": "cfa-research/results/raw_hotpotqa_ollama-gemma3-4b_n150.jsonl"
+  },
+  {
+    "file": "raw_hotpotqa_openai-gpt-4.1-mini_n150.jsonl",
+    "sha256": "514c8f4a3e1fa39d550ff9b689fa622fd8f833ffbf3a4547b4e52795f44dcc87",
+    "source": "cfa-research/results/raw_hotpotqa_openai-gpt-4.1-mini_n150.jsonl"
+  },
+  {
+    "file": "raw_hotpotqa_openai-gpt-4.1-nano_n150.jsonl",
+    "sha256": "d48829ce4334fc9cf56af058e9ce571e3e7ace83af56be392d252806fc399f0f",
+    "source": "cfa-research/results/raw_hotpotqa_openai-gpt-4.1-nano_n150.jsonl"
+  },
+  {
+    "file": "raw_hotpotqa_openai-gpt-4.1_n150.jsonl",
+    "sha256": "9866825b2d8b107740689e3f98518974ab83678e7406d1092dee270c924d09e3",
+    "source": "cfa-research/results/raw_hotpotqa_openai-gpt-4.1_n150.jsonl"
+  },
+  {
+    "file": "raw_musique_ollama-gemma3-12b_n150.jsonl",
+    "sha256": "83d8888983ca38410984ae6655108f2efa0f876f6591d1f3331de718217160ae",
+    "source": "cfa-research/results/raw_musique_ollama-gemma3-12b_n150.jsonl"
+  },
+  {
+    "file": "raw_musique_ollama-gemma3-4b_n150.jsonl",
+    "sha256": "8123fca361dde6466c12ff56bed643ab3840bb2bee2073f211d6bb060b4fa53a",
+    "source": "cfa-research/results/raw_musique_ollama-gemma3-4b_n150.jsonl"
+  },
+  {
+    "file": "raw_musique_openai-gpt-4.1-mini_n150.jsonl",
+    "sha256": "532b3fe3b882bb9209ea240030f893ac2c56fd7ed75847729042dbc969b1425b",
+    "source": "cfa-research/results/raw_musique_openai-gpt-4.1-mini_n150.jsonl"
+  },
+  {
+    "file": "raw_musique_openai-gpt-4.1-nano_n150.jsonl",
+    "sha256": "ccd0816df5e45e2e119f813da7dd33f80f7e7cd1c8162ba362393fdebca91b7b",
+    "source": "cfa-research/results/raw_musique_openai-gpt-4.1-nano_n150.jsonl"
+  },
+  {
+    "file": "raw_musique_openai-gpt-4.1_n150.jsonl",
+    "sha256": "3881e264df19a591fb196fa487688544f2f8bcf70229dfac6d06a4511243a732",
+    "source": "cfa-research/results/raw_musique_openai-gpt-4.1_n150.jsonl"
+  },
+  {
+    "file": "raw_oc_2wiki_openai-gpt-4.1-mini_n150.jsonl",
+    "sha256": "bfb52b797252a31eecf8168f8954d0b3448e3e4742e81289bb7a7c47ed93253d",
+    "source": "cfa-research/results/raw_oc_2wiki_openai-gpt-4.1-mini_n150.jsonl"
+  },
+  {
+    "file": "raw_oc_hotpotqa_openai-gpt-4.1-mini_n150.jsonl",
+    "sha256": "a5164b03dd2ac75e4e6596fad70809d7631da1d7249b2f0dbb5b0dbf291576b3",
+    "source": "cfa-research/results/raw_oc_hotpotqa_openai-gpt-4.1-mini_n150.jsonl"
+  },
+  {
+    "file": "raw_oc_musique_openai-gpt-4.1-mini_n150.jsonl",
+    "sha256": "40bd91ef60bc42df0337dc85df05c5108bf6086a24c9e0f29eea4e237b84a26d",
+    "source": "cfa-research/results/raw_oc_musique_openai-gpt-4.1-mini_n150.jsonl"
+  },
+  {
+    "file": "methods_2wiki_ollama-gemma3-4b_n50.json",
+    "sha256": "5918cb2260bc29ab8b98ad72b687701ac0e81a630069cbd862991aa209533c92",
+    "source": "cfa-research/results/methods_2wiki_ollama-gemma3-4b_n50.json"
+  },
+  {
+    "file": "methods_2wiki_openai-gpt-4.1-mini_n50.json",
+    "sha256": "1bc93bb37d8abef7c599a7ddaf021cc47a712f8e0489576ec0f00b05c916ba9e",
+    "source": "cfa-research/results/methods_2wiki_openai-gpt-4.1-mini_n50.json"
+  },
+  {
+    "file": "methods_hotpotqa_ollama-gemma3-4b_n50.json",
+    "sha256": "4517f976e9d382a9205304d89fc0ec9840918e04b9fe93b99d3852e809a2c458",
+    "source": "cfa-research/results/methods_hotpotqa_ollama-gemma3-4b_n50.json"
+  },
+  {
+    "file": "methods_hotpotqa_openai-gpt-4.1-mini_n50.json",
+    "sha256": "4ad5e0032d2a721c7895308812a1755e4a6833446a83966fc0425eb5ee3024aa",
+    "source": "cfa-research/results/methods_hotpotqa_openai-gpt-4.1-mini_n50.json"
+  },
+  {
+    "file": "methods_musique_ollama-gemma3-4b_n50.json",
+    "sha256": "1e2bfec1eb4811281c305998c4580c20d42a4a35cc1b931384d44b05cf13e845",
+    "source": "cfa-research/results/methods_musique_ollama-gemma3-4b_n50.json"
+  },
+  {
+    "file": "methods_musique_openai-gpt-4.1-mini_n50.json",
+    "sha256": "063922ef69fe739d88d3db454e136e9945ee0d2c12e048defa785397404fdcfa",
+    "source": "cfa-research/results/methods_musique_openai-gpt-4.1-mini_n50.json"
+  },
+  {
+    "file": "methodsraw_2wiki_openai-gpt-4.1-mini_n50.jsonl",
+    "sha256": "be307d661eea1f74eab07c1d554c2542ab9c6d8e84be0db708704fffc2180ae4",
+    "source": "cfa-research/results/methodsraw_2wiki_openai-gpt-4.1-mini_n50.jsonl"
+  },
+  {
+    "file": "methodsraw_hotpotqa_openai-gpt-4.1-mini_n50.jsonl",
+    "sha256": "48d8125c4f8d11c44f46a654e5e7d9a6dc14b090eb24f693a3ed75a652782e29",
+    "source": "cfa-research/results/methodsraw_hotpotqa_openai-gpt-4.1-mini_n50.jsonl"
+  },
+  {
+    "file": "methodsraw_musique_ollama-gemma3-4b_n50.jsonl",
+    "sha256": "401a4a4399969823419d8c8e1af445e651d9bb66855eba0302fb10fc8c65325e",
+    "source": "cfa-research/results/methodsraw_musique_ollama-gemma3-4b_n50.jsonl"
+  },
+  {
+    "file": "methodsraw_musique_openai-gpt-4.1-mini_n50.jsonl",
+    "sha256": "8574012b51193bf17848e28246ba775e559b09cd875c9819c635fae11abdd8e0",
+    "source": "cfa-research/results/methodsraw_musique_openai-gpt-4.1-mini_n50.jsonl"
+  },
+  {
+    "file": "selector_dataset.npz",
+    "sha256": "dcd30f995e4ab9710a6d8c1666b4f4fe52e400ca2568962abd259446cdeb313d",
+    "source": "cfa-research/results/selector_dataset.npz"
+  },
+  {
+    "file": "stability_hotpotqa_ollama-gemma3-4b_n60_k3.json",
+    "sha256": "d0ddf0d59482930c3469e114e0318b125e104aeda8adea640f31e9344f5d887c",
+    "source": "cfa-research/results/stability_hotpotqa_ollama-gemma3-4b_n60_k3.json"
+  },
+  {
+    "file": "stability_hotpotqa_openai-gpt-4.1-mini_n60_k3.json",
+    "sha256": "99c83308da82919689dbc7b8e03cbf0e1d1e7b3ebb438b294249153e8c7398e8",
+    "source": "cfa-research/results/stability_hotpotqa_openai-gpt-4.1-mini_n60_k3.json"
+  },
+  {
+    "file": "fresh_qa_qwen3_4b_n450.jsonl",
+    "sha256": "fd1da914f2735dcbde771487924dc78c7d103f428dac063278a285bc586cbff3",
+    "source": "articles/rag/Counterfactual_Fragment_Attribution_for_Faithfulness_and_Context_Pruning_in_Retrieval_Augmented_Generation/repro/inputs/fresh_qa_qwen3_4b_n450.jsonl"
+  },
+  {
+    "file": "fresh_selection_plan.jsonl",
+    "sha256": "82c0d380c17b501d6e6863d786141ccbc2d57be137ca0aad64b337f4cf7f2e75",
+    "source": "articles/rag/Counterfactual_Fragment_Attribution_for_Faithfulness_and_Context_Pruning_in_Retrieval_Augmented_Generation/repro/inputs/fresh_selection_plan.jsonl"
+  },
+  {
+    "file": "intervention_controls_qwen3_4b_n120.jsonl",
+    "sha256": "b31daf318c1a71640d9a5907ad5ffbe68effe5e57b695b97963a6a5d8bd92352",
+    "source": "articles/rag/Counterfactual_Fragment_Attribution_for_Faithfulness_and_Context_Pruning_in_Retrieval_Augmented_Generation/repro/inputs/intervention_controls_qwen3_4b_n120.jsonl"
+  },
+  {
+    "file": "efficiency_sweep_qwen3_4b_n450.jsonl",
+    "sha256": "88cfc326574588d546ffb29a8bf1f243478c11cfb20b2b18566eb08daff2abb4",
+    "source": "articles/rag/Counterfactual_Fragment_Attribution_for_Faithfulness_and_Context_Pruning_in_Retrieval_Augmented_Generation/repro/inputs/efficiency_sweep_qwen3_4b_n450.jsonl"
+  },
+  {
+    "file": "efficiency_plan.jsonl",
+    "sha256": "c608eaf586c9bfe4a2b3afea02def97e2204207b2d4bfc8d5b19471ae60f7616",
+    "source": "articles/rag/Counterfactual_Fragment_Attribution_for_Faithfulness_and_Context_Pruning_in_Retrieval_Augmented_Generation/repro/inputs/efficiency_plan.jsonl"
+  },
+  {
+    "file": "efficiency_plan.metadata.json",
+    "sha256": "2968dba386bb303f74a06deecc9efaeaabd431a6c4c99ac22d2eac7e4342250d",
+    "source": "articles/rag/Counterfactual_Fragment_Attribution_for_Faithfulness_and_Context_Pruning_in_Retrieval_Augmented_Generation/repro/inputs/efficiency_plan.metadata.json"
+  },
+  {
+    "file": "semantic_label_validation.json",
+    "sha256": "8df8e269684914fc8814f5a0dc6481c79ea1cffb3e1f58e82ec9a5f655be6561",
+    "source": "articles/rag/Counterfactual_Fragment_Attribution_for_Faithfulness_and_Context_Pruning_in_Retrieval_Augmented_Generation/repro/inputs/semantic_label_validation.json"
+  }
+]

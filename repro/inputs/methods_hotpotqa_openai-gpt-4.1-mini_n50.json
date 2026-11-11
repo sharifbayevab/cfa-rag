@@ -1,0 +1,56 @@
+{
+  "dataset": "hotpotqa",
+  "generator": "openai:gpt-4.1-mini",
+  "n": 50,
+  "methods": {
+    "full": {
+      "acc": 0.68,
+      "f1": 0.748,
+      "tokens": 848.7,
+      "probe_calls": 0.0,
+      "gold_recall": 1.0
+    },
+    "random_k": {
+      "acc": 0.4,
+      "f1": 0.475,
+      "tokens": 337.4,
+      "probe_calls": 0.0,
+      "gold_recall": 0.43
+    },
+    "topk_relevance": {
+      "acc": 0.5,
+      "f1": 0.543,
+      "tokens": 301.1,
+      "probe_calls": 0.0,
+      "gold_recall": 0.69
+    },
+    "amortized_causal": {
+      "acc": 0.54,
+      "f1": 0.601,
+      "tokens": 70.9,
+      "probe_calls": 0.0,
+      "gold_recall": 0.48
+    },
+    "contextcite": {
+      "acc": 0.7,
+      "f1": 0.742,
+      "tokens": 329.0,
+      "probe_calls": 17.0,
+      "gold_recall": 0.66
+    },
+    "cfa_prune": {
+      "acc": 0.68,
+      "f1": 0.723,
+      "tokens": 127.1,
+      "probe_calls": 11.0,
+      "gold_recall": 0.55
+    },
+    "oracle_gold": {
+      "acc": 0.76,
+      "f1": 0.818,
+      "tokens": 137.6,
+      "probe_calls": 0.0,
+      "gold_recall": 1.0
+    }
+  }
+}

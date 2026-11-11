@@ -1,0 +1,1307 @@
+{
+  "summary": {
+    "model": "openai:gpt-4.1-mini",
+    "dataset": "hotpotqa",
+    "n": 60,
+    "k": 3,
+    "full_answer_selfconsistency": 0.9556,
+    "full_answer_flip_rate": 0.0444,
+    "causal_set_mean_jaccard": 0.8893,
+    "causal_set_exact_agree": 0.7667
+  },
+  "per_q": [
+    {
+      "qid": "5ac3bd0c554299204fd21e21",
+      "ans_agree": 1.0,
+      "set_jac": 0.5555555555555555,
+      "set_exact": 0.0,
+      "answers": [
+        "Filmmakers",
+        "Filmmakers",
+        "Filmmakers"
+      ],
+      "sets": [
+        [
+          2,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "qid": "5adce4f65542992c1e3a2474",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "Centers for Medicare and Medicaid Services (CMS)",
+        "Centers for Medicare and Medicaid Services (CMS)",
+        "Centers for Medicare and Medicaid Services (CMS)"
+      ],
+      "sets": [
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "qid": "5a77a3905542992a6e59df40",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "Kentucky Wildcats",
+        "Kentucky Wildcats",
+        "Kentucky Wildcats"
+      ],
+      "sets": [
+        [
+          5
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ]
+      ]
+    },
+    {
+      "qid": "5ac38ce255429939154137c2",
+      "ans_agree": 0.3333333333333333,
+      "set_jac": 0.46296296296296297,
+      "set_exact": 0.0,
+      "answers": [
+        "Alcoholic mixed drinks",
+        "Both are mixed drinks.",
+        "Alcoholic mixed drinks"
+      ],
+      "sets": [
+        [
+          0,
+          2,
+          4,
+          5,
+          7
+        ],
+        [
+          0,
+          3,
+          6,
+          7,
+          8,
+          9
+        ],
+        [
+          0,
+          2,
+          4,
+          5,
+          7,
+          9
+        ]
+      ]
+    },
+    {
+      "qid": "5ac10832554299012d1db687",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "22",
+        "22",
+        "22"
+      ],
+      "sets": [
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "qid": "5abb8afe5542993f40c73b1e",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "No",
+        "No",
+        "No"
+      ],
+      "sets": [
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "qid": "5a85b0c85542994c784ddb40",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "Texas Tech University",
+        "Texas Tech University",
+        "Texas Tech University"
+      ],
+      "sets": [
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "qid": "5ab29346554299545a2cf997",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "KXII",
+        "KXII",
+        "KXII"
+      ],
+      "sets": [
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "qid": "5a7619765542992db9473728",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "East Knoyle",
+        "East Knoyle",
+        "East Knoyle"
+      ],
+      "sets": [
+        [
+          7
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ]
+    },
+    {
+      "qid": "5ae66d515542992ae0d16346",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "1927",
+        "1927",
+        "1927"
+      ],
+      "sets": [
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "qid": "5a8c66db554299585d9e3683",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "2017",
+        "2017",
+        "2017"
+      ],
+      "sets": [
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "qid": "5a8a38135542996c9b8d5e59",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "Prussia",
+        "Prussia",
+        "Prussia"
+      ],
+      "sets": [
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "qid": "5a88a19a5542997e5c09a64b",
+      "ans_agree": 1.0,
+      "set_jac": 0.7777777777777777,
+      "set_exact": 0.0,
+      "answers": [
+        "Phyllocnistis liquidambarisella",
+        "Phyllocnistis liquidambarisella",
+        "Phyllocnistis liquidambarisella"
+      ],
+      "sets": [
+        [
+          7,
+          8
+        ],
+        [
+          1,
+          7,
+          8
+        ],
+        [
+          1,
+          7,
+          8
+        ]
+      ]
+    },
+    {
+      "qid": "5add6b595542992200553b0c",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "Atlanta, Georgia",
+        "Atlanta, Georgia",
+        "Atlanta, Georgia"
+      ],
+      "sets": [
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ]
+    },
+    {
+      "qid": "5ae16ea85542990adbacf790",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "31 July 1975",
+        "31 July 1975",
+        "31 July 1975"
+      ],
+      "sets": [
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ]
+    },
+    {
+      "qid": "5adf39ce5542995534e8c76d",
+      "ans_agree": 0.3333333333333333,
+      "set_jac": 0.35833333333333334,
+      "set_exact": 0.0,
+      "answers": [
+        "Shakespeare performances",
+        "Shakespeare performances throughout India",
+        "Shakespeare performances"
+      ],
+      "sets": [
+        [
+          1,
+          4,
+          8,
+          9
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          9
+        ],
+        [
+          4,
+          6,
+          7,
+          8,
+          9
+        ]
+      ]
+    },
+    {
+      "qid": "5ab8179f5542990e739ec817",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "Dana Fox",
+        "Dana Fox",
+        "Dana Fox"
+      ],
+      "sets": [
+        [
+          5
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ]
+      ]
+    },
+    {
+      "qid": "5ae2c4b8554299495565db31",
+      "ans_agree": 1.0,
+      "set_jac": 0.8333333333333334,
+      "set_exact": 0.0,
+      "answers": [
+        "Montgomery",
+        "Montgomery",
+        "Montgomery"
+      ],
+      "sets": [
+        [
+          2,
+          3,
+          5,
+          9
+        ],
+        [
+          2,
+          3,
+          5,
+          9
+        ],
+        [
+          2,
+          3,
+          9
+        ]
+      ]
+    },
+    {
+      "qid": "5adcceda5542990d50227d31",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "United Kingdom",
+        "United Kingdom",
+        "United Kingdom"
+      ],
+      "sets": [
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "qid": "5a83aaeb5542996488c2e483",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "Graduation",
+        "Graduation",
+        "Graduation"
+      ],
+      "sets": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "qid": "5ab6654455429954757d3281",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "flowering plants",
+        "flowering plants",
+        "flowering plants"
+      ],
+      "sets": [
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "qid": "5a8e43455542990e94052aa1",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "No",
+        "No",
+        "No"
+      ],
+      "sets": [
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "qid": "5adcaa7f5542990d50227cdb",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "24",
+        "24",
+        "24"
+      ],
+      "sets": [
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ]
+    },
+    {
+      "qid": "5a78d38455429970f5fffd94",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "Julian Assange",
+        "Julian Assange",
+        "Julian Assange"
+      ],
+      "sets": [
+        [
+          7
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ]
+    },
+    {
+      "qid": "5ae022ab554299025d62a428",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "Echeveria",
+        "Echeveria",
+        "Echeveria"
+      ],
+      "sets": [
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "qid": "5ae1ab2f554299234fd042ba",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "Adrian Lyne",
+        "Adrian Lyne",
+        "Adrian Lyne"
+      ],
+      "sets": [
+        [
+          9
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ]
+      ]
+    },
+    {
+      "qid": "5ab97cd0554299753720f81a",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "Christine MacIntyre",
+        "Christine MacIntyre",
+        "Christine MacIntyre"
+      ],
+      "sets": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "qid": "5abbb42555429931dba144af",
+      "ans_agree": 1.0,
+      "set_jac": 0.3333333333333333,
+      "set_exact": 0.0,
+      "answers": [
+        "George Bernard Shaw",
+        "George Bernard Shaw",
+        "George Bernard Shaw"
+      ],
+      "sets": [
+        [],
+        [],
+        [
+          8
+        ]
+      ]
+    },
+    {
+      "qid": "5ae5e8dc554299546bf82fbe",
+      "ans_agree": 1.0,
+      "set_jac": 0.8333333333333334,
+      "set_exact": 0.0,
+      "answers": [
+        "Hakim Jamal",
+        "Hakim Jamal",
+        "Hakim Jamal"
+      ],
+      "sets": [
+        [
+          3,
+          6,
+          7,
+          8
+        ],
+        [
+          3,
+          6,
+          8
+        ],
+        [
+          3,
+          6,
+          8
+        ]
+      ]
+    },
+    {
+      "qid": "5a7fb17c5542994857a767bb",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "Detroit Lions and Los Angeles Rams",
+        "Detroit Lions and Los Angeles Rams",
+        "Detroit Lions and Los Angeles Rams"
+      ],
+      "sets": [
+        [
+          7
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ]
+    },
+    {
+      "qid": "5a8013e45542995d8a8ddf41",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "North Sea",
+        "North Sea",
+        "North Sea"
+      ],
+      "sets": [
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "qid": "5ade662155429975fa854ebd",
+      "ans_agree": 0.3333333333333333,
+      "set_jac": 0.4603174603174603,
+      "set_exact": 0.0,
+      "answers": [
+        "Arctic fox, white fox, polar fox, snow fox",
+        "Arctic fox",
+        "Arctic fox"
+      ],
+      "sets": [
+        [
+          0,
+          3,
+          5,
+          6,
+          8,
+          9
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          6,
+          7,
+          8
+        ],
+        [
+          0,
+          1,
+          2,
+          7,
+          8
+        ]
+      ]
+    },
+    {
+      "qid": "5a8790785542993e715abfac",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "Cheryl",
+        "Cheryl",
+        "Cheryl"
+      ],
+      "sets": [
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ]
+      ]
+    },
+    {
+      "qid": "5ae3d2715542990afbd1e1e9",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      "sets": [
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    },
+    {
+      "qid": "5adbf84555429947ff17387c",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "No",
+        "No",
+        "No"
+      ],
+      "sets": [
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "qid": "5a9087ac5542990a98493668",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "over sixty",
+        "over sixty",
+        "over sixty"
+      ],
+      "sets": [
+        [
+          3,
+          5,
+          6,
+          7
+        ],
+        [
+          3,
+          5,
+          6,
+          7
+        ],
+        [
+          3,
+          5,
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "qid": "5ab925c755429919ba4e23d6",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "Films",
+        "films",
+        "Films"
+      ],
+      "sets": [
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "qid": "5a7f40de5542992e7d278cc8",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "Rick Ducommun",
+        "Rick Ducommun",
+        "Rick Ducommun"
+      ],
+      "sets": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "qid": "5a7c38c955429935c91b5132",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "Zoonotic",
+        "Zoonotic",
+        "Zoonotic"
+      ],
+      "sets": [
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ]
+    },
+    {
+      "qid": "5ae4ec1e5542990ba0bbb19b",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "The Bears and I",
+        "The Bears and I",
+        "The Bears and I"
+      ],
+      "sets": [
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "qid": "5a8e4d9855429917b4a5bd8d",
+      "ans_agree": 1.0,
+      "set_jac": 0.7777777777777777,
+      "set_exact": 0.0,
+      "answers": [
+        "Tom Rob Smith",
+        "Tom Rob Smith",
+        "Tom Rob Smith"
+      ],
+      "sets": [
+        [
+          1,
+          4,
+          9
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          4,
+          9
+        ]
+      ]
+    },
+    {
+      "qid": "5ab553e2554299494045ef81",
+      "ans_agree": 1.0,
+      "set_jac": 0.3333333333333333,
+      "set_exact": 0.0,
+      "answers": [
+        "Saturday Night Live",
+        "Saturday Night Live",
+        "Saturday Night Live"
+      ],
+      "sets": [
+        [
+          9
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "qid": "5a8efef05542997ba9cb3178",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "New York City",
+        "New York City",
+        "New York City"
+      ],
+      "sets": [
+        [
+          7
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ]
+    },
+    {
+      "qid": "5ac3c264554299204fd21e37",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "Greenwood, Tulsa",
+        "Greenwood, Tulsa",
+        "Greenwood, Tulsa"
+      ],
+      "sets": [
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "qid": "5adfc97255429906c02daa41",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "Championship",
+        "Championship",
+        "Championship"
+      ],
+      "sets": [
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "qid": "5ae55d1e55429960a22e02cb",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "1963",
+        "1963",
+        "1963"
+      ],
+      "sets": [
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "qid": "5a8cbda955429941ae14dee5",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "1999 to 2007",
+        "1999 to 2007",
+        "1999 to 2007"
+      ],
+      "sets": [
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "qid": "5ab3460055429976abd1bc80",
+      "ans_agree": 1.0,
+      "set_jac": 0.3333333333333333,
+      "set_exact": 0.0,
+      "answers": [
+        "Johnny McDaid",
+        "Johnny McDaid",
+        "Johnny McDaid"
+      ],
+      "sets": [
+        [
+          3
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "qid": "5adc8c545542994734353734",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      "sets": [
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "qid": "5a72b9155542992359bc3187",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "Acela Express",
+        "Acela Express",
+        "Acela Express"
+      ],
+      "sets": [
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ]
+      ]
+    },
+    {
+      "qid": "5ac1b8cd55429963665198fc",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "Brothers Quay",
+        "Brothers Quay",
+        "Brothers Quay"
+      ],
+      "sets": [
+        [
+          5
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ]
+      ]
+    },
+    {
+      "qid": "5ab52cb2554299637185c4f1",
+      "ans_agree": 1.0,
+      "set_jac": 0.5,
+      "set_exact": 0.0,
+      "answers": [
+        "Highland Heights, Kentucky",
+        "Highland Heights, Kentucky",
+        "Highland Heights, Kentucky"
+      ],
+      "sets": [
+        [
+          3,
+          4,
+          7
+        ],
+        [
+          7
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "qid": "5abe9c1a5542993f32c2a183",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "Robert FitzRoy",
+        "Robert FitzRoy",
+        "Robert FitzRoy"
+      ],
+      "sets": [
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ]
+    },
+    {
+      "qid": "5a78d01d55429974737f78b3",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "SBS",
+        "SBS",
+        "SBS"
+      ],
+      "sets": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "qid": "5ac24ad7554299636651995a",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "Pinocchio",
+        "Pinocchio",
+        "Pinocchio"
+      ],
+      "sets": [
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "qid": "5abd09585542996e802b469b",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "2011",
+        "2011",
+        "2011"
+      ],
+      "sets": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "qid": "5adff4a555429925eb1afb91",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "Wilmington International Airport",
+        "Wilmington International Airport",
+        "Wilmington International Airport"
+      ],
+      "sets": [
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "qid": "5ac45b23554299204fd21f31",
+      "ans_agree": 0.3333333333333333,
+      "set_jac": 0.4666666666666666,
+      "set_exact": 0.0,
+      "answers": [
+        "five",
+        "5",
+        "five"
+      ],
+      "sets": [
+        [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        [
+          0,
+          1,
+          2,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      ]
+    },
+    {
+      "qid": "5ab931475542991b5579f12f",
+      "ans_agree": 1.0,
+      "set_jac": 1.0,
+      "set_exact": 1.0,
+      "answers": [
+        "United States",
+        "United States",
+        "United States"
+      ],
+      "sets": [
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "qid": "5a74581555429979e2882912",
+      "ans_agree": 1.0,
+      "set_jac": 0.3333333333333333,
+      "set_exact": 0.0,
+      "answers": [
+        "Mitsubishi Motors",
+        "Mitsubishi Motors",
+        "Mitsubishi Motors"
+      ],
+      "sets": [
+        [
+          3
+        ],
+        [
+          3
+        ],
+        []
+      ]
+    }
+  ]
+}

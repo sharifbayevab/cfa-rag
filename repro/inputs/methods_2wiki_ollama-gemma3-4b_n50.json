@@ -1,0 +1,56 @@
+{
+  "dataset": "2wiki",
+  "generator": "ollama:gemma3:4b",
+  "n": 50,
+  "methods": {
+    "full": {
+      "acc": 0.3,
+      "f1": 0.368,
+      "tokens": 644.6,
+      "probe_calls": 0.0,
+      "gold_recall": 1.0
+    },
+    "random_k": {
+      "acc": 0.18,
+      "f1": 0.228,
+      "tokens": 243.5,
+      "probe_calls": 0.0,
+      "gold_recall": 0.325
+    },
+    "topk_relevance": {
+      "acc": 0.2,
+      "f1": 0.262,
+      "tokens": 260.9,
+      "probe_calls": 0.0,
+      "gold_recall": 0.745
+    },
+    "amortized_causal": {
+      "acc": 0.26,
+      "f1": 0.302,
+      "tokens": 109.0,
+      "probe_calls": 0.0,
+      "gold_recall": 0.45
+    },
+    "contextcite": {
+      "acc": 0.24,
+      "f1": 0.293,
+      "tokens": 300.5,
+      "probe_calls": 17.0,
+      "gold_recall": 0.545
+    },
+    "cfa_prune": {
+      "acc": 0.34,
+      "f1": 0.388,
+      "tokens": 167.8,
+      "probe_calls": 11.0,
+      "gold_recall": 0.48
+    },
+    "oracle_gold": {
+      "acc": 0.5,
+      "f1": 0.568,
+      "tokens": 210.1,
+      "probe_calls": 0.0,
+      "gold_recall": 1.0
+    }
+  }
+}

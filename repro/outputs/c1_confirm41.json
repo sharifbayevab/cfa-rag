@@ -1,0 +1,294 @@
+{
+ "protocol": "review/COMMENT1_CONFIRM_PROTOCOL_RU.md (Amendment 4)",
+ "protocol_sha256": "ead66a8438e10bb6e831b213f649215ea3c624e097051ae42e0606391eafcb57",
+ "B": 2000,
+ "gpt41": {
+  "family": {
+   "T1_HARM-CONT": {
+    "mean": 3.7777777777777777,
+    "ci95": [
+     1.7777777777777777,
+     5.777777777777778
+    ],
+    "p": 0.0005,
+    "n_pairs": 450,
+    "n_questions": 450,
+    "p_holm": 0.001
+   },
+   "T2_HARM-RANDM": {
+    "mean": 4.740740740740741,
+    "ci95": [
+     2.888888888888889,
+     6.666666666666667
+    ],
+    "p": 0.0005,
+    "n_pairs": 450,
+    "n_questions": 450,
+    "p_holm": 0.001
+   }
+  },
+  "firing_questions": 107,
+  "completed_firing_questions": 107,
+  "weight": 1.0,
+  "levels_pp": {
+   "HARM": {
+    "mean": 5.111111111111111,
+    "ci95": [
+     3.111111111111111,
+     7.333333333333333
+    ],
+    "p": 0.0005,
+    "n_pairs": 450,
+    "n_questions": 450
+   },
+   "CONT": {
+    "mean": 1.3333333333333333,
+    "ci95": [
+     -0.2222222222222222,
+     2.888888888888889
+    ],
+    "p": 0.112,
+    "n_pairs": 450,
+    "n_questions": 450
+   },
+   "RANDM": {
+    "mean": 0.3703703703703703,
+    "ci95": [
+     -0.6666666666666666,
+     1.5555555555555554
+    ],
+    "p": 0.551,
+    "n_pairs": 450,
+    "n_questions": 450
+   }
+  },
+  "share_removed": {
+   "HARM": 0.09111111111111111,
+   "CONT": 0.21777777777777776,
+   "RANDM": 0.08888888888888889
+  },
+  "harm_questions": 41,
+  "HARM_fixed_n": 24,
+  "HARM_broke_n": 1,
+  "B_full_already_correct_n": 10,
+  "RANDM_delta_pp_on_harm_q": 4.0650406504065035,
+  "HARM_delta_pp_on_harm_q": 56.09756097560976,
+  "RANDM_any_fixed_n": 11,
+  "RANDM_any_broke_n": 6,
+  "A_vs_B_on_generated": {
+   "n": 107,
+   "cover_agree": 0.9065420560747663,
+   "answer_same_normalized": 0.8037383177570093
+  }
+ },
+ "gpt4omini_same_rules": {
+  "family_descriptive": {
+   "T1_HARM-CONT": {
+    "mean": 5.555555555555555,
+    "ci95": [
+     3.3333333333333335,
+     8.0
+    ],
+    "p": 0.0005,
+    "n_pairs": 450,
+    "n_questions": 450,
+    "p_holm": 0.001
+   },
+   "T2_HARM-RANDM": {
+    "mean": 8.814814814814815,
+    "ci95": [
+     6.296296296296298,
+     11.37037037037037
+    ],
+    "p": 0.0005,
+    "n_pairs": 450,
+    "n_questions": 450,
+    "p_holm": 0.001
+   }
+  },
+  "levels_pp": {
+   "HARM": {
+    "mean": 8.88888888888889,
+    "ci95": [
+     6.222222222222222,
+     11.555555555555555
+    ],
+    "p": 0.0005,
+    "n_pairs": 450,
+    "n_questions": 450
+   },
+   "CONT": {
+    "mean": 3.3333333333333335,
+    "ci95": [
+     1.5555555555555556,
+     5.333333333333333
+    ],
+    "p": 0.0005,
+    "n_pairs": 450,
+    "n_questions": 450
+   },
+   "RANDM": {
+    "mean": 0.074074074074074,
+    "ci95": [
+     -0.962962962962963,
+     1.037037037037037
+    ],
+    "p": 0.858,
+    "n_pairs": 450,
+    "n_questions": 450
+   }
+  },
+  "share_removed": {
+   "HARM": 0.12444444444444444,
+   "CONT": 0.29777777777777775,
+   "RANDM": 0.12444444444444444
+  },
+  "harm_questions": 56,
+  "HARM_fixed_n": 41,
+  "HARM_broke_n": 1,
+  "B_full_already_correct_n": 5,
+  "RANDM_delta_pp_on_harm_q": 0.5952380952380947,
+  "HARM_delta_pp_on_harm_q": 71.42857142857143,
+  "RANDM_any_fixed_n": 8,
+  "RANDM_any_broke_n": 4,
+  "A_vs_B_on_generated": {
+   "n": 149,
+   "cover_agree": 0.9664429530201343,
+   "answer_same_normalized": 0.8523489932885906
+  }
+ },
+ "pooled_gpt4omini_gpt41": {
+  "family": {
+   "T1_HARM-CONT": {
+    "mean": 4.666666666666667,
+    "ci95": [
+     3.2222222222222223,
+     6.222222222222222
+    ],
+    "p": 0.0005,
+    "n_pairs": 900,
+    "n_questions": 450,
+    "p_holm": 0.001
+   },
+   "T2_HARM-RANDM": {
+    "mean": 6.777777777777779,
+    "ci95": [
+     5.110648148148147,
+     8.462962962962964
+    ],
+    "p": 0.0005,
+    "n_pairs": 900,
+    "n_questions": 450,
+    "p_holm": 0.001
+   }
+  },
+  "levels_pp": {
+   "HARM": {
+    "mean": 7.0,
+    "ci95": [
+     5.330555555555556,
+     8.777777777777779
+    ],
+    "p": 0.0005,
+    "n_pairs": 900,
+    "n_questions": 450
+   },
+   "CONT": {
+    "mean": 2.3333333333333335,
+    "ci95": [
+     1.0,
+     3.6666666666666665
+    ],
+    "p": 0.001,
+    "n_pairs": 900,
+    "n_questions": 450
+   },
+   "RANDM": {
+    "mean": 0.22222222222222215,
+    "ci95": [
+     -0.5185185185185185,
+     0.9814814814814814
+    ],
+    "p": 0.561,
+    "n_pairs": 900,
+    "n_questions": 450
+   }
+  }
+ },
+ "verdict": "confirmed on two independent readers",
+ "by_dataset_gpt41": {
+  "2wiki": {
+   "T1": {
+    "mean": 3.3333333333333335,
+    "ci95": [
+     0.6666666666666666,
+     6.666666666666667
+    ],
+    "p": 0.014,
+    "n_pairs": 150,
+    "n_questions": 150
+   },
+   "T2": {
+    "mean": 4.888888888888888,
+    "ci95": [
+     1.777777777777778,
+     8.222222222222223
+    ],
+    "p": 0.0005,
+    "n_pairs": 150,
+    "n_questions": 150
+   }
+  },
+  "hotpotqa": {
+   "T1": {
+    "mean": 2.0,
+    "ci95": [
+     0.0,
+     4.666666666666667
+    ],
+    "p": 0.098,
+    "n_pairs": 150,
+    "n_questions": 150
+   },
+   "T2": {
+    "mean": 2.4444444444444446,
+    "ci95": [
+     0.4444444444444445,
+     5.111111111111112
+    ],
+    "p": 0.033,
+    "n_pairs": 150,
+    "n_questions": 150
+   }
+  },
+  "musique": {
+   "T1": {
+    "mean": 6.0,
+    "ci95": [
+     1.3333333333333333,
+     10.666666666666666
+    ],
+    "p": 0.015,
+    "n_pairs": 150,
+    "n_questions": 150
+   },
+   "T2": {
+    "mean": 6.88888888888889,
+    "ci95": [
+     2.8888888888888893,
+     11.333333333333334
+    ],
+    "p": 0.0005,
+    "n_pairs": 150,
+    "n_questions": 150
+   }
+  }
+ },
+ "cost_gpt41": {
+  "calls": 357,
+  "prompt_tokens": 684619,
+  "cached_tokens": 60800,
+  "completion_tokens": 1446,
+  "usd_by_usage": 1.2896060000000007
+ }
+}
